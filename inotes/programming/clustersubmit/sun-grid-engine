@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window;var b="start";function d(f){this.t={};this.tick=function(g,h,c){c=c!=undefined?c:(new Date).getTime();this.t[g]=[c,h]};this.tick(b,null,f)}var e=new d;a.jstiming={Timer:d,load:e};try{var i=null;if(a.chrome&&a.chrome.csi)i=Math.floor(a.chrome.csi().pageT);if(i==null)if(a.gtbExternal)i=a.gtbExternal.pageT();if(i==null)if(a.external)i=a.external.pageT;if(i)a.jstiming.pt=i}catch(j){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/9ef40f/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length";function j(c){return document.getElementById(c)}h.byId=j;var k="";function l(c){return c.replace(/^\s+|\s+$/g,k)}h.trim=l;
+var m="MSIE",n="6.0",o="string",p='id="',q='" ',r='class="',s='title="',t="display:inline-block;",u="left",v="float:left;",w="right",x="float:right;",y="cursor:hand;",z="<span ",A=' style="width:',B="px; height:",C="px;",D=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",E="', sizingMethod='scale');\"></span><span style=\"padding: ",F=" ",G=";",H="float:",I='"></span>';
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:k;if(b.indexOf(m)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==n){var a=typeof c==o?j(c):c;c=a.id?p+a.id+q:k;b=a.className?r+a.className+q:k;d=a.title?s+a.title+q:s+a.alt+q;var f=t+a.style.cssText;if(a.align==u)f=v+f;if(a.align==w)f=x+f;if(a.parentElement.href)f=y+f;var g=a.currentStyle,L=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),M=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),N=
+z+c+b+d+A+L+B+M+C+f+D+a.src+E+g.paddingTop+F+g.paddingRight+F+g.paddingBottom+F+g.paddingLeft+G+(g.styleFloat?H+g.styleFloat+G:k)+I;h.setTimeout(function(){a.outerHTML=N},1)}}};var J=[],K=0;h.JOT_addListener=function(c,b,d){var a=new String(K++);c={eventName:c,handler:b,compId:d,key:a};J.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<J[i];b++)if(J[b].key==c){J.splice(b,1);break}};
+h.JOT_removeAllListenersForName=function(c){for(var b=0;b<J[i];b++)J[b].eventName==c&&J.splice(b,1)};var O="function";h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=J[i];for(d=0;d<b&&d<J[i];d++){var f=J[d];if(f&&f.eventName==c){a.listenerCompId=f.compId||k;(f=typeof f.handler==O?f.handler:h[f.handler])&&f(a)}}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=false;var P="__duration__";
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;if(d>=60){d/=60;a=2}d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(P,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(P,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"structuredDataGviz":false,"horizontalNavigationDropdownMenus":true,"subpageNav":false,"kixEditorPageType":false,"maestroIntegration":true,"maestroEmbed":false,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"useStandardEmbedsInSidebar":false,"allowQuotesInLinks":true,"pageLevelPermissions":false,"adminInfo":true,"autoFillSidebarNavTree":true,"dragDropHierarchy":true,"headerAlignmentOptions":true,"horizontalNavigationBar":true,"keyboardShortcuts":true,"commonSharing":true,"spreadsheetsEmbedLoadRedirect":true,"structuredDataSchemas":false,"webfonts":false,"footerCustomOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:4472b571d56eb357","timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:5e594f23bfa96cde","revision":11,"title":"Sun Grid Engine","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"sun-grid-engine","path":"/inotes/programming/clustersubmit/sun-grid-engine","isSiteRtlLocale":false,"parentPath":"/inotes/programming/clustersubmit"};
+webspace.page.breadcrumbs = [{"title":"iNotes","dir":"ltr","path":"/site/anshulkundaje/inotes","deleted":false},{"title":"Programming","dir":"ltr","path":"/site/anshulkundaje/inotes/programming","deleted":false},{"title":"Cluster/Grid submission","dir":"ltr","path":"/site/anshulkundaje/inotes/programming/clustersubmit","deleted":false},{"title":"Sun Grid Engine","dir":"ltr","path":"/site/anshulkundaje/inotes/programming/clustersubmit/sun-grid-engine","deleted":false}];
+
+
+var editorResources = [
+  'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
+  'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
+  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+];
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="My homepage" />
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9ef40f/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<title>Sun Grid Engine - Anshul Kundaje</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div id="sites-status" class="sites-status" style="display:none;">
+<div id="sites-notice" class="sites-notice"> </div>
+</div>
+</div>
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<h2>
+<a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<h4 class="sites-embed-title">Main</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Projects</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:1b360d72a6e831ac" class="sites-navigation-link">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed">
+<h4 class="sites-embed-title">Research</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ipapers-1" jotId="wuid:gx:44304983f9d25d1b" class="sites-navigation-link">iPapers</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred" class="sites-navigation-link">iFeeds</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed">
+<h4 class="sites-embed-title">Personal</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/site/anshulkundaje/inotes">iNotes</A>‎ &gt; ‎<A dir="ltr" href="/site/anshulkundaje/inotes/programming">Programming</A>‎ &gt; ‎<A dir="ltr" href="/site/anshulkundaje/inotes/programming/clustersubmit">Cluster/Grid submission</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Sun Grid Engine</span>
+</h3>
+
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Submitting-jobs-to-HOX"><strong>1 </strong>Submitting jobs to HOX</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-For-interactive-jobs"><strong>1.1 </strong>For interactive jobs</a></li><li class="goog-toc"><a href="#TOC-For-batch-jobs"><strong>1.2 </strong>For batch jobs</a></li><li class="goog-toc"><a href="#TOC-Other-options"><strong>1.3 </strong>Other options</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Configuring-array-task-dependencies"><strong>1.3.1 </strong>Configuring array task dependencies</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Examples-Using-Job-Dependencies-Ver"><strong>1.3.1.1 </strong>Examples – Using Job Dependencies Versus Array Task Dependencies to Complete Array Jobs</a></li><li class="goog-toc"><a href="#TOC-Examples-Using-Array-Task-Dependenc"><strong>1.3.1.2 </strong>Examples – Using Array Task Dependencies to Chunk Tasks</a></li></ol></li></ol></li></ol></li><li class="goog-toc"><a href="#TOC-Passing-arguments-to-shell-script-s"><strong>2 </strong>Passing arguments to shell script submitted through qsub</a></li></ol></div></div></div></div>
+<h2><a name="TOC-Submitting-jobs-to-HOX"></a>Submitting jobs to HOX</h2>Each node on hox has 4 GB of RAM so thats the max that you can use on a single node. However the default memory allocated to a process submitted using qsub is 2GB. If you want to use all 4GB then see below<br />
+<ol><li>Log into nature</li><li>Log into hox</li></ol>
+<h3><a name="TOC-For-interactive-jobs"></a>For interactive jobs</h3>If you want your job to continue running even after u log out. Use the screen command to create a new screen<br /><code>screen -S &lt;screen_name&gt;</code><br /><br />To temporarily leave the screen back to the main terminal use Cntrl a + d<br /><br />To obtain the list of open screen ids use<br /><code>screen -list</code><br /><br />To return to the screen use<br /><code>screen -r &lt;screen_id&gt;</code><br />(The &lt;screen_id&gt; is different from the &lt;screen_name&gt;<br /><br />For multiple nodes (2 Gigs of RAM per node)<br />
+<br />
+<code>qrlogin -pe mpi &lt;N&gt; -l hostname=clone-X</code><br />
+&lt;N&gt;is the number of processors<br /><br />
+For multiple nodes (4 Gigs of RAM per node)<br />
+<br /><code>
+qrlogin -pe mpi2 &lt;N&gt; -l hostname=clone-X</code><br />&lt;N&gt;: number of processors<br />
+N: must be multiple of 2
+<h3><a name="TOC-For-batch-jobs"></a>For batch jobs</h3>
+For 2 Gigs of RAM<br />
+<br /><code>
+qsub -pe mpi &lt;N&gt; -l hostname=clone-X</code><br />
+<br />
+For 4 Gigs of RAM<br />
+<br /><code>
+qsub -pe mpi2 &lt;N&gt; -l hostname=clone-X</code><br />
+N: must be multiple of 2<br /> <br /><b>NOTE:</b> qsub does not accept commands directly (except from STDIN). So you should always submit a shell script. Also, the $PATH is not exported to the node running the job so use ABSOLUTE PATHS to any non-standard utilities you might be using such as R or Rscript or MATLAB. Make no assumptions about what will be in the path.<b><br /></b><h3><a name="TOC-Other-options"></a>Other options</h3>
+In a shell script, you can set these options in lines that begin with #$ or pass them along with the qsub command<br />
+<br /><code>-N &lt;jobname&gt;</code> : name of the job<br />
+<code>-cwd</code> : Move to current working directory<br />
+<code>-j [y/n]</code> : whether you want to merge output and error log files<br />
+<code>-o &lt;output_logfile&gt;</code><br />
+<code>-e &lt;error_logfile&gt;</code><br /><code>-t &lt;start&gt;-&lt;end&gt;:</code><code>&lt;incr&gt;</code> : submit a job array with start index &lt;start&gt;, stop index &lt;end&gt; in increments using &lt;incr&gt;<br />
+<code>-hold_jid &lt;comma separated list of job-ids, can also be a job id
+pattern such as 2722*&gt;</code> : will start the current job/job -array only
+after completion of all jobs in the comma separated list<br />
+<code>-hold_jid_ad &lt;job array id, pattern or name&gt;</code>: will start the
+current job in a job array only after completion of corresponding job
+in the job array in &lt;&gt;<br />
+<br />
+The index numbers will be exported to the job tasks via the environment
+variable <code>$SGE_TASK_ID</code>. The option arguments n, m and s will be
+available through the environment variables<br />
+<code>$SGE_TASK_FIRST</code>, <code>$SGE_TASK_LAST</code> and <code>$SGE_TASK_STEPSIZE</code>.<br />
+<div><div style="width:100%"><h4><a name="TOC-Configuring-array-task-dependencies"></a>Configuring array task dependencies<br /></h4>(Taken from <a href="http://wikis.sun.com/display/gridengine62u2/How+to+Configure+Array+Task+Dependencies+From+the+Command+Line" rel="nofollow">http://wikis.sun.com/display/gridengine62u2/How+to+Configure+Array+Task+Dependencies+From+the+Command+Line</a>)<div><div><div dir="ltr"><h5><a name="TOC-Examples-Using-Job-Dependencies-Ver"></a>Examples – Using Job Dependencies Versus Array Task Dependencies to Complete Array Jobs</h5> <p>The following example illustrates the difference between the job dependency facility and the task array dependency facility:</p> <ul><li>In the following example, array task <tt>B</tt> is dependent on array task <tt>A</tt>: <div style="border-width:1px"><div> <pre>$ qsub -t 1-3 A<br />$ qsub -hold_jid A -t 1-3 B<br /></pre> </div></div> <p>All the sub-tasks in <tt>job B</tt> will wait for all sub-tasks <tt>1</tt>,<tt>2</tt> and <tt>3</tt> in <tt>A</tt> to finish before starting the tasks in <tt>job B</tt>. The tasks will be executed in the following approximate order: <tt>A.1</tt>, <tt>A.2</tt>, <tt>A.3</tt>, <tt>B.1</tt>, <tt>B.2</tt>, <tt>B.3</tt>, as shown below: </p> <div style="border-width:1px"><div> <pre>| A.1 |     | B.1 |<br />| A.2 | --&gt; | B.2 |<br />| A.3 |     | B.3 |<br /></pre> </div></div></li><li>In the following example, each sub-task in array <tt>job B</tt> is dependent on each corresponding sub-task in <tt>job A</tt> in a one-to-one mapping: <div style="border-width:1px"><div> <pre>$ qsub -t 1-3 A<br />$ qsub -hold_jid_ad A -t 1-3 B<br /></pre> </div></div> <p>Sub-task B.1 will only start when <tt>A.1</tt> completes. <tt>B.2</tt> will only start once <tt>A.2</tt> completes, etc. On a single machine renderfarm, the tasks thus could be executed in the following approximate order: <tt>A.1</tt>, <tt>B.1</tt>, <tt>A.2</tt>, <tt>B.2</tt>, <tt>A.3</tt>, <tt>B.3</tt>, as shown below:</p> <div style="border-width:1px"><div> <pre>| A.1 | --&gt; | B.1 |<br />| A.2 | --&gt; | B.2 |<br />| A.3 | --&gt; | B.3 |<br /></pre> </div></div> <p>It
+should only be able to specify the option if we are submitting an array
+job, it is dependent on another array job, and that array job has the
+same number of sub-tasks. </p></li></ul> <h5><a name="TOC-Examples-Using-Array-Task-Dependenc"></a>Examples – Using Array Task Dependencies to Chunk Tasks</h5> <p>When
+using 3D rendering applications, it is often more efficient to render
+several frames at once on the same CPU instead of distributing the
+frames across several machines. The generation of several frames at
+once we will refer to as <b>chunking</b>.</p> <div><table><colgroup><col width="24" /><col /></colgroup><tbody><tr><td valign="top"><img alt="" border="0" height="16" src="http://wikis.sun.com/images/icons/emoticons/information.gif" width="16" /></td><td>When
+using the task dependency facility, the array task must have the same
+range of sub-tasks as its dependent array task, otherwise the job will
+be rejected at submit time.</td></tr></tbody></table></div> <p>The following examples illustrate chunking:  </p> <ul><li>Array task <tt>B</tt> is dependent on array task <tt>A</tt>, which has a step size of 2: <div style="border-width:1px"><div> <pre>$ qsub -t 1-6:2 A<br />$ qsub -hold_jid_ad A -t 1-6 B<br /></pre> </div></div> <p>In the results shown below, it is assumed that array task <tt>A</tt> is chunking, which means that <tt>B.1</tt> and <tt>B.2</tt> are dependent on <tt>A.1</tt>, <tt>B.3</tt> and <tt>B.4</tt> are dependent on <tt>A.3</tt>, and so on. If job <tt>A.1</tt> didn't render frame 2, then job <tt>B.2</tt> would fail: </p> <div style="border-width:1px"><div> <pre>| A.1 | --&gt; | B.1 |<br />|     | --&gt; | B.2 |<br />| A.3 | --&gt; | B.3 |<br />|     | --&gt; | B.4 |<br />| A.5 | --&gt; | B.5 |<br />|     | --&gt; | B.6 |<br /></pre> </div></div></li><li>Array task <tt>B</tt> is dependent on array task <tt>A</tt>, which has a step size of 1: <div style="border-width:1px"><div> <pre>$ qsub -t 1-6 A<br />$ qsub -hold_jid_ad A -t 1-6:2 B<br /></pre> </div></div> <p>In this example shown below, array task <tt>B</tt> is chunking, which means that job <tt>B.1</tt> is dependent on job <tt>A.1</tt> and job <tt>A.2</tt>, job <tt>B.3</tt> is dependent on job <tt>A.3</tt> and job <tt>A.4</tt>, and so on. It is reasonable to always assume that array task <tt>B</tt> is chunking because otherwise <tt>A.2</tt>, <tt>A.4</tt>, and <tt>A.6</tt> would be needlessly run and the result would never be used:</p> <div style="border-width:1px"><div> <pre>| A.1 | --&gt; | B.1 |<br />| A.2 | --&gt; |     |<br />| A.3 | --&gt; | B.3 |<br />| A.4 | --&gt; |     |<br />| A.5 | --&gt; | B.5 |<br />| A.6 | --&gt; |     |<br /></pre> </div></div></li><li>Array task <tt>A</tt> has a step size of 3 and array task <tt>B</tt> has a step size of 2. The tasks are dependent on each other: <div style="border-width:1px"><div> <pre>$ qsub -t 1-6:3 A<br />$ qsub -hold_jid_ad A -t 1-6:2 B<br /></pre> </div></div> <p>In this example shown below, both array task <tt>A</tt> and array task <tt>B</tt> are chunking. So, job <tt>B.1</tt> is dependent on job <tt>A.1</tt>, job <tt>B.3</tt> is dependent on job <tt>A.1</tt> and job <tt>A.4</tt>, and job <tt>B.5</tt> is dependent on job <tt>A.4</tt>. When the hold array dependency option <tt>-hold_jid_ad</tt> is specified and the step sizes of the array job and the dependent array job are different, we <b>always</b> assume that both are chunking:</p> <div style="border-width:1px"><div> <pre>| A.1 | --&gt; | B.1 |<br />|     | --&gt; |     |<br />|     | --&gt; | B.3 |<br />| A.4 | --&gt; |     |<br />|     | --&gt; | B.5 |<br />|     | --&gt; |     |<br /></pre> </div></div></li></ul></div></div></div></div></div>
+</div><h2><a name="TOC-Passing-arguments-to-shell-script-s"></a>Passing arguments to shell script submitted through qsub</h2>
+&gt;qsub &lt;script_name&gt; &lt;arg1&gt; &lt;arg2&gt;<br />
+<br />
+The script &lt;script_name&gt; can access these arguments via $1, $2 and so on. Number of arguments is given by $#</div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+<p>
+           
+              
+                   
+                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/anshulkundaje/inotes/programming/clustersubmit/sun-grid-engine" class="sites-system-link">Sign in</a>
+                
+              
+                   
+                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                
+              
+               
+              <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+               
+              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/inotes/programming/clustersubmit/sun-grid-engine" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              
+                   
+                  <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                
+              
+               | 
+                
+              <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+</div>
+</div> 
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/9ef40f/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new gsites.Searchbox('sites-searchbox-search-button');
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createHoverPopupMenu('sites-header-nav-dropdown');
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        window['ri240jef82'] =
+          {'domain': 'defaultdomain',
+           'site': 'anshulkundaje',
+           'pageId': 0};
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

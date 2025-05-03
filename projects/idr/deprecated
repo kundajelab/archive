@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { /*
+
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
+*/
+(function(){function e(g){this.t={};this.tick=function(h,k,f){this.t[h]=[void 0!=f?f:(new Date).getTime(),k];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}};this.getStartTickTime=function(){return this.t.start[0]};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var l=0<d?new e(d):new e;window.jstiming={Timer:e,load:l};if(a){var b=a.navigationStart;0<b&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;0<b&&d>=
+b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/65ef77/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/site/anshulkundaje/projects","deleted":false,"title":"Research","dir":"ltr"},{"path":"/site/anshulkundaje/projects/idr","deleted":false,"title":"(2012) ENCODE: TF ChIP-seq peak calling using the Irreproducibility Discovery Rate (IDR) framework","dir":"ltr"},{"path":"/site/anshulkundaje/projects/idr/deprecated","deleted":false,"title":"Deprecated Pipeline (2012 version)","dir":"ltr"}];
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/65ef77/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://2023093722-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Anshul Kundaje","experiments":{"enableSubpagesGadgetInTakeout":true,"overrideDisableDomainEditing":false,"DisableSiteEditingFeature__disable_site_editing":true,"disableDomainEditing":true},"jot2atari":{"eligibility":"INELIGIBLE"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":null,"plusBadge":false},"configProperties":{"disableSiteEditing":null},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue=https://sites.google.com/site/anshulkundaje/projects/idr/deprecated&service=jotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/65ef77/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/65ef77/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/65ef77/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/65ef77/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/65ef77/system/app/css/trogedit.css","/site/anshulkundaje/_/rsrc/1639038102000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/65ef77/system/app/css/codeeditor.css","/site/anshulkundaje/_/rsrc/1639038102000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/anshulkundaje","name":"anshulkundaje","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/projects/idr","parentWuid":"wuid:gx:30e6504e71e07e1a","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Deprecated Pipeline (2012 version)","locale":"en","wuid":"wuid:gx:6e44073b064a7955","revision":4,"path":"/projects/idr/deprecated","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"deprecated","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false,"isGoogleAdmin":false},"gadgets":{"baseUri":"/site/anshulkundaje/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Deprecated Pipeline (2012 version) - Anshul Kundaje" />
+<meta itemprop="name" content="Deprecated Pipeline (2012 version) - Anshul Kundaje" />
+<meta property="og:title" content="Deprecated Pipeline (2012 version) - Anshul Kundaje" />
+<meta name="description" content="My homepage" />
+<meta itemprop="description" content="My homepage" />
+<meta id="meta-tag-description" property="og:description" content="My homepage" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/65ef77/system/app/themes/wintermint/standard-css-wintermint-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1639038102000/system/app/css/overlay.css?cb=wintermint14a%25150goog-ws-left-noheadcontentthemedefaultcenter" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1639038102000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/site/anshulkundaje/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Deprecated Pipeline (2012 version) - Anshul Kundaje</title>
+<meta itemprop="image" content="/site/anshulkundaje/_/rsrc/1472849829035/config/customLogo.gif?revision=1" />
+<meta property="og:image" content="/site/anshulkundaje/_/rsrc/1472849829035/config/customLogo.gif?revision=1" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox-centered" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Main</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/positions" jotId="wuid:gx:42f31b36692f965c" class="sites-navigation-link">Positions</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/contact" jotId="wuid:gx:4069f51dcc19a073" class="sites-navigation-link">Contact</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:368d7fce9e474b27" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Research</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/students" jotId="wuid:gx:f843c1f5782c01e" class="sites-navigation-link">Lab Members</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Research</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/teaching" jotId="wuid:gx:7e55b3f06dda3d0f" class="sites-navigation-link">Teaching</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">Tutorials</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">Datasets</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">Code</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/fellowships" jotId="wuid:gx:596e89a980349a15" class="sites-navigation-link">Fellowships</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Personal</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">Recipes</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A href="/site/anshulkundaje/projects" dir="ltr">Research</A>‎ &gt; ‎<A href="/site/anshulkundaje/projects/idr" dir="ltr">(2012) ENCODE: TF ChIP-seq peak calling using the Irreproducibility Discovery Rate (IDR) framework</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Deprecated Pipeline (2012 version)</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h2><a name="TOC-THIS-PIPELINE-IS-DEPRECATED.-PLEASE-SEE-THE-LATEST-ONE-AT-https:-sites.google.com-site-anshulkundaje-projects-idr-TOC-Latest-pipeline"></a><font face="arial, sans-serif" style="background-color:rgb(255,153,0)">THIS PIPELINE IS DEPRECATED. PLEASE SEE THE LATEST ONE AT <a href="https://sites.google.com/site/anshulkundaje/projects/idr#TOC-Latest-pipeline" target="_blank">https://sites.google.com/site/anshulkundaje/projects/idr#TOC-Latest-pipeline</a></font></h2><h2><a name="TOC-Summary"></a><font face="arial, sans-serif">Summary</font></h2><div style="font-size:13.3333px"><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent">Reproducibility is essential to reliable scientiﬁc discovery in high-throughput experiments. The IDR (Irreproducible Discovery Rate) framework is a uniﬁed approach to measure the reproducibility of ﬁndings identiﬁed from replicate experiments and provide highly stable thresholds based on reproducibility. Unlike the usual scalar measures of reproducibility, the IDR approach creates a curve, which quantitatively assesses when the ﬁndings are no longer consistent across replicates. In layman's terms, the IDR method compares a pair of ranked lists of identifications (such as ChIP-seq peaks). These ranked lists should not be pre-thresholded i.e. they should provide identifications across the entire spectrum of high confidence/enrichment (signal) and low confidence/enrichment (noise). The IDR method then fits the bivariate rank distributions over the replicates in order to separate signal from noise based on a defined confidence of rank consistency and reproducibility of identifications i.e the IDR threshold.</span></div><div style="font-size:13.3333px"><font face="arial, sans-serif"><br />The method was developed by <a href="http://www.personal.psu.edu/users/q/u/qul12/index.html" target="_blank" rel="nofollow">Qunhua Li</a> and <a href="http://www.stat.berkeley.edu/~bickel/" target="_blank" rel="nofollow">Peter Bickel's</a> group and is extensively used by the ENCODE and modENCODE projects and is part of their <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3431496/" target="_blank" rel="nofollow">ChIP-seq guidelines and standards</a>. A publication describing the statistical details of the IDR framework is <a href="http://www.stat.washington.edu/qli/IDR-AOAS.pdf" rel="nofollow">http://www.stat.washington.edu/qli/IDR-AOAS.pdf</a> or <a href="http://projecteuclid.org/euclid.aoas/1318514284" target="_blank" rel="nofollow">http://projecteuclid.org/euclid.aoas/1318514284</a></font><div><font face="arial, sans-serif"><br />Below we provide an automated pipeline around the IDR framework with various tweaks to systematically analyze ChIP-seq data. One important addition is the use of the IDR framework for assessing the self-consistency of a single dataset and for "rescuing" datasets (pooled-consistency) when replicates are not very comparable in terms of data quality (i.e. getting the maximum juice out of your datasets). This happens more often that you might imagine. It is not trivial to obtain "truly equivalent and comparable replicates". In the event, that one replicate is significantly better than the other, any evaluation or thresholding based on reproducibility will be lower bounded by the worst replicate. Ofcourse, the ideal scenario is to repeat your experiments until you get high quality comparable replicates. However, due to limitations of resources (financial or experimental material) this is often not accomplished. Hence from a practical stand point, the rescue strategy allows one to be less conservative and "smooth out" artificial differences between replicates.<br /><br /></font><div><font face="arial, sans-serif">A publication on this pipeline is in the works ...</font></div><div><font face="arial, sans-serif"><br /></font></div><div><font face="arial, sans-serif"><font size="4" style="font-weight:bold;background-color:rgb(255,153,0)">NOTE:</font><font size="2"> The current pipeline listed below is heavily tested and verified for <b>human transcription factor ChIP-seq data and punctate chromatin marks (e.g. H3k9ac, H3k27ac, H3k4me3, H3k4me1 etc.) using the <a href="http://compbio.med.harvard.edu/Supplements/ChIP-seq/" target="_blank" rel="nofollow">SPP peak caller</a>.</b></font></font></div><div><font face="arial, sans-serif" size="2"><br /></font></div><div><font face="arial, sans-serif"><font size="3"><b><span style="background-color:rgb(255,153,0)">We do NOT recommend using it as is for broad chromatin marks ChIP-seq.</span></b></font><span style="font-size:small"> We are still developing a robust pipeline for broad chromatin marks (e.g. H3k9me3, H3k27me3, H3k36me3 etc.). The main issue is that most peak callers do not work well with broad marks and so we are switching to a generic genome-wide segmentation or windowing approach for broad marks. We are also testing a few callers such as RSEG and MACS2 which claim to be decent for broad marks.</span></font></div><div><font face="arial, sans-serif"><span style="font-size:small"><br /></span></font></div><div><hr /></div><h2><a name="TOC-Peak-callers-tested-with-IDR"></a><font face="arial, sans-serif">Peak callers tested with IDR</font></h2><div><ul><li><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent">SPP - Works out of the box</span></li><li><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent">MACS1.4 - DO NOT use with IDR for reasons mentioned below</span></li><li><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent">MACS2 - Works well with IDR with occasional problems of too many ties in ranks for low quality ChIP-seq data.</span></li><li><font face="arial, sans-serif" style="font-size:10pt;background-color:transparent">HOMER - I have not personally tested HOMER with IDR. But the HOMER developers have a detailed pipeline and code (in beta) for IDR analysis with HOMER at </font><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif"><a href="https://github.com/karmel/homer-idr" target="_blank" rel="nofollow">https://github.com/karmel/homer-idr</a> </font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">PeakSeq - Run with modified PeakSeq parameters to obtain large number of peaks to input into IDR</font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">HotSpot - Works well with IDR</font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">MOSAiCS - Works well with IDR</font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">GPS/GEM - Works well with IDR (need to use relaxed thresholds to call peaks)</font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">Scripture - DO NOT use with IDR. Rank distributions are very strange and non-canonical</font></span></li><li><span style="font-size:10pt;background-color:transparent"><font face="arial, sans-serif">BELT - Works reasonably well with IDR. Occasionally has too many ties in the ranking measure.</font></span></li></ul><div><font face="arial, sans-serif">See <a href="https://drive.google.com/file/d/0B_ssVVyXv8ZSUk5SZXdTMXo2azA/edit?usp=sharing" target="_blank">this presentation</a> for a quick tour of comparative analysis of these peak callers. </font><b style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent"><font size="3" style="background-color:rgb(255,153,0)">NOTE:</font></b><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent"> </span><span style="font-family:arial,sans-serif;font-size:10pt;background-color:transparent"><b>The analyses in this presentation are NOT supposed to be treated as published results AND should not be used as a formal citation as an argument for one peak caller or the other. The analysis was performed by me (Anshul Kundaje) alongside the ENCODE Binding working group and was used as an empirical evaluation to test the behavior of different peak callers specifically wrt compatibility with IDR and the behavior of peak rank distributions. The analysis was vetted by all the groups involved in the analysis but should not be considered as an official verdict from ENCODE regarding efficacy of these peak callers.</b></span></div></div><div><hr /></div><h2><a name="TOC-Intuitive-Explanation-of-IDR-and-IDR-plots"></a><font face="arial, sans-serif">Intuitive Explanation of IDR and IDR plots</font></h2><p><font face="arial, sans-serif" size="2">For an intuitive description of the IDR method and a description of the various plots generated by the IDR package read this <a href="http://www.personal.psu.edu/users/q/u/qul12/IDR101.pdf" target="_blank" rel="nofollow">IDR-101 document</a> compiled by Qunhua Li. A detailed explanation of the model and the underlying statistics is in the <a href="http://projecteuclid.org/euclid.aoas/1318514284" target="_blank" rel="nofollow">AoAS paper</a> </font></p></div><div><hr /><h2><a name="TOC-Code-for-IDR-Analysis"></a><font face="arial, sans-serif">Code for IDR Analysis</font></h2></div><div><font face="arial, sans-serif" style="background-color:rgb(255,153,0)"><b>IDR CODE:</b> Download <a href="https://drive.google.com/file/d/0B_ssVVyXv8ZSX3luT0xhV3ZQNWc/view?usp=sharing" target="_blank">this Code archive</a> (<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt" target="_blank" rel="nofollow">GPLv2 License</a>)</font><div><span style="white-space:pre-wrap;background-color:rgb(255,153,0)"><font face="arial, sans-serif">NOTE: This is different from the <a href="http://cran.r-project.org/web/packages/idr" target="_blank" rel="nofollow">CRAN version</a> of the IDR package. The CRAN package implements a slightly different underlying algorithm and is more general purpose for pairs of ranked lists. It has not yet been fully tested in the ChIP-seq setting and does not have the necessary wrappers to work directly with peak files. So I recommend using the above linked code even though it is a bit clunky. We will be releasing a unified version soon.</font></span></div><div><span style="white-space:pre-wrap"><font face="arial, sans-serif"><br /></font></span><div><font face="arial, sans-serif"><span style="white-space:pre-wrap">SPP PEAK CALLER CODE: </span><a href="http://code.google.com/p/phantompeakqualtools/">http://code.google.com/p/phantompeakqualtools/</a> . </font><span style="font-family:arial,sans-serif;white-space:pre-wrap;font-size:10pt;background-color:transparent">Modified from the </span><a href="http://compbio.med.harvard.edu/Supplements/ChIP-seq/" style="font-family:arial,sans-serif;white-space:pre-wrap;font-size:10pt;background-color:transparent" target="_blank" rel="nofollow">official version</a><span style="font-family:arial,sans-serif;white-space:pre-wrap;font-size:10pt;background-color:transparent"> to add some additional functionality and an easy to use unified script. Please use the version of SPP specifically included in the phantompeakqualtools package.</span></div><div><font face="arial, sans-serif"><br /></font></div><div><font face="arial, sans-serif">MACSv2 PEAK CALLER CODE: The <a href="https://github.com/taoliu/MACS/" target="_blank" rel="nofollow">official version</a>.</font></div><div><h3><a name="TOC-IDR-CODE-README"></a><font face="arial, sans-serif">IDR CODE README</font></h3><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">===========================
+Qunhua Li and Anshul Kundaje (Oct,2010)
+===========================
+</font></pre></div><div><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">This set of programs are used for consistency analysis on peak calling results on multiple replicates of a dataset</font></pre></div><div><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">================
+DEPENDENCIES
+================
+</font></pre></div><div><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">unix, R version 2.9 or higher</font></pre></div><div><pre style="word-wrap:break-word;white-space:pre-wrap"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">================
+FILES:
+================
+</font><ul><li><font face="arial, sans-serif">batch-consistency-analysis.r : for pairwise IDR analysis of replicates</font></li><li><font face="arial, sans-serif">batch-consistency-plot.r: for creating diagnostic and IDR plots</font></li><li><font face="arial, sans-serif">functions-all-clayton-12-13.r: helper function</font></li><li><span style="background-color:rgb(255,153,0)"><font face="arial, sans-serif">genome_table.txt: This tab-delimited file MUST contain the size of each chromosome of the genome of the organism that the peak files are referring to</font></span></li></ul></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">================
+</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">INPUT FILE FORMATS
+================
+(1) <b>genome_table.txt</b>
+It contains two space delimited fields
+Col1: chromosome name (These MUST match the chromosome names in the peak files)
+Col2: chromosome size (in bp)
+
+(1) <b>Peak Files</b>
+Peak files MUST be in narrowPeak format (and unzipped ... the code currently doesnt handle gzipped peak files directly)
+
+NarrowPeak files are in BED6+4 format. It consists of 10 tab-delimited columns
+
+1.chrom	 string	 Name of the chromosome</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">2.chromStart	 int	 The starting position of the feature in the chromosome. The first base in a chromosome is numbered 0.</font></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif">3.chromEnd	 int	 The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the   feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">4.name	 string	 Name given to a region (preferably unique). Use '.' if no name is assigned</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">5.score	 int	 Indicates how dark the peak will be displayed in the browser (1-1000). If '0', the DCC will assign this based on signal value.         Ideally average signalValue per base spread between 100-1000.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">6.strand	 char	 +/- to denote strand or orientation (whenever applicable). Use '.' if no orientation is assigned.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">7.signalValue	 float	 Measurement of overall (usually, average) enrichment for the region.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">8.pValue	 float	 Measurement of statistical signficance (-log10). Use -1 if no pValue is assigned.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">9.qValue	 float	 Measurement of statistical significance using false discovery rate (-log10). Use -1 if no qValue is assigned.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">10.peak	 int	 Point-source called for this peak; 0-based offset from chromStart. Use -1 if no point-source called.
+
+*NOTE*: the p-value and q-value columns MUST be in -log10() scale
+
+The narrowPeak format has 3 columns that can be used to rank peaks 
+(signal.value, p.value (-log_10) and q.value (-log_10)).
+The peak summit column must have values relative to the start coordinate of the peaks.
+You can use any of these columns but make sure that whichever measure you are using rank peaks is relatively continuous without too many ties.
+<span style="background-color:rgb(255,153,0)">e.g. For the SPP peak caller it is recommended to use signal.value column
+e.g. For MACS2 it is recommended to use the p.value column
+e.g. PeakRanger/PeakSeq peak caller has relatively continuous q.values without too many ties. So for PeakSeq it is better to use q.value</span></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">================
+RUNNING INSTRUCTIONS
+================
+
+(1) <b>batch-consistency-analysis.r</b>
+
+This is used to run pairwise consistency analysis on a pair of replicate peak files
+
+----------------
+GENERAL USAGE:
+----------------
+<code>Rscript batch-consistency-analysis.r [peakfile1] [peakfile2] [peak.half.width] [outfile.prefix] [min.overlap.ratio] [is.broadpeak] [ranking.measure]</code>
+
+Typical usage for SPP peak caller peaks
+<code>Rscript batch-consistency-analysis.r [peakfile1] [peakfile2] -1 [outfile.prefix] 0 F signal.value</code>
+
+Typical usage for MACSv2 peak caller peaks
+<code>Rscript batch-consistency-analysis.r [peakfile1] [peakfile2] -1 [outfile.prefix] 0 F p.value</code>
+
+[peakfile1] and [peakfile2] are the peak calls for the pair of replicates in <a href="http://genome.ucsc.edu/FAQ/FAQformat.html#format12" target="_blank" rel="nofollow">narrowPeak format</a>. They must be uncompressed files.
+e.g. /peaks/reps/chipSampleRep1_VS_controlSampleRep0.narrowPeak AND /peaks/reps/chipSampleRep2_VS_controlSampleRep0.narrowPeak
+
+[peak.half.width]: Set this to -1 if you want to use the reported peak width in the peak files.
+<b style="background-color:rgb(255,153,0)">IMPORTANT: Currrently this parameter does not work properly so please pre-truncate your peaks if desired before feeding to IDR. Always set this parameter to -1.</b></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">[outfile.prefix] is a prefix that will be used to name the output data for this pair of replicates.
+The prefix must also include the PATH to the directory where you want to store the output data.
+e.g. /consistency/reps/chipSampleRep1_VS_chipSampleRep2
+
+[min.overlap.ratio]: fractional bp overlap (ranges from 0 to 1) between peaks in replicates to be considered as overlapping peaks. 
+Set to 0 if you want to allow overlap to be defined as &gt;= 1 bp overlap.
+If set to say 0.5 this would mean that atleast 50% of the peak in one replicate should be covered by a peak in the other replicate to count as an overlap.
+<b style="background-color:rgb(255,153,0)">IMPORTANT: This parameter has not been tested fully. It is recommended to set this to 0.</b></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">[is.broadpeak]: Is the peak file format narrowPeak or broadPeak. Set to F if it is narrowPeak/regionPeak or T if it is broadPeak. BroadPeak files do not contain Column 10.
+
+[ranking.measure] is the ranking measure to use. It can take only one of the following values
+signal.value (Col7 in narrowPeak file), p.value <span style="font-size:10pt;background-color:transparent">(Col8 in narrowPeak file) </span><span style="font-size:10pt;background-color:transparent">or q.value </span><span style="font-size:10pt;background-color:transparent">(Col9 in narrowPeak file)</span></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">
+OUTPUT:
+The results will be written to the directory contained in [outfile.prefix]
+a. The output from EM fitting: suffixed by -em.sav
+b. The output for plotting empirical curves: suffixed by -uri.sav
+	Note: 1 and 2 are objects that can be loaded back to R for plotting or other purposes (e.g. retrieve data)
+c. The parameters estimated from EM and the log of consistency analysis, suffixed by -Rout.txt
+d. The number of peaks that pass specific IDR thresholds for the pairwise analysis: suffixed by npeaks-aboveIDR.txt
+e. The full set of peaks that overlap between the replicates with local and global IDR: suffixed by overlapped-peaks.txt
+
+
+(2) <b>batch-consistency-plot.r</b>
+
+This is used to plot the IDR plots and diagnostic plots for a single or multiple pairs of replicates.
+
+----------------
+GENERAL USAGE:
+----------------
+Rscript batch-consistency-plot.r [npairs] [output.prefix] [input.file.prefix1] [input.file.prefix2] [input.file.prefix3] ....
+
+[n.pairs] is the number of pairs of replicates that you want to plot on the same plot
+e.g. 1 or 3 or ...
+
+[output.prefix] is a prefix that will be used to name output data from this analysis. 
+NOT TO BE CONFUSED with [outfile.prefix] in batch-consistency-analysis.r
+The prefix must also include the PATH to the directory where you want to store the output data.
+e.g. /consistency/plots/chipSampleAllReps
+
+[input.file.prefix 1, 2, 3 ...] are the [outfile.prefix] values used to name the output from pairwise analysis on all replicates
+e.g. /consistency/reps/chipSampleRep1_VS_chipSampleRep2
+     /consistency/reps/chipSampleRep1_VS_chipSampleRep3
+     /consistency/reps/chipSampleRep2_VS_chipSampleRep3
+
+OUTPUT:
+1. summary consistency plots in .ps format: suffixed by -plot.ps
+These plots are very informative about the quality and similarity of the replicates.
+
+===================================================
+GETTING NUMBER OF PEAKS THAT PASS AN IDR THRESHOLD
+===================================================
+For each pairwise analysis, we have a *overlapped-peaks.txt file
+
+The last column (Column 11) of the overlapped-peaks.txt file has the global IDR score for each pair of overlapping peaks
+To get the number of peaks that pass an IDR threshold of T (e.g. 0.01) you simply find the number of lines that have a global IDR score &lt;= T
+
+<code>awk '$11 &lt;= 0.01 {print $0}' [overlappedPeaksFileName] | wc -l</code>
+</font></pre></pre><hr /><h2><a name="TOC-IDR-PIPELINE"></a><font face="arial, sans-serif">IDR PIPELINE</font></h2><div><font face="arial, sans-serif">Most of these instructions are for use with the <a href="http://www.nature.com/nbt/journal/v26/n12/full/nbt.1508.html" target="_blank" rel="nofollow">SPP peak caller</a>. I have created a slightly modified version of the <a href="http://compbio.med.harvard.edu/Supplements/ChIP-seq/" target="_blank" rel="nofollow">official SPP package</a> (with some additional functionality and a pretty easy to use automated script for peak calling) that you can download <a href="http://code.google.com/p/phantompeakqualtools/" style="background-color:rgb(255,153,0)" target="_blank">here</a>.</font></div><div><font face="arial, sans-serif"><br /></font></div><div><font face="arial, sans-serif">I have added code snippets for the MACSv2 peak caller as well where necessary in the README below. <b><span style="background-color:rgb(255,153,0)">I highly recommend NOT using MACS1.4 with IDR</span></b> due to 3 fundamental problems with MACS1.4.</font></div><div><ul><li><font face="arial, sans-serif">If you relax MACS1.4 peak calling thresholds (e.g. set p-value threshold to 1e-3 instead of 1e-5), MACS will start calling <b>very broad peaks</b>. This is because the peak width detection is unfortunately tied to peak detection itself. Ideally, a peak caller should provide a setting where one can relax a threshold and simply obtain more peaks with lower enrichment without affecting the scores or peak-widths of higher enrichment peaks. Due to these artificially broad peaks in MACS, the definition of peak overlap becomes very fuzzy and it is difficult to reliably decide whether 2 regions that have some base pair overlap in two different datasets are truly representing the same "peak" or whether the overlap is simply an artifact of the broad peak widths. One way to get around this would have been to artificially truncate the peak widths to some fixed smaller widths (.e.g. +/- 500 bp around peak summits for punctate TFs). However, when one truncates peak widths it effectively changes their peak scores and so we cannot directly use the peak scores that are output by MACS.</font></li><li><font face="arial, sans-serif">The MACS1.4 p-value computation module does not use log-space computation. Hence, more than often for datasets with high signal-to-noise, the MACS p-values will saturate i.e. the top X peaks will all have the same exact p-value i.e. -log10(pvalue) of ~320 or so. This 'X' can often be quite large &gt; 3K-5K peaks. These peaks all essentially have 'tied' scores and the IDR has no way of knowing how to rank these peaks. IDR deals with ties by randomly breaking the ties. So what happens, is the strongest peaks (due to the ties) appear to have lower rank correlation that the slightly weaker peaks (that do not have tied scores). This completely destroys the assumptions of the IDR model (which are infact appropriate i.e. stronger peaks should show higher consistency). The results from the IDR model are thus often completely opposite to what they should be.</font></li><li><font face="arial, sans-serif">A less severe problem is that MACS1.4 more than often does not accurately estimate the fragment length for shifting tags. There is a work-around for this that I mention below.</font></li></ul><div><b><font face="arial, sans-serif" size="3" style="background-color:rgb(255,153,0)">We recommend using the SPP peak caller with IDR since it has been thoroughly tested. If you do plan to use MACS, use MACSv2 which has fixed each of these 3 problems listed above. We would highly recommend NOT using MACS1.4 with IDR.</font></b></div></div><div><font face="arial, sans-serif"><br /></font></div><div><font face="arial, sans-serif">Ok so now lets start with the analysis pipeline:</font></div><div><h3><a name="TOC-CALL-PEAKS-ON-INDIVIDUAL-REPLICATES"></a><font face="arial, sans-serif">CALL PEAKS ON INDIVIDUAL REPLICATES</font></h3><pre style="word-wrap:break-word"><font face="arial, sans-serif"><span style="white-space:pre-wrap">- Lets say we have a particular TF ChIP-seq dataset. I will refer to it as </span><i style="white-space:pre-wrap"><b>chipSample</b></i><span style="white-space:pre-wrap"> from here on.
+
+- Lets say we have 3 replicates (read alignment files) for chipSample named
+	- chipSampleRep1.tagAlign.gz
+	- chipSampleRep2.tagAlign.gz
+	- chipSampleRep3.tagAlign.gz</span></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">NOTE: The <a href="http://genome.ucsc.edu/FAQ/FAQformat.html#format15" target="_blank" rel="nofollow">tagAlign format</a> is a simple BED format for </font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">If your alignment files are in BAM format, convert them to tagAlign using <a href="http://samtools.sourceforge.net/" target="_blank" rel="nofollow">SAMtools</a> and the <a href="http://code.google.com/p/bedtools/" target="_blank">bamToBed function from bedTools</a></font></pre><pre style="word-wrap:break-word"><span style="white-space:pre-wrap"><code><font face="arial, sans-serif">samtools view -b -F 1548 -q 30 chipSampleRep1.bam | bamToBed -i stdin | awk 'BEGIN{FS="\t";OFS="\t"}{$4="N"; print $0}' | gzip -c &gt; chipSampleRep1.tagAlign.gz</font></code></span></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">- Each of the ChIP replicates might be paired with its own input/control tagAlign file or a single tagAlign file.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">	- controlSampleRep1.tagAlign.gz
+	- controlSampleRep2.tagAlign.gz
+	- controlSampleRep3.tagAlign.gz
+	
+- The first thing we need to do is pool all control datasets that correspond to all replicates of chipSample i.e. simply concatenate the control tagAlign files.
+<code>zcat controlSampleRep1.tagAlign.gz controlSampleRep2.tagAlign.gz controlSampleRep3.tagAlign.gz | gzip -c &gt; controlSampleRep0.tagAlign.gz</code>
+
+- Now we are ready to call peaks on each of the original replicates (REMEMBER TO USE RELAXED THRESHOLDS AND TRY TO CALL 150k to 300k peaks even if most of them are noise)
+<code>Rscript run_spp.R -c=chipSampleRep1.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/reps -savr -savp -rf -out=/stats/phantomPeakStatsReps.tab
+Rscript run_spp.R -c=chipSampleRep2.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/reps -savr -savp -rf -out=/stats/phantomPeakStatsReps.tab
+Rscript run_spp.R -c=chipSampleRep3.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/reps -savr -savp -rf -out=/stats/phantomPeakStatsReps.tab</code></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><b><font face="arial, sans-serif" size="4" style="background-color:rgb(255,153,0)">NOTE: If you have removed duplicates from your sample use run_spp_nodups.R instead of run_spp.R otherwise you will get errors</font></b></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">- This will generate 3 peak files in directory /peaks/reps/</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">	chipSampleRep1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep2_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep3_VS_controlSampleRep0.regionPeak.gz
+</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">These file are in the standard <a href="http://genome.ucsc.edu/FAQ/FAQformat.html#format12" target="_blank" rel="nofollow">UCSC/ENCODE narrowPeak format</a> which is an extended BED format.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">- Strand cross-correlation based data quality measures for the 3 runs will be appended to file /stats/phantomPeakStats.tab</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">(See README.txt in the SPP peak calling package for details about the strand-cross-correlation based data quality measures files)</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><font size="4"><b style="background-color:rgb(255,153,0)">IMPORTANT:</b></font><font size="2"> </font><font size="3">It is important to check the cross-correlation plot that is produced by SPP to make sure the estimated fragment length is appropriate. Often for weaker datasets or datasets with few binding sites, the estimated fragment length may be incorrectly estimated as read-length or a value close to read-length (due to a phantom peak in the cross-correlation profile). The code automatically tries to account for this. However, it can make mistakes. For most ChIP-seq datasets, it is good to use the exclusion parameter (-x) with run_spp.R which will help the code skip any cross-correlation peak in the exclusion zone (values that are impossible as fragment lengths). I recommend that you use </font><span style="font-size:medium">-x=-500:85</span><span style="font-size:medium"> it is relatively unlikely that your fragment lengths will be in that range.</span></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> If you are using MACS2 then use the following commands</font></pre><pre style="word-wrap:break-word"><pre style="word-wrap:break-word"><font face="arial, sans-serif"><span style="white-space:pre-wrap;color:rgb(0,96,0)">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep1.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep1_VS_controlSampleRep0</code></span><code><span style="white-space:pre-wrap"> -g hs -p 1e-3 --to-large
+</span></code><span style="color:rgb(0,96,0);white-space:pre-wrap">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep2.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep2_VS_controlSampleRep0</code></span><span style="white-space:pre-wrap"><code> -g hs -p 1e-3 --to-large
+</code></span><span style="color:rgb(0,96,0);white-space:pre-wrap">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep3.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep3_VS_controlSampleRep0</code></span><code> -g hs -p 1e-3 --to-large</code></font></pre><pre style="word-wrap:break-word"><pre style="word-wrap:break-word;white-space:pre-wrap"><b><font face="arial, sans-serif" size="4" style="background-color:rgb(255,153,0)">NOTE: You can skip --to-large if your ChIP and control samples (per replicate) have substantial number of reads (e.g. for human TF ChIP-seq atleast 15 M reads)</font></b></pre></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif"><span style="white-space:pre-wrap">One robust alternative to estimate the --shiftsize parameter is using strand cross-correlation analysis. You can use </span><a href="http://code.google.com/p/phantompeakqualtools/" style="white-space:pre-wrap" target="_blank">a subroutine from the SPP peak caller package</a><span style="white-space:pre-wrap"> to estimate the predominant fragment length. Divide the estimated fragment length by half to get the shift-size parameter for MACS2. Then use the following MACS2 commands</span></font></pre><pre style="word-wrap:break-word"><pre style="word-wrap:break-word"><font face="arial, sans-serif"><span style="white-space:pre-wrap;color:rgb(0,96,0)">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep1.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep1_VS_controlSampleRep0</code></span><code><span style="white-space:pre-wrap"> -g hs -p 1e-3 --to-large --nomodel --shiftsize &lt;fraglen/2&gt;
+</span></code><span style="color:rgb(0,96,0);white-space:pre-wrap">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep2.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep2_VS_controlSampleRep0</code></span><span style="white-space:pre-wrap"><code> -g hs -p 1e-3 --to-large --nomodel --shiftsize &lt;fraglen/2&gt;
+</code></span><span style="color:rgb(0,96,0);white-space:pre-wrap">macs2 callpeak -t </span><span style="white-space:pre-wrap"><code>chipSampleRep3.tagAlign.gz </code></span><span style="white-space:pre-wrap"><code>-c </code></span><span style="white-space:pre-wrap"><code>controlSampleRep0.tagAlign.gz</code></span><span style="white-space:pre-wrap"><code> -f BED -n </code></span><span style="white-space:pre-wrap"><code>chipSampleRep3_VS_controlSampleRep0</code></span><span style="white-space:pre-wrap"><code> -g hs -p 1e-3 --to-large --shiftize &lt;fraglen/2&gt;</code></span></font></pre><pre style="word-wrap:break-word"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><font size="4"><b style="background-color:rgb(255,153,0)">IMPORTANT:</b></font><font size="2"> </font><font size="3">It is important to check the cross-correlation plot that is produced by SPP to make sure the estimated fragment length is appropriate. Often for weaker datasets or datasets with few binding sites, the estimated fragment length may be incorrectly estimated as read-length or a value close to read-length (due to a phantom peak in the cross-correlation profile). The code automatically tries to account for this. However, it can make mistakes. For most ChIP-seq datasets, it is good to use the exclusion parameter (-x) with run_spp.R which will help the code skip any cross-correlation peak in the exclusion zone (values that are impossible as fragment lengths). I recommend that you use </font><span style="font-size:medium">-x=-500:85</span><span style="font-size:medium"> it is relatively unlikely that your fragment lengths will be in that range.</span></font></pre><font face="arial, sans-serif"><b style="white-space:pre-wrap"><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b><span style="white-space:pre-wrap"> MACS2 will output peaks in various formats (bed, xls and encodePeak). You want to use the *encodePeak files. These are in the standard </span><a href="http://genome.ucsc.edu/FAQ/FAQformat.html#format12" style="white-space:pre-wrap" target="_blank" rel="nofollow">UCSC/ENCODE narrowPeak format</a><span style="white-space:pre-wrap">. Sort the *encodPeak files from best to worst using the -log10(pvalue) column i.e. column 8. <b><font size="3">Then truncate the number of peaks to the top 100k-125k. Using more than this simply increases the running time of the IDR analysis with no advantage. Infact using more peaks with MACS2 can cause problems with the IDR model because MACS2 seems to produce strange highly correlated peak scores for very weak and noisy detections. This can confuse the IDR model.</font></b></span></font></pre></pre><pre style="word-wrap:break-word"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><code>sort -k 8nr,8nr </code><code>chipSampleRep1_VS_controlSampleRep0_peaks.encodePeak | head -n 100000 | gzip -c &gt; </code><code>chipSampleRep1_VS_controlSampleRep0.regionPeak.gz</code>
+<code>sort -k 8nr,8nr </code><code>chipSampleRep2_VS_controlSampleRep0_peaks.encodePeak | head -n 100000 | gzip -c &gt; chipSampleRep1_VS_controlSampleRep0.regionPeak.gz</code>
+<code>sort -k 8nr,8nr </code><code>chipSampleRep2_VS_controlSampleRep0_peaks.encodePeak | head -n 100000 | gzip -c &gt; chipSampleRep1_VS_controlSampleRep0.regionPeak.gz</code></font></pre></pre></pre><h3 style="word-wrap:break-word"><a name="TOC-CALL-PEAKS-ON-POOLED-REPLICATES"></a><font face="arial, sans-serif">CALL PEAKS ON POOLED REPLICATES</font></h3><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">- Now pool all ChIP replicates
+<code>zcat chipSampleRep1.tagAlign.gz chipSampleRep2.tagAlign.gz chipSampleRep3.tagAlign.gz | gzip -c &gt; chipSampleRep0.tagAlign.gz</code>
+	
+- Call peaks on the pooled data (REMEMBER TO USE RELAXED THRESHOLDS AND TRY TO CALL 150k to 300k peaks even if most of them are noise)
+<code>Rscript run_spp.R -c=chipSampleRep0.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/pooled/ -savr -savp -rf</code>
+<br /></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><font size="4"><b style="background-color:rgb(255,153,0)">IMPORTANT:</b></font><font size="2"> </font><font size="3">It is important to check the cross-correlation plot that is produced by SPP to make sure the estimated fragment length is appropriate. Often for weaker datasets or datasets with few binding sites, the estimated fragment length may be incorrectly estimated as read-length or a value close to read-length (due to a phantom peak in the cross-correlation profile). The code automatically tries to account for this. However, it can make mistakes. For most ChIP-seq datasets, it is good to use the exclusion parameter (-x) with run_spp.R which will help the code skip any cross-correlation peak in the exclusion zone (values that are impossible as fragment lengths). I recommend that you use </font><span style="font-size:medium">-x=-500:85</span><span style="font-size:medium"> it is relatively unlikely that your fragment lengths will be in that range.</span></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">- This will generate a peak file in directory /peaks/pooled
+	chipSampleRep0_VS_controlSampleRep0.regionPeak.gz</font></pre><pre style="word-wrap:break-word"><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> Use analogous commands are for the individual original replicates (above).</font></pre><h3><a name="TOC-FOR-SELF-CONSISTENCY-ANALYSIS-CALL-PEAKS-ON-PSEUDOREPLICATES-OF-INDIVIDUAL-REPLICATES"></a><font face="arial, sans-serif">FOR SELF-CONSISTENCY ANALYSIS CALL PEAKS ON PSEUDOREPLICATES OF INDIVIDUAL REPLICATES</font></h3></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">For each replicate e.g. chipSampleRep1.tagAlign.gz
+- Randomly split the mapped reads in the tagAlign file into 2 parts (pseudoReplicates) with approximately equal number of reads
+	You can use the following code snippet to do this
+	*NOTE*: It uses the unix 'shuf' command that is standard with most installations. Incase you dont have it, I have included a 64-bit binary in the SPP package.
+	
+<code>fileName='chipSampleRep1.tagAlign.gz' # input tagAlign file name
+outputDir='/mapped/selfPseudoReps' # output directory for pseudoreplicate files
+outputStub='chipSampleRep1' # prefix name for pseudoReplicate files
+
+nlines=$( zcat ${fileName} | wc -l ) # Number of reads in the tagAlign file
+nlines=$(( (nlines + 1) / 2 )) # half that number
+zcat "${fileName}" | shuf | split -d -l ${nlines} - "${outputDir}/${outputStub}" # This will shuffle the lines in the file and split it into two parts
+gzip "${outputDir}/${outputStub}00"
+gzip "${outputDir}/${outputStub}01"
+mv "${outputDir}/${outputStub}00.gz" "${outputDir}/${outputStub}.pr1.tagAlign.gz"
+mv "${outputDir}/${outputStub}01.gz" "${outputDir}/${outputStub}.pr2.tagAlign.gz"</code>
+
+- You will now have 2 self-pseudoReplicates in the directory named /mapped/selfPseudoReps/
+	chipSampleRep1.pr1.tagAlign.gz
+	chipSampleRep1.pr2.tagAlign.gz
+
+- Now call peaks on each of these using the pooled control dataset as the control (REMEMBER TO USE RELAXED THRESHOLDS AND TRY TO CALL 150k to 300k peaks even if most of them are noise)
+<code>Rscript run_spp.R -c=/mapped/selfPseudoReps/chipSampleRep1.pr1.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/selfPseudoReps -savr -savp -rf
+Rscript run_spp.R -c=/mapped/selfPseudoReps/chipSampleRep1.pr2.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/selfPseudoReps -savr -savp -rf</code>
+<br /></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><font size="4"><b style="background-color:rgb(255,153,0)">IMPORTANT:</b></font><font size="2"> </font><font size="3">It is important to check the cross-correlation plot that is produced by SPP to make sure the estimated fragment length is appropriate. Often for weaker datasets or datasets with few binding sites, the estimated fragment length may be incorrectly estimated as read-length or a value close to read-length (due to a phantom peak in the cross-correlation profile). The code automatically tries to account for this. However, it can make mistakes. For most ChIP-seq datasets, it is good to use the exclusion parameter (-x) with run_spp.R which will help the code skip any cross-correlation peak in the exclusion zone (values that are impossible as fragment lengths). I recommend that you use </font><span style="font-size:medium">-x=-500:85</span><span style="font-size:medium"> it is relatively unlikely that your fragment lengths will be in that range.</span></font></pre><font face="arial, sans-serif">- This will create two peak files in the directory /peaks/selfPseudoReps
+	chipSampleRep1.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep1.pr2_VS_controlSampleRep0.regionPeak.gz	</font></pre><pre style="word-wrap:break-word"><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> Use analogous commands are for the individual original replicates (above).</font></pre><h3><a name="TOC-CREATE-PSEUDOREPLICATES-OF-POOLED-DATA-AND-CALL-PEAKS"></a><font face="arial, sans-serif">CREATE PSEUDOREPLICATES OF POOLED DATA AND CALL PEAKS</font></h3></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">- Now, we create pseudoReplicates on the pooled data (same code as above)
+
+<code>fileName='chipSampleRep0.tagAlign.gz' # input tagAlign file name
+outputDir='/mapped/pooledPseudoReps' # output directory for pseudoreplicate files
+outputStub='chipSampleRep0' # prefix name for pseudoReplicate files
+
+nlines=$( zcat ${fileName} | wc -l ) # Number of reads in the tagAlign file
+nlines=$(( (nlines + 1) / 2 )) # half that number
+zcat "${fileName}" | shuf | split -d -l ${nlines} - "${outputDir}/${outputStub}" # This will shuffle the lines in the file and split it into two parts
+gzip "${outputDir}/${outputStub}00"
+gzip "${outputDir}/${outputStub}01"
+mv "${outputDir}/${outputStub}00.gz" "${outputDir}/${outputStub}.pr1.tagAlign.gz"
+mv "${outputDir}/${outputStub}01.gz" "${outputDir}/${outputStub}.pr2.tagAlign.gz"</code>
+
+- You will now have 2 pooled-pseudoReplicates in the directory named /mapped/pooledPseudoReps/
+	chipSampleRep0.pr1.tagAlign.gz
+	chipSampleRep0.pr2.tagAlign.gz
+
+- Now call peaks on each of these using the pooled control dataset as the control (REMEMBER TO USE RELAXED THRESHOLDS AND TRY TO CALL 150k to 300k peaks even if most of them are noise)
+<code>Rscript run_spp.R -c=/mapped/selfPseudoReps/chipSampleRep0.pr1.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/pooledPseudoReps -savr -savp -rf
+Rscript run_spp.R -c=/mapped/selfPseudoReps/chipSampleRep0.pr2.tagAlign.gz -i=controlSampleRep0.tagAlign.gz -npeak=300000 -odir=/peaks/pooledPseudoReps -savr -savp -rf</code>
+</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><font size="4"><b style="background-color:rgb(255,153,0)">IMPORTANT:</b></font><font size="2"> </font><font size="3">It is important to check the cross-correlation plot that is produced by SPP to make sure the estimated fragment length is appropriate. Often for weaker datasets or datasets with few binding sites, the estimated fragment length may be incorrectly estimated as read-length or a value close to read-length (due to a phantom peak in the cross-correlation profile). The code automatically tries to account for this. However, it can make mistakes. For most ChIP-seq datasets, it is good to use the exclusion parameter (-x) with run_spp.R which will help the code skip any cross-correlation peak in the exclusion zone (values that are impossible as fragment lengths). I recommend that you use </font><span style="font-size:medium">-x=-500:85</span><span style="font-size:medium"> it is relatively unlikely that your fragment lengths will be in that range.</span></font></pre><font face="arial, sans-serif">- This will create two peak files in the directory /peaks/pooledPseudoReps
+	chipSampleRep0.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep0.pr2_VS_controlSampleRep0.regionPeak.gz</font></pre><pre style="word-wrap:break-word"><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> Use analogous commands are for the individual original replicates (above).</font></pre><h3><a name="TOC-INPUT-TO-IDR-ANALYSIS"></a><font face="arial, sans-serif">INPUT TO IDR ANALYSIS</font></h3></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">For IDR analysis, we always compare a pair of peak files
+For dataset chipSample, we will have ended up with the following files
+
+PEAKS ON ORIGINAL REPLICATES
+	chipSampleRep1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep2_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep3_VS_controlSampleRep0.regionPeak.gz
+
+PEAKS ON SELF-PSEUDOREPLICATES
+	chipSampleRep1.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep1.pr2_VS_controlSampleRep0.regionPeak.gz
+
+	chipSampleRep2.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep2.pr2_VS_controlSampleRep0.regionPeak.gz
+
+	chipSampleRep3.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep3.pr2_VS_controlSampleRep0.regionPeak.gz
+	
+PEAKS ON POOLED PSEUDOREPLICATES
+	chipSampleRep0.pr1_VS_controlSampleRep0.regionPeak.gz
+	chipSampleRep0.pr2_VS_controlSampleRep0.regionPeak.gz</font></pre><h3><a name="TOC-IDR-ANALYSIS-ON-ORIGINAL-REPLICATES"></a><font face="arial, sans-serif">IDR ANALYSIS ON ORIGINAL REPLICATES</font></h3><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">We will perform the following pairwise analyses 
+/peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak.gz AND /peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak.gz
+/peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak.gz AND /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak.gz
+/peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak.gz AND /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak.gz
+
+First gunzip all the peak files
+
+Then run the IDR analysis on all pairs. For SPP we use signal.value as the ranking measure.
+
+<code>Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep1_VS_chipSampleRep2 0 F signal.value
+Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep1_VS_chipSampleRep3 0 F signal.value
+Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep2_VS_chipSampleRep3 0 F signal.value</code></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> If you are using peaks based on the <b>MACS2 peak caller</b>, then use p.value as the ranking measure.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><code><font face="arial, sans-serif">Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep1_VS_chipSampleRep2 0 F p.value
+Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep1_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep1_VS_chipSampleRep3 0 F p.value
+Rscript batch-consistency-analysis.r /peaks/reps/chipSampleRep2_VS_controlSampleRep0.regionPeak /peaks/reps/chipSampleRep3_VS_controlSampleRep0.regionPeak -1 /consistency/reps/chipSampleRep2_VS_chipSampleRep3 0 F p.value</font></code></pre><div><font face="arial, sans-serif">You can plot the IDR plots using</font></div></pre><pre style="word-wrap:break-word"><code style="white-space:pre-wrap"><font face="arial, sans-serif">Rscript batch-consistency-plot.r 3 /consistency/reps/chipSampleAllReps /consistency/reps/chipSampleRep1_VS_chipSampleRep2 /consistency/reps/chipSampleRep1_VS_chipSampleRep3 /consistency/reps/chipSampleRep2_VS_chipSampleRep3</font></code><br /></pre><h3><a name="TOC-IDR-ANALYSIS-ON-SELF-PSEUDOREPLICATES"></a><font face="arial, sans-serif">IDR ANALYSIS ON SELF-PSEUDOREPLICATES</font></h3><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">We will perform the following pairwise analyses 
+/peaks/selfPseudoReps/chipSampleRep1.pr1_VS_controlSampleRep0.regionPeak.gz AND /peaks/selfPseudoReps/chipSampleRep1.pr2_VS_controlSampleRep0.regionPeak.gz
+/peaks/selfPseudoReps/chipSampleRep2.pr1_VS_controlSampleRep0.regionPeak.gz AND /peaks/selfPseudoReps/chipSampleRep2.pr2_VS_controlSampleRep0.regionPeak.gz
+/peaks/selfPseudoReps/chipSampleRep3.pr1_VS_controlSampleRep0.regionPeak.gz AND /peaks/selfPseudoReps/chipSampleRep3.pr2_VS_controlSampleRep0.regionPeak.gz
+
+First gunzip all the peak files
+
+Then run the IDR analysis on all pairs
+
+<code>Rscript batch-consistency-analysis.r /peaks/selfPseudoReps/chipSampleRep1.pr1_VS_controlSampleRep0.regionPeak /peaks/selfPseudoReps/chipSampleRep1.pr2_VS_controlSampleRep0.regionPeak -1 /consistency/selfPseudoReps/chipSampleRep1.pr1_VS_chipSampleRep1.pr2 0 F signal.value
+Rscript batch-consistency-analysis.r /peaks/selfPseudoReps/chipSampleRep2.pr1_VS_controlSampleRep0.regionPeak /peaks/selfPseudoReps/chipSampleRep2.pr2_VS_controlSampleRep0.regionPeak -1 /consistency/selfPseudoReps/chipSampleRep2.pr1_VS_chipSampleRep2.pr2 0 F signal.value
+Rscript batch-consistency-analysis.r /peaks/selfPseudoReps/chipSampleRep3.pr1_VS_controlSampleRep0.regionPeak /peaks/selfPseudoReps/chipSampleRep3.pr2_VS_controlSampleRep0.regionPeak -1 /consistency/selfPseudoReps/chipSampleRep3.pr1_VS_chipSampleRep3.pr2 0 F signal.value</code>
+<br /></font></pre><pre style="word-wrap:break-word"><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> If you are using peaks based on the <b>MACS2 peak caller</b>, then use p.value as the ranking measure.</font></pre><font face="arial, sans-serif" style="white-space:pre-wrap">
+You can plot the IDR plots using
+<code>Rscript batch-consistency-plot.r 3 /consistency/selfPseudoReps/chipSampleAllSelfReps /consistency/selfPseudoReps/chipSampleRep1.pr1_VS_chipSampleRep1.pr2 /consistency/selfPseudoReps/chipSampleRep2.pr1_VS_chipSampleRep2.pr2 /consistency/selfPseudoReps/chipSampleRep3.pr1_VS_chipSampleRep3.pr2</code></font></pre><h3><a name="TOC-IDR-ANALYSIS-ON-POOLED-PSEUDOREPLICATES"></a><font face="arial, sans-serif">IDR ANALYSIS ON POOLED-PSEUDOREPLICATES</font></h3><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap">We will perform the following pairwise analyses 
+/peaks/pooledPseudoReps/chipSampleRep0.pr1_VS_controlSampleRep0.regionPeak.gz AND /peaks/pooledPseudoReps/chipSampleRep0.pr2_VS_controlSampleRep0.regionPeak.gz
+
+First gunzip all the peak files
+
+Then run the IDR analysis on all pairs
+
+<code>Rscript batch-consistency-analysis.r /peaks/pooledPseudoReps/chipSampleRep0.pr1_VS_controlSampleRep0.regionPeak /peaks/pooledPseudoReps/chipSampleRep0.pr2_VS_controlSampleRep0.regionPeak -1 /consistency/pooledPseudoReps/chipSampleRep0.pr1_VS_chipSampleRep0.pr2 0 F signal.value</code></font></pre><pre style="word-wrap:break-word"><font face="arial, sans-serif" style="white-space:pre-wrap"><code><pre style="color:rgb(0,0,0);word-wrap:break-word;white-space:pre-wrap"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> If you are using peaks based on the <b>MACS2 peak caller</b>, then use p.value as the ranking measure.</pre></code>You can plot the IDR plots using
+<code>Rscript batch-consistency-plot.r 1 /consistency/pooledPseudoReps/chipSamplePooledReps /consistency/pooledPseudoReps/chipSampleRep0.pr1_VS_chipSampleRep0.pr2</code></font><br /></pre><h3><a name="TOC-GETTING-THRESHOLDS-TO-TRUNCATE-PEAK-LISTS"></a><font face="arial, sans-serif">GETTING THRESHOLDS TO TRUNCATE PEAK LISTS</font></h3><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">The following IDR thresholds are recommended for the different types of IDR analyses.</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">For self-consistency and comparison of true replicates</font></pre><pre style="word-wrap:break-word"><ul><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">If you started with <b>~150 to 300K relaxed pre-IDR peaks for large genomes (human/mouse)</b>, then threshold of <b>0.01 or 0.02</b> generally works well. </font></span></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">If you started with <b>&lt; 100K pre-IDR peaks</b> <b>for large genomes (human/mouse)</b>, then threshold of <b>0.05</b> is more appropriate. This is because the IDR sees a smaller noise component and the IDR scores get weaker. This is typically for use with peak callers that are unable to be adjusted to call large number of peaks (eg. PeakSeq or QuEST)
+
+</font></span></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">For <b>smaller genomes such as worm</b>, if you start with <b>~15K to 40K peaks</b> then once again IDR thresholds of <b>0.01 or 0.02</b> work well.
+</font></span></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">For self-consistency analysis of datasets with <b>shallow sequencing depths</b>, you can use an IDR threshold as relaxed as <b>0.1</b> if you start with <b>&lt; 100K pre-IDR peaks</b>.</font></span></li></ul><div><span style="white-space:pre-wrap"><font face="arial, sans-serif">For pooled-consistency analysis</font></span></div><div><pre style="word-wrap:break-word"><ul><li><font face="arial, sans-serif"><span style="white-space:pre-wrap">If you started with <b>~150 to 300K relaxed pre-IDR peaks for large genomes (human/mouse)</b>, then threshold of <b>0.0025 or 0.005</b> generally works well. </span><span style="white-space:pre-wrap">We use a tighter threshold for pooled-consistency since pooling and subsampling equalizes the pseudo-replicates in terms of data quality. So we err on the side of caution and use more stringent thresholds. </span><b style="white-space:pre-wrap">The equivalence between a pooled-consistency threshold of 0.0025 and original replicate consistency threshold of 0.01 was calibrated based on a gold-standard pair of high quality replicate datasets for the CTCF transcription factor in human.</b>
+</font></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">You can also use <b>0.01</b> if you don't want to be very stringent.</font></span></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">If you started with <b>&lt; 100K pre-IDR peaks for large genomes (human/mouse)</b> , then a threshold of <b>0.01</b> is more appropriate. This is because the IDR sees a smaller noise component and the IDR scores get weaker so we have to relax the thresholds. This is typically for use with peak callers that are unable to be adjusted to call large number of peaks (eg. PeakSeq or QuEST)
+
+</font></span></li><li><span style="white-space:pre-wrap"><font face="arial, sans-serif">For smaller genomes such as worm, if you start with ~15K to 40K peaks then once again IDR thresholds of <b>0.01</b> work well. 
+</font></span></li></ul></pre></div></pre><pre style="word-wrap:break-word"><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif">Each of these comparisons will give us a certain number of peaks that pass their respective IDR thresholds. We will refer to them as follows</font></pre><font face="arial, sans-serif" style="white-space:pre-wrap">ORIGINAL REPLICATE THRESHOLD
+<code>numPeaks_Rep1_Rep2=$( awk '$11 &lt;= 0.01 {print $0}' /consistency/reps/chipSampleRep1_VS_chipSampleRep2-overlapped-peaks.txt | wc -l )
+numPeaks_Rep1_Rep3=$( awk '$11 &lt;= 0.01 {print $0}' /consistency/reps/chipSampleRep1_VS_chipSampleRep3-overlapped-peaks.txt | wc -l )
+numPeaks_Rep2_Rep3=$( awk '$11 &lt;= 0.01 {print $0}' /consistency/reps/chipSampleRep2_VS_chipSampleRep3-overlapped-peaks.txt | wc -l )</code>
+
+We pick the maximum value out of these 3. Lets call it '<b>max_numPeaks_Rep</b>'
+
+SELF-CONSISTENCY THRESHOLDS
+<code>numPeaks_Rep1_pr=$( awk '$11 &lt;= 0.02 {print $0}' /consistency/selfPseudoReps/chipSampleRep1.pr1_VS_chipSampleRep1.pr2-overlapped-peaks.txt | wc -l )
+numPeaks_Rep2_pr=$( awk '$11 &lt;= 0.02 {print $0}' /consistency/selfPseudoReps/chipSampleRep2.pr1_VS_chipSampleRep2.pr2-overlapped-peaks.txt | wc -l )
+numPeaks_Rep3_pr=$( awk '$11 &lt;= 0.02 {print $0}' /consistency/selfPseudoReps/chipSampleRep3.pr1_VS_chipSampleRep3.pr2-overlapped-peaks.txt | wc -l )</code>
+
+These 3 numbers should be in a similar range. If any of these is substantially different from the others, it points that replicate being different in some way.
+
+POOLED-PSEUDOREPLICATE THRESHOLD
+<code>numPeaks_Rep0=$( awk '$11 &lt;= 0.0025 {print $0}' /consistency/pooledPseudoReps/chipSampleRep0.pr1_VS_chipSampleRep0.pr2-overlapped-peaks.txt | wc -l )</code></font><br /></pre><pre style="word-wrap:break-word"><h3><a name="TOC-FLAGGING-REPLICATES-FOR-LOW-CONSISTENCY"></a><font face="arial, sans-serif">FLAGGING REPLICATES FOR LOW CONSISTENCY</font></h3><div><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif">Typically the self-consistency thresholds for all the original replicates should be reasonably similar (within a factor of 2).</font></pre><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif">Also, max_numPeaks_Rep (comparing original replicates) and numPeaks_Rep0 (comparing pooled-pseudoreplicates) should be similar (within a factor of 2).</font></pre><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif">We typically flag datasets that fail both the above mentioned criteria. We also flag datasets that fail either one of these criteria by a significant margin (i.e the above ratios are significantly &gt;&gt; 2).</font></pre><pre style="white-space:pre-wrap;word-wrap:break-word"><font face="arial, sans-serif">You should refer back to the strand cross-correlation based quality metrics, sequencing depth differences and library complexity metrics for the replicates as this can further support data quality problems.</font></pre><h3><a name="TOC-FINAL-SET-OF-PEAK-CALLS"></a><font face="arial, sans-serif">FINAL SET OF PEAK CALLS</font></h3></div><font face="arial, sans-serif" style="white-space:pre-wrap">You can now generate a conservative and an optimal final set of peak calls for the dataset chipSample
+
+For the conservative set
+- Sort the peaks in chipSampleRep0_VS_controlSampleRep0.regionPeak.gz by the signal.value (or p.value or q.value depending on what you used to rank the peaks in the IDR analysis) column (column 7 is signal.value) in descending order
+- Pick the top max_numPeaks_Rep peaks</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><code>zcat chipSampleRep0_VS_controlSampleRep0.regionPeak.gz | sort -k7nr,7nr | head -n [max_numPeaks_Rep] | gzip -c &gt; spp.conservative.chipSampleRep0_VS_controlSampleRep0.regionPeak.gz</code>
+<br /></font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> Sort peaks by p.value before selecting the top 'N' peaks</font></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><code>zcat chipSampleRep0_VS_controlSampleRep0.regionPeak.gz | sort -k8nr,8nr | head -n [max_numPeaks_Rep] | gzip -c &gt; macs2.conservative.chipSampleRep0_VS_controlSampleRep0.regionPeak.gz</code>
+</font></pre><div><code><font face="arial, sans-serif"><br /></font></code></div><font face="arial, sans-serif">For the optimal set
+</font><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif">- Sort the peaks in chipSampleRep0_VS_controlSampleRep0.regionPeak.gz by the signal.value (or p.value or q.value depending on what you used to rank the peaks in the IDR analysis) column (column 7 is signal.value) in descending order
+- Select the maximum of max_numPeaks_Rep and numPeaks_Rep0 i.e. optThresh = max(max_numPeaks_Rep,numPeaks_Rep0)
+- Pick the top 'optThresh' peaks</font></pre><code><font face="arial, sans-serif">zcat chipSampleRep0_VS_controlSampleRep0.regionPeak.gz | sort -k7nr,7nr | head -n [optThresh] | gzip -c &gt; spp.optimal.chipSampleRep0_VS_controlSampleRep0.regionPeak.gz</font></code></pre><pre style="word-wrap:break-word;white-space:pre-wrap"><font face="arial, sans-serif"><b><font size="4" style="background-color:rgb(255,153,0)">#MACS2:</font></b> Sort peaks by p.value before selecting the top 'N' peaks</font></pre><pre style="word-wrap:break-word"><code><pre style="color:rgb(0,0,0);white-space:pre-wrap;word-wrap:break-word"><code><font face="arial, sans-serif">zcat chipSampleRep0_VS_controlSampleRep0.regionPeak.gz | sort -k8nr,8nr | head -n [optThresh] | gzip -c &gt; macs2.optimal.chipSampleRep0_VS_controlSampleRep0.regionPeak.gz</font></code></pre><pre style="color:rgb(0,0,0);white-space:pre-wrap;word-wrap:break-word"><code><hr /></code></pre></code><h2><a name="TOC-UNIFORMLY-PROCESSED-ENCODE-PEAK-CALLS"></a><font face="arial, sans-serif">UNIFORMLY PROCESSED ENCODE PEAK CALLS</font></h2><p><font face="arial, sans-serif" size="2" style="background-color:rgb(255,255,0)"><b>The default peak calls at the UCSC ENCODE DCC are NOT uniformly processed.</b> They are simply peak calls submitted by the individual ENCODE production groups that are generated using a variety of different peak callers and thresholding methods. </font></p><p><span style="font-size:small;background-color:rgb(255,255,0)"><font face="arial, sans-serif">The ENCODE Analysis Working Group (AWG) regularly re-processes all the data uniformly using a high quality peak caller with IDR.</font></span></p><p><font face="arial, sans-serif"><span style="font-size:small;background-color:rgb(255,255,0)"><b>It is highly recommended that you use the uniformly processed datasets linked below.</b></span><span style="font-size:small;background-color:rgb(255,255,0)"> These are official ENCODE products. I just list them here for your convenience.</span></font></p><h3><a name="TOC-June-2012-Freeze-TFBS-peak-calls-SPP-IDR-"></a><font face="arial, sans-serif">June 2012 Freeze TFBS peak calls (SPP+IDR)</font></h3><div><span style="white-space:normal"><font face="arial, sans-serif">690 datasets of transcription factor ChIP-seq peaks based on data from all five ENCODE TFBS ChIP-seq production groups from the project inception in 2007 through the ENCODE March 2012 data freeze. The track covers 161 unique regulatory factors (generic and sequence-specific factors), spanning 91 human cell types, some under various treatment conditions.</font></span></div><div><span style="white-space:normal"><font face="arial, sans-serif"><br /></font></span></div><div><font face="arial, sans-serif"><span style="white-space:normal">Browser track and README: </span><a href="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=wgEncodeAwgTfbsUniform" style="font-size:10pt" rel="nofollow">http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=wgEncodeAwgTfbsUniform</a></font></div><div><font face="arial, sans-serif"><span style="white-space:normal">Batch File downloads (NarrowPeak format): </span><a href="http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgTfbsUniform/" style="font-size:10pt" rel="nofollow">http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgTfbsUniform/</a></font></div><div><font face="arial, sans-serif"><span style="white-space:normal">File Filter downloads: </span><a href="http://genome.ucsc.edu/cgi-bin/hgFileUi?db=hg19&amp;g=wgEncodeAwgTfbsUniform" style="font-size:10pt" rel="nofollow">http://genome.ucsc.edu/cgi-bin/hgFileUi?db=hg19&amp;g=wgEncodeAwgTfbsUniform</a></font></div><div><span style="white-space:normal"><font face="arial, sans-serif"><br /></font></span></div><div><span style="white-space:normal"><font face="arial, sans-serif">This track represents peak calls (regions of enrichment) generated by the ENCODE Analysis Working Group (AWG) using the uniform processing pipeline developed for the ENCODE Integrative Analysis effort and published in a set of coordinated papers in September 2012. Peak calls from that effort (based on datasets from the January 2011 ENCODE data freeze) are available at the ENCODE Analysis Data Hub. The new Uniform TFBS track at UCSC includes newer data, slightly modified processing methods, and improved metadata. Quality metrics are included in metadata, with detailed metrics in a quality spreadsheet linked to the track description. Browser users will see the uniform peaks first when using track search for TFBS, and this track is now the default track shown when the ENCODE TF Binding menu item is selected in the browser.</font></span></div><font face="arial, sans-serif"><br /></font></pre></div></div></div></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr"><div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a>
+<div style="text-align:center;display:block"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:left"><a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"></a>
+<div style="display:block;text-align:left"><font face="times new roman, serif" size="6">
+<div style="display:block;text-align:left">
+<div style="text-align:center;display:block">
+<div style="display:block;text-align:left">
+<div style="text-align:center;display:block"></div>
+</div>
+</div>
+</div>
+</font></div>
+</div>
+</div>
+</div>
+<div style="text-align:center"><span style="font-size:medium">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="https://sites.google.com/site/anshulkundaje/_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
+</div>
+<br />
+</span></div></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=https://sites.google.com/site/anshulkundaje/projects/idr/deprecated&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/site/anshulkundaje/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/site/anshulkundaje/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/65ef77/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">if (webspace.editorResources['text']) {webspace.editorResources['text'].unshift('\/site\/anshulkundaje\/system\/app\/css\/overlay.css?cb\x3dwintermint14a%25150goog-ws-left-noheadcontentthemedefaultcenter');webspace.editorResources['text'].unshift('\/site\/anshulkundaje\/_\/rsrc\/1639038102000\/system\/app\/themes\/wintermint\/standard-css-wintermint-ltr-ltr.css');}</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXtASf_M2E6cjJ9Hgufts3RfH4dithXO5UQ9CVrQKktvi9GADlatsy189G_K2TwF-0JcCooQJXqFfM6jlA9eeaF_ucQ8F_7BCeicTOQ0e4umNGoEbWSIh_1q2YP5ATcpV_Z_0xDh/api/js?anon=true',
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('https://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

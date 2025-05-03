@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { // Input 0
+var a=window;
+// Input 1
+var b="start";function d(f){this.t={};this.tick=function(g,h,c){c=c?c:(new Date).getTime();this.t[g]=[c,h]};this.tick(b,null,f)}var e=new d;a.jstiming={Timer:d,load:e};try{var i=null;if(a.chrome&&a.chrome.csi)i=Math.floor(a.chrome.csi().pageT);if(i==null)if(a.gtbExternal)i=a.gtbExternal.pageT();if(i==null)if(a.external)i=a.external.pageT;if(i)a.jstiming.pt=i}catch(j){};
+// Input 2
+})()
+</script>
+<link rel="shortcut icon" href="http://www.gstatic.com/sites/p/6d2a73/system/app/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/6d2a73/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length";function j(c){return document.getElementById(c)}h.byId=j;var k="";function l(c){return c.replace(/^\s+|\s+$/g,k)}h.trim=l;
+var m="MSIE",n="6.0",o="string",p='id="',q='" ',r='class="',s='title="',t="display:inline-block;",u="left",v="float:left;",w="right",x="float:right;",y="cursor:hand;",z="<span ",A=' style="width:',B="px; height:",C="px;",D=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",E="', sizingMethod='scale');\"></span><span style=\"padding: ",F=" ",G=";",H="float:",I='"></span>';
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:k;if(b.indexOf(m)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==n){var a=typeof c==o?j(c):c;c=a.id?p+a.id+q:k;b=a.className?r+a.className+q:k;d=a.title?s+a.title+q:s+a.alt+q;var f=t+a.style.cssText;if(a.align==u)f=v+f;if(a.align==w)f=x+f;if(a.parentElement.href)f=y+f;var g=a.currentStyle,L=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),M=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),N=
+z+c+b+d+A+L+B+M+C+f+D+a.src+E+g.paddingTop+F+g.paddingRight+F+g.paddingBottom+F+g.paddingLeft+G+(g.styleFloat?H+g.styleFloat+G:k)+I;h.setTimeout(function(){a.outerHTML=N},1)}}};var J=[],K=0;h.JOT_addListener=function(c,b,d){var a=new String(K++);c={eventName:c,handler:b,compId:d,key:a};J.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<J[i];b++)if(J[b].key==c){J.splice(b,1);break}};
+h.JOT_removeAllListenersForName=function(c){for(var b=0;b<J[i];b++)J[b].eventName==c&&J.splice(b,1)};var O="function";h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=J[i];for(d=0;d<b&&d<J[i];d++){var f=J[d];if(f&&f.eventName==c){a.listenerCompId=f.compId||k;(f=typeof f.handler==O?f.handler:h[f.handler])&&f(a)}}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=false;var P="__duration__";
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;if(d>=60){d/=60;a=2}d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(P,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(P,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"signInUrl":"https://www.google.com/a/UniversalLogin?continue=http%3A%2F%2Fsites.google.com%2Fsite%2Fanshulkundaje%2Fcv&service=jotspot","isGaiaBarRendered":true,"isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"subpageNav":false,"preserveOverlayOnThemeChange":true,"newPageFinder":true,"multipleCalendar":true,"enableNewBrowserEditChecks":true,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false},"useStandardEmbedsInSidebar":false,"navadminperf":false,"kixEmbedSupport":true,"lazySiteHierarchy":true,"presentlyEmbedUpdate":true,"commonSharing":false,"structuredDataSchemas":false,"colorsAndFontsThemeOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","hasAdminAccess":false,"isPublicViewer":true,"guest_":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:4d13fb8ec3c7f022","timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":51,"title":"C.V.","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"cv","path":"/cv","isSiteRtlLocale":false,"parentPath":null};
+
+
+var editorResources = [
+  'http://www.gstatic.com/sites/p/6d2a73/system/js/trog_edit__en.js',
+  'http://www.gstatic.com/sites/p/6d2a73/system/app/css/trogedit.css',
+  '/site/anshulkundaje/_/rsrc/1276839240643/system/app/css/editor.css'
+];
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/6d2a73/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="My homepage" />
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/6d2a73/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1276839240698/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<title>Anshul Kundaje: C.V.</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div id="sites-status" class="sites-status" style="display:none;">
+<div id="sites-notice" class="sites-notice"> </div>
+</div>
+</div>
+<div id="sites-chrome-everything" style="direction: ltr">
+<div id="sites-chrome-page-wrapper">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<h2><a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a></h2>
+</td>
+<td class="sites-layout-searchbox">
+<div>
+<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<h4 class="sites-embed-title">Main</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855">Home</a>
+</div></li>
+<li class=""><div class="current-bg" jotId="wuid:gx:4d13fb8ec3c7f022" dir="ltr" style="padding-left: 5px;">C.V.
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d">Publications</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3">Projects</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:307272a3ef0c518e">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed">
+<h4 class="sites-embed-title">Research</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5">iNotes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ipapers-1" jotId="wuid:gx:44304983f9d25d1b">iPapers</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred">iFeeds</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8">iBooks</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0">iDatasets</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d">iCode</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6">Journals</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b">Conferences</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77">Matlab2R</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504">Matlab4Compbio</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed">
+<h4 class="sites-embed-title">Personal</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd">iRecipes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf">Photos</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0">Videos</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">C.V.</span>
+</h3>
+
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h4><a name="TOC-ANSHUL-BHARAT-KUNDAJE"></a> ANSHUL BHARAT KUNDAJE  </h4><br /><b>Home Address: </b><br />272 Palm Valley Blvd., Apt. 206<br />San Jose, CA 95123, USA <br /> <br /><b>Office Address:</b><br />James H. Clark Center<br /> 318 Campus Drive, RM S256<br /> Stanford CA 94305-5428 <br /><br /><b>E-mail:</b><br />akundaje at stanford dot edu<br /><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal"><div style="text-align:left"><span style="font-size:13px"><br />
+</span></div>
+<div style="text-align:left">
+</div>
+<span style="font-weight:bold">
+<table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody>
+<tr>
+<td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">EDUCATION</span></span></b></td></tr></tbody></table></span></span></span><ul><li><b>Postdoctoral Scholar</b><br />Computer Science Dept. with Prof. <a href="http://ai.stanford.edu/%7Eserafim/" rel="nofollow">Serafim Batzoglou</a> and Prof. <a href="http://mendel.stanford.edu/SidowLab/" rel="nofollow">Arend Sidow</a><br />Stanford University<br />(09/2008 – Present)</li><li><b>PhD in Computer Science (Computational Biology),</b><br />Columbia University in the City of New York<br /><b>Advisor:</b> <a href="http://www.mskcc.org/mskcc/html/79964.cfm" rel="nofollow">Dr. Christina Leslie</a> (Memorial Sloan Kettering Cancer Center, NY)<br />(09/2003 – 08/2008)</li><li><b>MPhil in Computer Science</b><br />Columbia University in The City of New York<br />(05/2007)</li><li><b>M.S. in Electrical Engineering</b><br />Columbia University in The City of New York<br />(CGPA 3.72)<br />(09/2001-12/2002)</li><li><b>Bachelor of Engineering (Electrical)</b>,<br />Veermata Jijabai Technological Institute (V. J. T. I.),<br />Mumbai University, Mumbai (Bombay), India.<br />Overall Result (1st to 8th Semester): “Distinction”-75%<br />Rank 1 in Mumbai University (Electrical Engineering)<br />(07/1997 – 06/2001) <br /></li></ul><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal"><div style="text-align:left">
+</div>
+<span style="font-weight:bold">
+<table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody>
+<tr>
+<td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">WORK EXPERIENCE</span></span></b></td></tr></tbody></table></span></span></span><ul><li><b>Internship</b> with the Functional Genomics and Systems Biology group at <b>IBM T.J. Watson Research Center</b>.<br />Worked on statistical noise analysis of massive parallel signature sequencing (MPSS) data in collaboration with Lynx Therapeutics and Institute for Systems biology (Alan Aderem lab)<b><br />Manager:</b> <a href="http://domino.research.ibm.com/comm/research_people.nsf/pages/gustavo.index.html" rel="nofollow">Gustavo Stolovitzky</a><br />(01/02-09/02)<br /> </li></ul><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal">
+<div style="text-align:left">
+</div>
+<span style="font-weight:bold">
+<table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody>
+<tr>
+<td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">AWARDS</span></span></b></td></tr></tbody></table></span></span></span><ul><li><b>Teaching Assistant:</b><br />Computational Genomics (Summer 02, Spring 04)<br />Machine Learning (Spring 06)<br />Computer Networks (Spring 2002)</li><li><b>Research Assistant:</b><br />Computational Biology Group, Columbia University (02 - Present)</li><li>Prof. P.R Dandavate Memorial Award: Highest GPA in the Bachelor’s Program</li><li>D.D. &amp; L.H. Prize: Consistent Academic Career in the Bachelor’s Program</li><li>M.B.P. Memorial Foundation Award: Highest GPA in final Year of Bachelors Program</li><li>National Scholarship of Central Board Of Secondary Education for scoring 100% marks in Maths in the Class 10 examination, conducted by the Central Board<br /></li></ul><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal">
+<div style="text-align:left">
+</div>
+<span style="font-weight:bold">
+<table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody>
+<tr>
+<td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">PROFESSIONAL ACTIVITIES</span></span></b></td></tr></tbody></table></span></span></span><ul><li><b>Reviewer (Journals):</b> PLoS One Biology, In-silico Biology, IEEE Signal Processing Magazine, Columbia University Undergraduate Science Journal (CUSJ), Physiological Genomics</li><li><b>Reviewer (Conferences):</b> IEEE Computer Systems Bioinformatics (2004), NIPS 2007, RECOMB 2010<br /></li></ul> <span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal"><span style="font-weight:bold"><table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody><tr><td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">COMPUTATIONAL SKILLS</span></span></b></td></tr></tbody></table></span></span></span><ul><li>Machine learning: Boosting, Support vector machines, Graphical models and Bayesian networks with applications in Computational genomics</li><li>Algorithms and Computational learning theory</li><li>Programming in C, C++, MATLAB, R, Simulink, Perl, Python</li><li>Operating systems: Windows, Unix &amp; Linux Kernel and system programming <br /></li></ul><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal">
+<div style="text-align:left">
+</div>
+<span style="font-weight:bold">
+<table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody>
+<tr>
+<td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">BIOLOGICAL TOOLS AND RESOURCES</span></span></b></td></tr></tbody></table></span></span></span><ul><li>General molecular biology, gene regulation, yeast biology and genetics, B-cell immunobiology and molecular basis of cancer</li><li>High throughput functional genomics assays - cDNA, Affymetrix oligoarrays (Yeast, Human), SAGE, MPSS, ChIP-seq, RNA-seq, next-gen sequencing technologies<br /></li><li>Statistical noise analysis of high-throughput functional genomics data</li><li>Data mining and machine learning using heterogeneous data types<br /></li><li>Databases: Genbank, SGD, YPD, CYGD, MIPS, PFAM, SCOP, SWISS-PROT, PDB, WormPD, FlyBase</li><li>NCBI Tools and Protein structural analysis tools</li></ul><span style="font-size:16px;font-weight:bold"><span style="font-size:12px;font-weight:normal"><span style="font-weight:bold"><table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136, 136, 136);border-width:1px;border-collapse:collapse"><tbody><tr><td bgcolor="#aba9f0" style="width:1047px;height:1px"><b><span style="font-size:small"><span style="font-family:arial,sans-serif">PUBLICATIONS, TALKS AND POSTERS<br /></span></span></b></td></tr></tbody></table></span></span></span><br /><a href="http://sites.google.com/site/anshulkundaje/publication" target="_blank">Publications</a><br /> </div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter">
+<p>
+           
+              
+                   
+                  <a href="https://www.google.com/a/UniversalLogin?continue=http%3A%2F%2Fsites.google.com%2Fsite%2Fanshulkundaje%2Fcv&amp;service=jotspot" class="sites-system-link">Sign in</a>
+                
+              
+                   
+                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                
+              
+               
+              <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+               
+              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/cv" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              
+                   
+                  <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                
+              
+              
+               | 
+                
+              <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+</div> 
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/6d2a73/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new gsites.Searchbox('sites-searchbox-search-button');
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer);
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

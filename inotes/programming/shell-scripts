@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window;var b="start";function d(f){this.t={};this.tick=function(g,h,c){c=c!=undefined?c:(new Date).getTime();this.t[g]=[c,h]};this.tick(b,null,f)}var e=new d;a.jstiming={Timer:d,load:e};try{var i=null;if(a.chrome&&a.chrome.csi)i=Math.floor(a.chrome.csi().pageT);if(i==null)if(a.gtbExternal)i=a.gtbExternal.pageT();if(i==null)if(a.external)i=a.external.pageT;if(i)a.jstiming.pt=i}catch(j){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/9ef40f/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length";function j(c){return document.getElementById(c)}h.byId=j;var k="";function l(c){return c.replace(/^\s+|\s+$/g,k)}h.trim=l;
+var m="MSIE",n="6.0",o="string",p='id="',q='" ',r='class="',s='title="',t="display:inline-block;",u="left",v="float:left;",w="right",x="float:right;",y="cursor:hand;",z="<span ",A=' style="width:',B="px; height:",C="px;",D=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",E="', sizingMethod='scale');\"></span><span style=\"padding: ",F=" ",G=";",H="float:",I='"></span>';
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:k;if(b.indexOf(m)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==n){var a=typeof c==o?j(c):c;c=a.id?p+a.id+q:k;b=a.className?r+a.className+q:k;d=a.title?s+a.title+q:s+a.alt+q;var f=t+a.style.cssText;if(a.align==u)f=v+f;if(a.align==w)f=x+f;if(a.parentElement.href)f=y+f;var g=a.currentStyle,L=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),M=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),N=
+z+c+b+d+A+L+B+M+C+f+D+a.src+E+g.paddingTop+F+g.paddingRight+F+g.paddingBottom+F+g.paddingLeft+G+(g.styleFloat?H+g.styleFloat+G:k)+I;h.setTimeout(function(){a.outerHTML=N},1)}}};var J=[],K=0;h.JOT_addListener=function(c,b,d){var a=new String(K++);c={eventName:c,handler:b,compId:d,key:a};J.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<J[i];b++)if(J[b].key==c){J.splice(b,1);break}};
+h.JOT_removeAllListenersForName=function(c){for(var b=0;b<J[i];b++)J[b].eventName==c&&J.splice(b,1)};var O="function";h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=J[i];for(d=0;d<b&&d<J[i];d++){var f=J[d];if(f&&f.eventName==c){a.listenerCompId=f.compId||k;(f=typeof f.handler==O?f.handler:h[f.handler])&&f(a)}}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=false;var P="__duration__";
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;if(d>=60){d/=60;a=2}d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(P,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(P,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"structuredDataGviz":false,"horizontalNavigationDropdownMenus":true,"subpageNav":false,"kixEditorPageType":false,"maestroIntegration":true,"maestroEmbed":false,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"useStandardEmbedsInSidebar":false,"allowQuotesInLinks":true,"pageLevelPermissions":false,"adminInfo":true,"autoFillSidebarNavTree":true,"dragDropHierarchy":true,"headerAlignmentOptions":true,"horizontalNavigationBar":true,"keyboardShortcuts":true,"commonSharing":true,"spreadsheetsEmbedLoadRedirect":true,"structuredDataSchemas":false,"webfonts":false,"footerCustomOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:7678f2e434c5e0fa","timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:47848259e210f24d","revision":53,"title":"Command Line Utilities","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"shell-scripts","path":"/inotes/programming/shell-scripts","isSiteRtlLocale":false,"parentPath":"/inotes/programming"};
+webspace.page.breadcrumbs = [{"title":"iNotes","dir":"ltr","path":"/site/anshulkundaje/inotes","deleted":false},{"title":"Programming","dir":"ltr","path":"/site/anshulkundaje/inotes/programming","deleted":false},{"title":"Command Line Utilities","dir":"ltr","path":"/site/anshulkundaje/inotes/programming/shell-scripts","deleted":false}];
+
+
+var editorResources = [
+  'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
+  'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
+  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+];
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="My homepage" />
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9ef40f/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<title>Command Line Utilities - Anshul Kundaje</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div id="sites-status" class="sites-status" style="display:none;">
+<div id="sites-notice" class="sites-notice"> </div>
+</div>
+</div>
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<h2>
+<a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<h4 class="sites-embed-title">Main</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Projects</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:5360ea0e99693b28" class="sites-navigation-link">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed">
+<h4 class="sites-embed-title">Research</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ipapers-1" jotId="wuid:gx:44304983f9d25d1b" class="sites-navigation-link">iPapers</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred" class="sites-navigation-link">iFeeds</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed">
+<h4 class="sites-embed-title">Personal</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/site/anshulkundaje/inotes">iNotes</A>‎ &gt; ‎<A dir="ltr" href="/site/anshulkundaje/inotes/programming">Programming</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Command Line Utilities</span>
+</h3>
+
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-1"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Variables"><strong>1 </strong>Variables</a></li><li class="goog-toc"><a href="#TOC-Reading-user-input"><strong>2 </strong>Reading user input</a></li><li class="goog-toc"><a href="#TOC-Bash-comparison-operators-and-condi"><strong>3 </strong>Bash comparison operators and conditional statements</a></li><li class="goog-toc"><a href="#TOC-Bash-quotes"><strong>4 </strong>Bash quotes</a></li><li class="goog-toc"><a href="#TOC-Bash-backticks-and-execution"><strong>5 </strong>Bash backticks and execution</a></li><li class="goog-toc"><a href="#TOC-Printing"><strong>6 </strong>Printing</a></li><li class="goog-toc"><a href="#TOC-Splitting-files"><strong>7 </strong>Splitting files</a></li><li class="goog-toc"><a href="#TOC-Vertical-and-horizontal-concatenati"><strong>8 </strong>Vertical and horizontal concatenation of files</a></li><li class="goog-toc"><a href="#TOC-Bash-loops"><strong>9 </strong>Bash loops</a></li><li class="goog-toc"><a href="#TOC-Arrays"><strong>10 </strong>Arrays</a></li><li class="goog-toc"><a href="#TOC-Removing-duplicate-lines-sorting-un"><strong>11 </strong>Removing duplicate lines (sorting, unique lines)</a></li><li class="goog-toc"><a href="#TOC-Getting-particular-lines-from-a-fil"><strong>12 </strong>Getting particular lines from a file based on line number</a></li><li class="goog-toc"><a href="#TOC-Random-number-generator"><strong>13 </strong>Random number generator</a></li><li class="goog-toc"><a href="#TOC-xargs"><strong>14 </strong>xargs</a></li><li class="goog-toc"><a href="#TOC-Downloading-files-from-the-net-with"><strong>15 </strong>Downloading files from the net with wget</a></li><li class="goog-toc"><a href="#TOC-Resuming-large-file-transfers-with-"><strong>16 </strong>Resuming large file transfers with rsync</a></li><li class="goog-toc"><a href="#TOC-ssh"><strong>17 </strong>ssh</a></li><li class="goog-toc"><a href="#TOC-grep"><strong>18 </strong>grep</a></li><li class="goog-toc"><a href="#TOC-sed"><strong>19 </strong>sed</a></li><li class="goog-toc"><a href="#TOC-Check-if-a-function-exists"><strong>20 </strong>Check if a function exists</a></li><li class="goog-toc"><a href="#TOC-Running-processes-immune-to-hang-up"><strong>21 </strong>Running processes immune to hang up and disconnection</a></li><li class="goog-toc"><a href="#TOC-Notification-when-a-command-is-done"><strong>22 </strong>Notification when a command is done</a></li><li class="goog-toc"><a href="#TOC-File-name-manipulation"><strong>23 </strong>File name manipulation</a></li><li class="goog-toc"><a href="#TOC-Sorting-files"><strong>24 </strong>Sorting files</a></li><li class="goog-toc"><a href="#TOC-rsync:-File-and-directory-syncing-a"><strong>25 </strong>rsync: File and directory syncing and backups</a></li></ol></div></div></div></div><br />A great tutorial on bash shell scripting is here <br /><a href="http://tldp.org/LDP/abs/html/" rel="nofollow" target="_blank">http://tldp.org/LDP/abs/html/</a><br /><a href="http://www.linuxconfig.org/Bash_scripting_Tutorial" rel="nofollow" target="_blank">http://www.linuxconfig.org/Bash_scripting_Tutorial</a><br /><h2><a name="TOC-Variables"></a>Variables</h2>The results of a command can be assigned to a variable using backquotes<br />
+<code>TEMP=`ls | wc -l`</code><br />
+<br />
+You can declare variables using<br />
+<code>declare &lt;variable_name&gt;</code><br />
+<br />
+You can remove a variable using<br />
+<code>unset &lt;variable_name&gt;</code><br /><br />You can declare local variables within a bash function using the keyword <code>local</code><br /><br /><code>local VarName</code><br /><code>local VarName=2</code><div><hr size="2" width="100%" />
+<h2><a name="TOC-Reading-user-input"></a>Reading user input</h2><div>If you want to interact with a user from the command line you can use the 'read' command to read user input</div><div><br /></div><div><code>read &lt;varName1&gt; &lt;varName2&gt; ...</code></div><div>or</div><div><code>read -a &lt;varArrayName&gt; -d &lt;delimiter&gt;</code></div><div><br /></div><div>More information here</div><div><a href="http://ss64.com/bash/read.html" rel="nofollow">http://ss64.com/bash/read.html</a></div><div><hr /></div><h2><a name="TOC-Bash-comparison-operators-and-condi"></a>Bash comparison operators and conditional statements<br /></h2>File test operators <a href="http://tldp.org/LDP/abs/html/fto.html" rel="nofollow" target="_blank">http://tldp.org/LDP/abs/html/fto.html</a><br />Other comparison operators <a href="http://tldp.org/LDP/abs/html/comparison-ops.html" rel="nofollow" target="_blank">http://tldp.org/LDP/abs/html/comparison-ops.html</a><br /><br />if-then-else conditional statements have the following for<br /><br /><div class="sites-codeblock sites-codesnippet-block"><code>if &lt;condition&gt;</code><br /><code>then</code><br /><code>else</code><br /><code>fi</code><br /></div><br />Condition is typically in single square brackets [ ] or [[ ]] . The latter is more robust. <br /><br />You can combine conditions with &amp;&amp; (AND),  || (OR) if you use [[ ]]<br />You can combine conditions with  -a (AND),  -o (OR) if you use [ ]<br />You can negate a condition by using ! e.g. [ ! -f &lt;fileName&gt; ] will evaluate to TRUE if &lt;fileName&gt; does not exist<br /><br />Another way to do quick tests is to use the following notation<br /><br /><div class="sites-codeblock sites-codesnippet-block"><code>&lt;condition&gt; &amp;&amp; </code><code>( statements to evaluate if condition is true )</code><br /><code>&lt;condition&gt; || ( statements to evaluate if condition is false )</code><br /></div><br />e.g. [ -f &lt;fileName ] || ( echo 'File does not exist' &gt;&amp;2; exit 1) will check if the file exists. If not it will print 'File does not exist' and exit with error code 1.<br /><br /><hr size="2" width="100%" /><h2><a name="TOC-Bash-quotes"></a>Bash quotes</h2><a href="http://www.grymoire.com/Unix/Quote.html" rel="nofollow" target="_blank">http://www.grymoire.com/Unix/Quote.html</a><br /><br />Bash quotes (single and double) <i style="color:rgb(255, 0, 0)"><b>are evaluated in pairs</b></i>. Do not use single quotes within a pair of single quotes or double quotes within a pair of double quotes. It won't work. See the above link for examples on how to do this correctly.<br /><br />eg. If you want to subtitute a variable name within a string surrounded by single quotes this is what you want to do<br /><br /><code>VarName='blahblahblah'"${subVar}"'blahblahblah'</code><br /><br />rather than<br /><br /><strike><code>VarName='blahblahblah"${subVar}"blahblahblah'</code></strike><br /><br /><hr size="2" width="100%" /><h2><a name="TOC-Bash-backticks-and-execution"></a>Bash backticks and execution</h2>You can execute commands inside a shell script by surrounding the command with backticks <code>`&lt;command&gt;`</code> OR you can use <code>$(&lt;command&gt;)</code><br />The latter is preferred since backslashes within backticks behave weird.<br /><br />More here <a href="http://www.bash-hackers.org/wiki/doku.php/mirroring/bashfaq/082" rel="nofollow" target="_blank">http://www.bash-hackers.org/wiki/doku.php/mirroring/bashfaq/082</a><br /><br /><hr size="2" width="100%" /><h2><a name="TOC-Printing"></a>Printing</h2>
+You can print something using<br />
+<code>printf "%s\n" "$TEMP"</code><br /><hr size="2" width="100%" />
+<h2><a name="TOC-Splitting-files"></a>Splitting files<br />
+</h2>
+You can split a file using<br /><div>
+# max size of each chunk is 10k. You can also use 'b' for bytes or 'm' for megabytes. You can also use -b instead of -bytes<br />
+<code>split -bytes=10k &lt;huge_file.txt&gt; &lt;small_file</code>&gt;<br />
+<br />OR<br />
+# maximum number of lines per chunk is 10. You can also use -l instead of -lines<br />
+<code>split -lines=10 &lt;huge_file.txt&gt; &lt;small_file</code>&gt;<br />
+<br />
+You can split a file x into x00, x01 etc. based on a specific pattern using<br /><code> csplit -options &lt;huge_file.txt&gt; &lt;pattern&gt;</code> <br /><code>-z</code> will remove empty subfiles<br /><code>-f &lt;prefix&gt;</code> will use &lt;prefix&gt; for the subfiles<br /><code>-n</code> will use specified number of digits for naming files (2 digits by default)<br /><code>&lt;pattern&gt;</code> can be <br />       INTEGER: copy up to but not including specified line number<br />       /REGEXP/[OFFSET]: copy up to but not including a matching line<br />       %REGEXP%[OFFSET]: skip to, but not including a matching line<br />       {INTEGER}: repeat the previous pattern specified number of times<br />       {*}:    repeat the previous pattern as many times as possible<br />       A line OFFSET is a required ‘+’ or ‘-’ followed by a positive integer.<br /><br />e.g. To split a fasta file containing multiple contigs/chromsomes into individual files use<br /><br /><code>csplit -b '%d' -f chr myfile.fa '/&gt;/' '{*}'</code><br /><br /><hr size="2" width="100%" />
+<h2><a name="TOC-Vertical-and-horizontal-concatenati"></a>Vertical and horizontal concatenation of files</h2>
+For vertical concatenation i.e. file 1 followed by file 2 <br />
+<br /><code>cat file1 file2</code><br />
+<br />
+For horizontal concatenation i.e. file 1 in column 1 and file 2 in column 2 separated by some delimiter<br />
+<br /><code>paste -d&lt;delimiter&gt; file1 file 2</code><br />
+<br />
+The opposite of the paste command is the cut command<br />
+<code>cut -d &lt;delimiter&gt; -f &lt;comma_separated_field_index&gt;</code><br /><code>
+cut -d ' ' -f 2,4</code><br /><code>
+cut -d \t -f 3-5</code><br /><hr size="2" width="100%" />
+<h2><a name="TOC-Bash-loops"></a>Bash loops</h2><h3><a name="TOC-For-loops"></a>For loops</h3><div>For loop in a single line</div><div><br /></div><div class="sites-codeblock sites-codesnippet-block"><code>for I in {1..10}; do &lt;commands&gt;; done;</code></div><br /><div class="sites-codeblock sites-codesnippet-block"><div><div><code>for i in {0..10..2}</code></div><div><code>do </code></div><div><span><code>    </code></span><code>echo "Welcome $i times"</code></div><div><code>done</code><br /></div></div><div></div></div><br /></div><div class="sites-codeblock sites-codesnippet-block"><div><code>for i in 1 2 3 4 5</code></div><div><code>do </code></div><div><span><code>    </code></span><code>echo "Welcome $i times"</code></div><div><code>done</code></div></div><div><br /></div><div class="sites-codeblock sites-codesnippet-block"><code>for (( c=1; c&lt;=5; c++ ))</code><div><code>do</code></div><div><span><code>    </code></span><code>echo "Welcome $c times..." </code></div><div><code>done</code></div></div><div><br /></div><h3><a name="TOC-While-loops"></a>While loops</h3><div>While loops are useful when reading files</div><div><br /></div><div></div><div class="sites-codeblock sites-codesnippet-block"><div><code>while read line </code></div><div><code>do </code></div><div><span><code>    </code></span><code>echo "Current line is $line" </code></div><div><code>done &lt; file.txt </code><br /></div></div><br /><br /><div><hr /><div><h2><a name="TOC-Arrays"></a>Arrays</h2>
+Arrays start at index 0<br /><br />Arrays can be sparse i.e. every index need not be initialized/have a value<br /> <br />Each element can be accessed using <code>${array[&lt;0 to N-1&gt;]}<br /></code>
+<br />Length of array is given by <code>${#array[*]}</code> or <code>${#array[@]}</code><br />
+The <code>*</code> and <code>@</code> signs only differ when used within double quotes<br /><code>array=( zero one )</code><br /><code>printf “%s” “${array[*]}”</code> # output is &gt;screwdrivers hammers<br /><code>printf “%s” “${array[@]}”</code> # output is &gt;screwdrivershammers<br /></div><div><h4><a name="TOC-Array-Initialization"></a>Array Initialization</h4>Arrays can be initialized the standard way ie<br /><code>array[&lt;index&gt;]=&lt;value&gt;</code><br /><br />You can also batch assign the whole array using<br /><code>array=( zero one two three four )</code><br />or<br /><code>array=([17]=seventeen [24]=twenty-four)</code><br /><br />You can assign the list of files in a directory to an array using<br />
+<code>IFN='</code><br /><code>
+'</code><br />
+<code>array=(`ls -1`)</code>  # ls -1: lists one file per line<br />
+<h4><a name="TOC-Loops-with-arrays"></a>Loops with arrays</h4>While loop<br />
+<code>i=0</code><br /><code>
+while [ $i -lt $len ]; do</code><br /><code><span>    </span>
+	echo "$i: ${array[$i]}"</code><br /><code><span>    </span>
+	let i++</code><br /><code>
+done</code><br /><br />For Loop<br /><code><br />for name in ${names[@]}<br />
+do<br />
+<span>    </span>echo $name<br />
+done<br /><br /></code>For loop<code><br /><br /></code><code>for (( i = 0 ; i &lt; ${#names[@]} ; i++ ))<br />
+do<br />
+<span>    </span>echo ${names[$i]}<br />
+done</code><br /><br />Great resource on bash arrays <a href="http://tldp.org/LDP/abs/html/arrays.html" rel="nofollow">http://tldp.org/LDP/abs/html/arrays.html</a><br /><hr size="2" width="100%" />
+<h2><a name="TOC-Removing-duplicate-lines-sorting-un"></a>Removing duplicate lines (sorting, unique lines)<br />
+</h2><code>sort &lt;filename&gt; | uniq</code><br /></div><div><hr size="2" width="100%" />
+<h2><a name="TOC-Getting-particular-lines-from-a-fil"></a>Getting particular lines from a file based on line number</h2>
+If you want line number 4<br />
+<code>awk 'NR==4{print $0}' filename</code><br /><code>
+head -4 filename | tail -1</code><br /><code>
+sed 4!d filename</code><br /><hr size="2" width="100%" />
+<h2><a name="TOC-Random-number-generator"></a>Random number generator</h2><code>$RANDOM</code> is an internal Bash function (not a constant) that returns a pseudorandom integer in the range 0 - 32767<br /><br />
+If you want a random number between 1 and 30<br />
+<code>myrandnumber=`expr '(' $RANDOM '*' 30  / 32767 ')' + 1`</code><br /><hr size="2" width="100%" />
+<h2><a name="TOC-xargs"></a>xargs</h2>
+<code>xargs</code> allows you to pass arguments from command line to some other function such as find or grep<br />
+<br />
+Some options with xargs<br />
+<code>-t</code> : will echo each command before executing. Good for debugging<br /><code>
+-p</code>: will prompt the user before each command is executed<br />
+<code>-I &lt;argname&gt;</code> : will replace &lt;argname&gt; in the command following xargs with the argument obtained from stdin<br />
+<code>-i</code> : Normally xargs places input arguments at the end of command. Used
+with the -i option, xargs will replace all instances of {} with input
+arguments. You need to put them in single brackets or use a backslash
+(\) before each bracket to keep the shell from interpreting the special
+characters.<br /><code>
+-n#</code> :Execute command once for every # argument. For example, <code>-n2</code>
+bundles arguments into groups of two or less and executes command on
+each argument bundle. <br /><code>
+-l#</code> : Execute command once for every # lines of input. For example, <code>-l1</code>
+creates a bundle of arguments for every one line of input and executes
+command on each argument bundle. <br /><br />More on xargs here <a href="http://www.softpanorama.org/Tools/xargs.shtml" rel="nofollow">http://www.softpanorama.org/Tools/xargs.shtml</a><br /><hr size="2" width="100%" />
+<h3><a name="TOC-Finding-a-pattern-in-a-bunch-of-fil"></a>Finding a pattern in a bunch of files using find, grep and xargs</h3>
+xargs allows one to pass a bunch of arguments from stdin or from a file
+to functions such as grep that arent necessarily designed for this. For
+example if you want to find files recursively in a set of directories
+and further find a particular pattern in them u can do<br />
+<br />
+<code>find -name '*.html' | xargs grep "copyright"</code><br /><hr size="2" width="100%" />
+<h3><a name="TOC-Finding-Files"></a>Finding Files</h3>
+The find command allows you to recursively find files/directories or
+symbolic links that match some name or pattern or combination of
+patterns<br />
+<br />
+If you to pass an argument to find from a file or a variable, for some reason you need to use xargs for it<br />
+<br />
+<code>a=\'*.txt\'</code><br /><code>
+echo $a | xargs -I arg find -name arg</code><br />
+<br />
+<code>xargs -I prefname find -name 'prefname' &lt; temp.txt</code><br />
+<br />
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;"><h4 class="sites-embed-title">http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml</h4><div class="sites-embed-content sites-embed-type-text"><div class="sites-embed-content-textbox"><div dir="ltr"><p>Unix find is a pretty tricky but very useful utility that can often fool even  experienced UNIX professionals with ten on more years of sysadmins work under the  belt. It can enhance functionality of those Unix utilities that does not include  tree traversal (BTW GNU <font color="#0000ff"><b>grep</b></font> has <b> <font color="#0000ff">-r </font></b>option for this purpose and can be used on its  own to perform tree traversal task: <font color="#0000ff" face="Fixedsys">grep -r  "search string" /tmp.</font>).  There are several versions of  find with the main two being POSIX find used in Solaris, AIX, etc and GNU find  used in linux. GNU find can be installed on Solaris and AIX and it is actually a  strong recommendation as there are some differences; moreover gnu find have  additional capabilities that are often useful. </p> <p>But find can do more then a simple tree traversal available with option -r (or  -R) in many Unix utilities. Traversal provided by <font color="#0000ff" face="Fixedsys">find</font> can have excluded directory tree  branches, can select files or directories using regular expressions, can be limited  to specific typed of filesystem, etc. This capability is far above and beyond regular  tree traversal of Unix utilities so find is a real Unix utility -- a useful enhancer  of functionally of other utilities including both utilities that do not have capability  to traverse the directory tree and those which have built-in simple recursive tree  traversal</p> <p>The idea behind find is extremely simple: this is a utility for <b><i>searching  files using the directory information</i></b> and in this sense it is similar to <font color="#0000ff"><b>ls. </b></font>But it is more powerful then <b> <font color="#0000ff">ls</font></b> as it can provide " a ride" for other utilities  and has an idiosyncratic mini-language for specifying queries, the language which  probably outlived its usefulness but nobody has courage to replace it with a standard  scripting language. </p> <p>For obscure historical reasons <font color="#0000ff"><tt>find</tt></font> mini-language  is completely different from all other UNIX commands: it has full-word options rather  than single-letter options. For example, instead of a typical Unix-style option <font color="#0000ff">-f </font>to match filenames (like in <font color="#0000ff" face="Fixedsys">tar -xvf mytar.tar</font>) <b> <font color="#0000ff">find</font></b> uses option <font color="#0000ff"><b>-name</b></font>.  </p> <p>It important to understand that  path to search can consist of multiple starting points, for example </p> <blockquote> <p><font color="#0000ff" face="Fixedsys">find /usr /bin /sbin /opt -name sar  </font><font color="#008000" face="Fixedsys"># here we exclude non-relevant   directories </font></p> </blockquote> <p>It can also be generated by script, for example</p> <p>       <font color="#0000ff" face="Fixedsys">find  `gen_directories` -type f -size 0 -ls   </font><font color="#008000" face="Fixedsys"># script excludes non-relevant   directories </font> </p> <p>In general you need to specify the set of starting points for a search through  the file system first. The first argument starting with <b> <font color="#0000ff" face="Fixedsys">"-"</font> </b>is considered to be a start  of "find expression". The latter can have side effects if you specified actions  in the expression. </p> <p><b><font color="#ff0000">It is very important to understand that you can specify  more than one directory as a starting point for the search. To look across the </font><font color="#0000ff">/bin</font><font color="#ff0000"> and </font> <font color="#0000ff">/var/html</font><font color="#ff0000"> directory trees for  filenames that contain the pattern </font></b><tt>*.htm*</tt><b>, you can use the  following command: </b></p> <blockquote> <pre><font color="#0000ff"><b>find /usr /var/html -name "*.htm*" -print</b></font></pre> </blockquote> <p>Please note that you need quotes for any regex. Otherwise it will be evaluated  immediately in the current context by shell.</p> <p>It is simply impossible to remember all the details of this language unless you  construct complex queries each day and that's why this page was created. </p> <p>Along with  this page it make sense to consult the list of typical (and not so typical) examples  which can be found in in <a href="http://www.softpanorama.org/Tools/Find/find_examples.shtml" target="_blank" rel="nofollow">Examples</a>  page on this site as well as in the links listed in <a href="http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml#Webliography" target="_blank" rel="nofollow">Webliography</a>. </p> <p>An excellent paper <a href="http://www-128.ibm.com/developerworks/aix/library/au-unix-find.html" target="_blank" rel="nofollow"> Advanced techniques for using the UNIX find command</a> was written by Bill Zimmerly.  I highly recommend to read it and then print for  a reference. Several examples  in this tutorial are borrowed from the article. </p> <div align="center"> <table bgcolor="#00ffff" border="1" width="80%"> <tbody><tr> <td><b><font face="Arial" size="2">An excellent paper <a href="http://www-128.ibm.com/developerworks/aix/library/au-unix-find.html" target="_blank" rel="nofollow"> Advanced techniques for using the UNIX find command</a> was written by Bill Zimmerly.  I highly recommend to read it and then print for a reference. Several examples  in this tutorial are borrowed from the article. </font></b></td> <td> </td> </tr> </tbody></table> </div> <p>The full <i>find language</i> is pretty complex and consist of several dozens  of different predicates and options. There are two versions of this language: one  implemented in POSIX find and the second implemented in GNU find which is a superset  of POSIX find. That can make big difference in complex scripts. But for interactive  use the differences is minor: only small subset of options is typically used on  day-to-day basis by system administrators. Among them:</p> <ul><li><font color="#0000ff"><font face="Fixedsys"><kbd>  -name</kbd></font><b><kbd> </kbd></b></font>True if pattern matches   the current file name. Simple regex (shell regex) may be used. it   should be in quotes to prevent shell expansion. A backslash (\)   is used as an escape character within the pattern. The pattern should be escaped   or quoted. If you need to include parts of the path in the pattern in GNU find   you should use predicate <font color="#0000ff" face="Fixedsys"> <a href="http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml#wholename" target="_blank" rel="nofollow">wholename</a> </font> <p>Use the <tt>-iname</tt> predicate (GNU <span>find</span> supports it) to run a case-insensitive search,  rather than just <tt>-name</tt>. For example:</p> <pre> $ find . -follow -iname '*.htm' -print0 | xargs -i -0 mv '{}' ~/webhome</pre> <p>Usage of <b><font color="#ff0000">-print0</font></b> is a simple   insurance for the correct processing of files with spaces. <br /> </p></li><li><kbd><b>-<font color="#0000ff">fstype</font></b></kbd><font color="#0000ff"><b> <var>type</var> </b></font>True if the filesystem to which the file belongs   is of type <var>type</var>. For example on Solaris mounted local filesystems   have type <b><font color="#0000ff">ufs</font></b> (Solaris 10 added <b> <font color="#0000ff">zfs</font></b>). For AIX local filesystem is  <font color="#0000ff"><b>jfs</b> </font>or <font color="#0000ff"><b>jfs2</b></font>   (journalled file system). If you want to traverse NFS filesystems you can use  <font color="#0000ff"><b>nfs</b></font> (network file system). If you want to   avoid traversing network and special filesystems you should use predicate  <font color="#0000ff"><b><a href="http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml#local" target="_blank" rel="nofollow">local</a> </b> </font>and in certain circumstances<font color="#0000ff"><b> mount</b></font><br /> </li><li><font color="#0000ff"><b>"-atime/-ctime/-mtime"</b></font> <b>[+|-]<i>n<br /> </i></b>Specify selection of the files based on<i><b>  three   Unix timestamps: </b></i>the last time   a files's "access time", "file status" and "modification time".   <b> <i> <br />  n </i> </b>is<b><i> time   interval</i></b> -- an integer with optional sign. It is measured in   24-hour periods (days) or minutes counted from the current moment.<ul><li><b><font color="#0000ff">n: </font></b>If the integer n does not have    sign this means <i><b>exactly n 24-hour periods (days) ago</b></i>, 0 means    today. <br /> </li><li><b><font color="#0000ff">+n:</font></b> if it has plus sing, then it    means <i><b>"more then n 24-hour periods (days) ago", or older then n</b></i>,<br /> </li><li><font color="#0000ff"><b>-n:</b></font> if it has the minus sign, then    it means <i><b>less than n 24-hour periods (days) ago (-n), or younger then    n</b></i>. It's evident that -1,  and 0 are the same and both means "today".   </li></ul> <div align="center"> <table bgcolor="#00ffff" border="0" width="80%"> <tbody><tr> <td> <p align="left"><font color="#ff0000"><b>Note:</b></font> If you use parameters      with find command in scripts be careful when <b> <font color="#0000ff">-mtime</font></b> parameter is      equal zero. Some (earlier) versions of GNU find incorrectly      interpret  the following expression</p> <pre>find -mtime +0 -mtime -1</pre> which should be equivalent to  <pre>find  -mtime -1</pre> but does not produce any files</td> </tr> </tbody></table> <p><br />  </p></div> <ul><li><b><font color="#0000ff">n: </font></b>If the integer n does not have    sign this means <i><b>exactly n 24-hour periods (days) ago</b></i>, 0 means    today. <br /> </li><li><b><font color="#0000ff">+n:</font></b> if it has plus sing, then it    means <i><b>"more then n 24-hour periods (days) ago", or older then n</b></i>,<br /> </li><li><font color="#0000ff"><b>-n:</b></font> if it has the minus sign, then    it means <i><b>less than n 24-hour periods (days) ago (-n), or younger then    n</b></i>. It's evident that -1 and 0 are the same and both means "today".   <br /> </li><li><b>Examples:<br />  </b><ul><li>Find everything in your home directory modified in the last 24 hours:<br />  <ul><li><font color="#0000ff" face="Fixedsys" size="2">find $HOME -mtime      -1 <br /> </font></li></ul> </li></ul> <ul><li>Find everything in your home directory modified in the last     seven 24-hour     periods (days): <br />  <ul><li><font color="#0000ff" face="Fixedsys" size="2">find $HOME -mtime      -7 <br /> </font></li></ul> </li></ul> <ul><li>Find everything in your home directory that have NOT been modified     in the last year:<br />  <ul><li><font color="#0000ff" face="Fixedsys" size="2">find $HOME -mtime      +365 <br /> </font></li></ul> </li><li>To find html files that have been modified in the last seven 24-hour     periods (days), I can use <b><font color="#0000ff">-mtime</font></b>     with the argument -7 (include the hyphen):    <blockquote> <pre><font color="#0000ff"><b>find . -mtime -7 -name "*.html" -print</b></font></pre> </blockquote> <p>If you use the number 7 (without a hyphen), find will match only     html files that were modified exactly seven 24-hour periods (days) ago:    </p> <blockquote> <pre><font color="#0000ff"><b>find . -mtime 7 -name "*.html" -print</b></font></pre> </blockquote> </li><li>To find those html files that I haven't touched for at least seven     24-hour periods (days), I use +7:    <blockquote> <pre><font color="#0000ff"><b>find . -mtime +7 -name "*.html" -print</b></font></pre> </blockquote> </li></ul> </li></ul> </li><li><font color="#0000ff" face="Fixedsys" size="2">-newer/-anewer/-cnewer  </font><font color="#ff0000" face="Fixedsys" size="2"><i>baseline_file</i></font><font color="#0000ff" face="Fixedsys" size="2"> </font>The time of modification, access time or creation time are compared with   the same timestamp in the baseline file. If file is a symbolic link and the   -H option or the -L option is in effect, the modification time of the file it   points to is always used.<br /> <ul><li><b><font color="#0000ff">-newer </font></b>Modification time is compared    with modification time of the   <font color="#0000ff" face="Fixedsys" size="2"><i>basline_file </i> </font>True if<font color="#0000ff" face="Fixedsys" size="2"><i> </i> </font>file was modified more recently than baseline file. <br /> </li><li><font color="#0000ff"><b>-anewer</b></font> Access time is compared    with access time of <font color="#0000ff" face="Fixedsys" size="2"><i>basline_file</i> </font>. True if file was last accessed more recently than baseline file.   <br /> </li><li><font color="#0000ff"><b>-cnewer </b></font>Creation file is compared.   <font face="Arial" size="2">For example: find everything in your home that    has been modified more recently than "</font><b><font color="#0000ff" face="Arial" size="2">~joeuser/lastbatch.txt   </font></b><font face="Arial" size="2">": <br /> </font> <ul><li><font color="#0000ff" face="Fixedsys" size="2">find $HOME -newer     ~joeuser/lastbatch.txt<br />  </font></li></ul> </li></ul> </li><li><kbd><font color="#0000ff" face="Fixedsys">-<a name="local">local</a></font></kbd>   True if the file system type is not a remote file system type. In Solaris those   types are defined in the <b><font color="#0000ff"><kbd>/etc/dfs/fstypes</kbd></font></b>   file. <tt>nfs</tt> is used as the default remote filesystem type if the <b> <font color="#0000ff"><kbd>/etc/dfs/fstypes</kbd></font></b> file is not present.   The <font color="#0000ff"><kbd><b>-local</b></kbd> </font>option skips the hierarchy   of non-local directories. You can also search without descending more then certain   number of levels as explained later or exclude some directories from the search   using <br /> </li><li><font color="#0000ff" face="Fixedsys"><kbd><font face="Fixedsys">-mount</font></kbd></font><b><kbd> </kbd></b>Always true. Restricts the search to the file system containing the   directory specified. Does not list mount points to other file systems. <br /> </li><li><kbd><font color="#0000ff" face="Fixedsys">-xdev</font></kbd> Same as the<font color="#0000ff"><font face="Fixedsys"> </font><kbd><font face="Fixedsys">-mount</font></kbd><font face="Fixedsys">   primary</font></font>. Always evaluates to the value True. Prevents the <b>find</b>   command from traversing a file system different from the one specified by the  <i>Path</i> parameter.<br /> </li><li>-<font color="#0000ff" face="Fixedsys">xattr</font> True if the file has   extended attributes. <br /> </li><li><font color="#0000ff" face="Fixedsys">-<a name="wholename">wholename</a></font> <b><font color="#ff0000"><i>simple-regex</i></font></b> [GNU find only] . File   name matches simple regular expression (often called shell patterns). In simple   regular expressions the metacharacters <b><font color="#0000ff">'/'</font></b>   and<b><font color="#0000ff"> '.' </font></b>do not exist; so, for example, you   can specify:<blockquote> <p><font color="#0000ff" face="Fixedsys">find . -wholename '/lib*'</font></p> <font color="#0000ff" face="Fixedsys"> </font></blockquote> <font color="#0000ff" face="Fixedsys"> </font>which will print entries from directories <b><font color="#0000ff">/lib64</font></b>   and <b><font color="#0000ff">/lib</font></b>. <i><font color="#ff0000"><b>To   ignore the directories specified, use option </b></font><b> <font color="#0000ff">-prune </font></b></i>For example, to skip the directory<b><font color="#0000ff">   /proc</font></b> and all files and directories under it (which is important   for linux as otherwise errors are produced you can something like this:<blockquote> <p><font color="#0000ff" face="Fixedsys">find . -wholename '/proc' -prune -o -name   </font><i><font color="#0000ff" face="Fixedsys">file_to_be_found</font><font color="#0000ff"><font face="Fixedsys"> </font></font></i></p> </blockquote> <p>If you administer a lot of linux boxes it is better to create alias  <font color="#0000ff"><b>ff: </b> </font></p> <font color="#0000ff"> </font><pre><font color="#0000ff"><font face="Fixedsys">if [[ `uname` == "Linux" ]] ; do <br /><br />   alias ff='find . -wholename '/proc' -prune -o -name '<br /><br />else<br /><br />   ff='find . -name ' # not GNU find does not support -wholename<br /><br />fi </font></font></pre> <font color="#0000ff"> </font></li></ul> <p>Other useful options of the find command include: </p> <ol><li><font color="#0000ff" face="Fixedsys">-regex</font><b> </b><i>regex [GNU   find only] </i>File name matches regular expression. <b>This is a match on the   whole pathname not just a filename.</b>The default regular   expressions understood by find are Emacs Regular Expressions. This   can be changed with the <font color="#0000ff" face="Fixedsys">-regextype</font>   option. Currently implemented types are  <font color="#0000ff" face="Fixedsys">emacs</font> (the default),  <font color="#0000ff" face="Fixedsys">posix-awk</font>,  <font color="#0000ff" face="Fixedsys">posix-basic</font>,  <font color="#0000ff" face="Fixedsys">posix-egrep</font> and  <font color="#0000ff" face="Fixedsys">posix-extended.</font><br /> <br />  It is important to note that "<font color="#0000ff" face="Fixedsys">-iregex</font>"   option provide capability to ignore case.<br /> </li><li><tt>-perm <i>permissions</i></tt>  Locates files with certain permission   settings. Often used for finding world-writable files or SUID files. See  <a href="http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml#suid_sguid_games" target="_blank" rel="nofollow">below</a><br /> </li><li><tt>-user </tt>Locates files that have specified ownership. Option  <font color="#0000ff"><b>-nouser</b></font> locates files without ownership.   For such files no user in <b><font color="#0000ff">/etc/passwd</font></b> corresponds   to file's numeric user ID (UID). such files are often created when tar of sip   archive is transferred from other server on which the account probably exists   under a different UID)<br /> </li><li><tt>-group </tt>Locates files that are owned by specified group. Option  <font color="#0000ff"><b>-nogroup </b></font>means that no group corresponds   to file's numeric group ID (GID) of the file<br /> </li><li><tt>-size </tt>Locates files with specified size. <code>-size</code> attribute   lets you specify how big the files should be to match. You can specify your   size in kilobytes and optionally also use <code>+</code> or <code>-</code> to   specify size greater than or less than specified argument. For example:<pre><code>find /home -name "*.txt" -size 100k</code> </pre> <pre><code>find /home -name "*.txt" -size +100k</code> </pre> <pre><code>find /home -name "*.txt" -size -100k</code> </pre> <p>The first brings up files of exactly 100KB, the second only files greater   than 100KB, and the last only files less than 100KB. <br />  </p> </li><li><font face="Fixedsys"><b><font color="#0000ff">-ls</font></b><font color="#0000ff"> </font></font>list current file in `ls -dils' format on standard output. <br /> </li><li><tt>-type </tt>Locates a certain type of file. The most typical options   for -type are as following:  <ul><li><font color="#0000ff"><b>d </b></font>-Directory </li><li><font color="#0000ff"><b>f </b></font>- File </li><li><font color="#0000ff"><b>l </b></font>- Link </li></ul> <blockquote> </blockquote> <p>For example to find a list of the directories use can use the <tt>-type</tt>   specifier. Here's one example: </p> <blockquote> <p><font color="#0000ff" face="Fixedsys">find . -type d -print</font></p> </blockquote> </li></ol></div></div></div></div></div>
+<br />
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;"><h4 class="sites-embed-title">http://www.softpanorama.org/Tools/Find/find_logical_expressions.shtml</h4><div class="sites-embed-content sites-embed-type-text"><div class="sites-embed-content-textbox"><div dir="ltr"><p>It is possible to locate files and directories that match or do not match multiple  conditions forming complex logical expression. Expressions can contain "escaped  parentheses": parentheses have a special meaning in shell, so we need to escape that meaning, and write  them as \( and \) or inside of single quotes as '(' and ')'. You cannot use single  quotes around the entire expression though, as that will confuse the <tt>find</tt> command. <i><b><font color="#ff0000">It wants each predicate as its own word.</font></b></i> </p> <p>For example: </p> <ul><li><tt>a</tt><b>  -- </b>to have multiple conditions connected using logical<tt>   AND</tt>. By default options are concatenated using AND predicate to this operations   is rarely used. <br /> </li><li><tt>o</tt><b>  -- </b>to have multiple conditions connected using logical  <tt>OR. </tt>Usually in used in brackets to ensure proper order of evaluation.<tt> </tt>For example <font color="#0000ff"><tt>\(-perm -4000 -o -perm -2000 \)<br /> </tt></font></li><li><tt>!</tt><b>  -- </b>to negate a condition (logical NOT) . NOT should be specified   with a backslash before exclamation point (<font color="#0000ff"> \! </font>  ). For example  <pre><font color="#0000ff" face="Fixedsys">find . \! -name "*.gz" -exec gzip {} \;</font></pre> </li><li><tt>\( <i>expression</i></tt><b> <font color="#0000ff">\)</font>    --  </b>"escaped parentheses" to   specify any composite condition. For example  <blockquote> <p><font color="#0000ff"><tt>find / -type f <font color="#ff0000">\( -perm -4000 -o -perm -2000    \)</font> -exec ls -l {} \; </tt></font></p> </blockquote> </li></ul> <p><b>By default options are concatenated using AND predicate.</b> For example,  if you want to obtain a list of all files accessed in the last 24 hours, execute  the following command (with or without <font color="#0000ff"><b>-print </b> </font>option): </p> <blockquote> <pre><font face="Fixedsys">find . -atime 0 -print</font></pre> </blockquote> <p>If the system administrator want a list of <tt>.profile</tt> used by all users,  the following command should be executed:</p> <blockquote> <pre><b><font color="#0000ff">find / -name .profile -print</font></b></pre> </blockquote> <p>You can also specify multiple "AND" conditions (AND logical condition is a default  so you do not specify it explicitly). If you wanted to find a list of files that  have been modified in the last 24 hours and which has a permission of <tt>777</tt>,  you would execute the following command:</p> <blockquote> <pre><b><font color="#0000ff">find . -perm 777  -mtime 0 -print</font></b></pre>  Which is the same as:  <pre><b><font color="#0000ff">find . -perm 777 -a -mtime 0 -a -print</font></b></pre> </blockquote> <p>The find command checks the specified options, going from left to right, once  for each file or directory encountered. </p> <p>The simplest invocation of find can be used to create a list of all files and  directories below the current directory: </p> <blockquote> <pre><font color="#0000ff" face="Fixedsys">find . -print</font></pre> </blockquote> <p>You can use regular expressions to select files, for example those that have  a .html suffix): </p> <blockquote> <pre><font color="#0000ff" face="Fixedsys">find . -name "*.html: -print</font></pre> </blockquote></div></div></div></div></div></div><div><h3><a name="TOC-Finding-files-and-then-tar-gzipping"></a>Finding files and then tar/gzipping them</h3><div><code>find -name '*blah*' -print0 -o -name '*blah2' -print0 | xargs -0t tar -cvzf output.tgz</code></div><div><br /></div>find -print0 : prints each file name followed by a \0 instead of a \n which is typically the default output from find</div><div>xargs -0 : can read in arguments separated by \0 which is specifically output from find -print0</div><div><hr size="2" width="100%" /><h2><a name="TOC-Downloading-files-from-the-net-with"></a>Downloading files from the net with wget</h2>Downloading all *tagAlign* files from ENCODE directories (after checking for difference in time stamp and size)<br /><br /><code>wget -e robots=off -r -np -N -nd -P &lt;target_dir&gt; -A "*.tagAlign*" -a &lt;logfile&gt; http://genome-test.cse.ucsc.edu/goldenPath/hg18/encodeDCC/&lt;labname&gt;<br /></code><br /><a href="http://linux.die.net/man/1/wget" rel="nofollow">http://linux.die.net/man/1/wget</a><br /><h3><a name="TOC-Options"></a>Options</h3><h4><a name="TOC-General-options"></a>General options</h4><code>-V</code><span>    </span>Display the version of Wget<code><br />-h</code><span>    </span>Print a help message<br /><code>-v</code><span>    </span>verbose mode<br /><code>-q</code><span>    </span>quiet mode<br /><code>-d</code><span>    </span>Print debug messages<br /><code>-b</code><span>    </span>Go to background immediately after startup. If no output file is specified via the -o, output is redirected to wget-log.<br /><code>-i</code><span>    </span>get links from a file <br /><h4><a name="TOC-Logging"></a>Logging</h4><code>-o &lt;logfile&gt;</code><span>    </span>log messages to &lt;logfile&gt;<br /><code>-a &lt;logfile&gt;</code><span>    </span>append log messages to &lt;logfile&gt;<br /><h4><a name="TOC-Special-Commands"></a>Special Commands</h4><code>-e</code><span><code> &lt;</code></span><code>command&gt;</code><span>    </span>Execute <i>command</i> as if it were a part of <i>.wgetrc</i>. A command thus invoked will be executed <i>after</i> the commands in <i>.wgetrc</i>, thus
+taking precedence over them. If you need to specify more than one wgetrc command, use multiple instances of <b>-e</b>.<br /><h4><a name="TOC-Recursive"></a>Recursive</h4><code>-r</code><span>    </span>Turn on recursive retrieval<br /><code>-l &lt;depth&gt;</code> Number of levels to recurse to<br /><code>-k</code><span>    </span>Convert relative links to allow local viewing<br /><h4><a name="TOC-Directory-Structure"></a>Directory Structure</h4><code>-nd</code><span>    </span>Do not create a hierarchy of directories when retrieving recursively. With this option turned on, all files will get saved to the current directory, without clobbering<br /><code>-P &lt;targetdirectory&gt;</code><span>    </span>Set directory prefix to &lt;targetdirectory&gt;. The directory prefix is the directory where all files and subdirectories will be saved to, i.e. the top of the retrieval tree. The default is .<br /><code>-nH</code><span>    </span>Disable generation of host-prefixed directories. By default, invoking Wget with -r http://fly.srk.fer.hr/ will create a structure of directories beginning with fly.srk.fer.hr/. This option disables such behavior. <br /><code>--cut-dirs=&lt;number&gt;</code><span>    </span>Ignore number directory components. This is useful for getting a fine-grained control over the directory where recursive retrieval will be saved. <br /><br />Take, for example, the directory at <a href="ftp://ftp.xemacs.org/pub/xemacs/">ftp://ftp.xemacs.org/pub/xemacs/</a>. If you retrieve it with -r, it will be saved locally under ftp.xemacs.org/pub/xemacs/. While the -nH option can remove the ftp.xemacs.org/ part, you are still stuck with pub/xemacs. This is where --cut-dirs comes in handy; it makes Wget not ''see'' number remote directory components. Here are several examples of how --cut-dirs option works. No options -&gt; ftp.xemacs.org/pub/xemacs/<br />-nH -&gt; pub/xemacs/<br />-nH --cut-dirs=1 -&gt; xemacs/<br />-nH --cut-dirs=2 -&gt; .<br />--cut-dirs=1 -&gt; ftp.xemacs.org/xemacs/<br /><br />If you just want to get rid of the directory structure, this option is similar to a combination of <b>-nd</b> and <b>-P</b>. However, unlike
+<b>-nd</b>, <b>--cut-dirs</b> does not lose with subdirectories---for instance, with <b>-nH
+--cut-dirs=1</b>, a <i>beta/</i> subdirectory will be placed to <i>xemacs/beta</i>, as one would expect.
+<br /><h4><a name="TOC-Time-stamps-overwriting-resume"></a>Time stamps/overwriting/resume</h4><code>-N</code><span>    </span>Turn on time-stamping i.e. do not download the file if the time-stamp and size is the same<br /><code>-nc</code><span>    </span>no-clobber<br /><code>-c</code><span>    </span>continue downloading a partial file NOTE: if the local and remote files are actually different then u will end up with a garbled file. wget has no way of knowing if the files are the same<br /><h4><a name="TOC-Accept-Reject-Dirs-Files"></a>Accept/Reject Dirs/Files</h4><code>-np</code><span>    </span>Do not ever ascend to the parent
+directory when retrieving recursively. This is a useful option, since
+it guarantees that only the files below a certain hierarchy will be
+downloaded.<br /><code>-A</code><code> &lt;accept_list&gt;</code> Types of files to download. &lt;accept_list&gt; is a comma separated list of file 'types' to download. Preferably put them in " " if using wildcards<br /><code>-R</code><span> </span><code>&lt;reject_list&gt;</code> Types of files to not download<br /><code>-I &lt;dir_list&gt;</code> <code><span>    </span></code>Specify a comma-separated list of directories you wish to follow when downloading. Elements of
+<i>list</i> may contain wildcards.
+Preferably put them in " " if using wildcards<br /><code>-X &lt;exclude_dir_list&gt;</code><span>    </span>Specify a comma-separated list of directories you wish to exclude when downloading. Elements of
+<i>list</i> may contain wildcards.
+Preferably put them in " " if using wildcards<br /><h4><a name="TOC-Speed-and-lag-control"></a>Speed and lag control</h4><code>-w</code><code> &lt;time&gt;</code><span>    </span>Wait the specified number of seconds between the retrievals. Use of this option is recommended, as it lightens the server load by making the requests less frequent. Instead of in seconds, the time can be specified in minutes using the "m" suffix, in hours using "h" suffix, or in days using "d" suffix. <br /><code>--random-wait</code><b><code><br /></code></b></div><div><code>--limit-rate=amount<span><span>    </span></span></code>Limit the download speed to amount bytes per second. Amount may be expressed in bytes, kilobytes with the k suffix, or megabytes with the m suffix<code><br /></code><h4><a name="TOC-Authentication"></a>Authentication</h4><code>--user=user</code> <span>    </span>username<br /><code>--password=password</code><span>    </span>Specify the username user and password password for both FTP and HTTP file retrieval. These parameters can be overridden using the <code>--ftp-user</code> and <code>--ftp-password</code> options for FTP connections and the <code>--http-user</code> and <code>--http-password</code> options for HTTP connections. <br /><br /><hr size="2" width="100%" /><h2><a name="TOC-Resuming-large-file-transfers-with-"></a>Resuming large file transfers with rsync</h2><div><div class="sites-codeblock sites-codesnippet-block"><code>rsync --partial --progress --rsh=ssh host:remote_file local_file</code></div></div><div><div><br /></div><div>Now we can improve this slightly by shortening the above command. We can substitute –rsh=ssh with -e ssh, and use -P instead of –partial –progress. Also, you can add user@host if you need to specify a different remote shell user:</div><div><br /></div><div><div class="sites-codeblock sites-codesnippet-block"><code>rsync -P -e ssh user@host:remote_file local_file</code></div></div><div><br /></div><div>This above example will work with any file that was partially transfered. How the transfer was started does not really matter. It could be through scp, nc or even ftp. After you execute the above command it will take rsync a little time to verify the previously downloaded part before it continues with the rest. Be patient, depending on your network speed rsync could take some time to go through what you have already transfered. Of course this is much faster than if you were to start the download all over again and it shows you the progress in percentages.</div></div><div><br /></div><div><hr /></div><h2><a name="TOC-ssh"></a>ssh</h2>To run ssh such that the connection does not disconnect if it is idle use<br /><br /><code>ssh -o ServerAliveInterval=&lt;seconds&gt;</code><br /><hr size="2" width="100%" /><h2><a name="TOC-grep"></a>grep</h2>Typical usage would be<br /><br /><code>grep -E &lt;ExtendedRegularExpression&gt; &lt;inputFile&gt;</code><br /><code>-o</code><span>    </span>outputs only the matching pattern<br /><code>-v</code><span>    </span>will print all lines that DO NOT match the pattern</div><div><code>-i<span>     </span><font color="#000000" face="Arial, Verdana, sans-serif">will ignore case</font></code></div><div><code>-q</code><span>    will suppress all output (useful when using grep within an if statement)</span><br /><h3><a name="TOC-Regular-expressions"></a>Regular expressions</h3>There are two types of POSIX regular expressions - BRE (Basic Regular Expression) and Extended<br /><h4><a name="TOC-Basic-Regular-expressions"></a>Basic Regular expressions</h4><p>The Basic Regular Expressions or BRE flavor standardizes a flavor
+similar to the one used by the traditional UNIX grep command. This is
+pretty much the oldest regular expression flavor still in use today.
+One thing that sets this flavor apart is that most metacharacters
+require a backslash to give the metacharacter its flavor. Most other
+flavors, including POSIX ERE, use a backslash to suppress the meaning
+of metacharacters. Using a backslash to escape a character that is
+never a metacharacter is an error.</p>
+<p>A BRE supports <a href="http://www.regular-expressions.info/posixbrackets.html" rel="nofollow">POSIX bracket expressions</a>,
+which are similar to character classes in other regex flavors, with a
+few special features. Shorthands are not supported. Other features
+using the usual metacharacters are the <a href="http://www.regular-expressions.info/dot.html" rel="nofollow">dot</a> to match any character except a line break, the <a href="http://www.regular-expressions.info/anchors.html" rel="nofollow">caret and dollar</a> to match the start and end of the string, and the <a href="http://www.regular-expressions.info/repeat.html" rel="nofollow">star</a> to repeat the token zero or more times.  To match any of these characters literally, escape them with a backslash.</p>
+<p><b><span style="color:rgb(255, 0, 0)">The other BRE metacharacters require a backslash to give them their
+special meaning</span></b>. The reason is that the oldest versions of UNIX grep
+did not support these. The developers of grep wanted to keep it
+compatible with existing regular expressions, which may use these
+characters as literal characters. The BRE <tt>a{1,2}</tt> matches <tt>a{1,2}</tt> literally, while <tt>a\{1,2\}</tt> matches <tt>a</tt> or <tt>aa</tt>.  Some implementations support <tt>\?</tt> and <tt>\+</tt> as an alternative syntax to <tt>\{0,1\}</tt> and <tt>\{1,\}</tt>, but <tt>\?</tt> and <tt>\+</tt> are not part of the POSIX standard.  Tokens can be grouped with <tt>\(</tt> and <tt>\)</tt>.  Backreferences are the usual <tt>\1</tt> through <tt>\9</tt>.  Only up to 9 groups are permitted.  E.g. <tt>\(ab\)\1</tt> matches <tt>abab</tt>, while <tt>(ab)\1</tt> is invalid since there's no capturing group corresponding to the backreference <tt>\1</tt>.  Use <tt>\\1</tt> to match <tt>\1</tt> literally.</p>
+<p>POSIX BRE does not support any other features.  Even <a href="http://www.regular-expressions.info/alternation.html" rel="nofollow">alternation</a> <tt>| </tt>is not supported.</p><h4><a name="TOC-Extended-Regular-Expressions"></a>Extended Regular Expressions<br /></h4>egrep, and POSIX ERE, add additional metacharacters without
+backslashes.<b style="color:rgb(255, 0, 0)"> You can use backslashes to suppress the meaning of all
+metacharacters, just like in modern regex flavors. Escaping a character
+that is not a metacharacter is an error.</b>
+<p>The <a href="http://www.regular-expressions.info/repeat.html" rel="nofollow">quantifiers</a> <tt>?</tt>, <tt>+</tt>, <tt>{n}</tt>, <tt>{n,m}</tt> and <tt>{n,}</tt> repeat the preceding token zero or once, once or more, n times, between n and m times, and n or more times, respectively.  <a href="http://www.regular-expressions.info/alternation.html" rel="nofollow">Alternation</a> is supported through the usual vertical bar <tt>|</tt>.  Unadorned parentheses create a group, e.g. <tt>(abc){2}</tt> matches <tt>abcabc</tt>.  The POSIX standard does not define <a href="http://www.regular-expressions.info/brackets.html" rel="nofollow">backreferences</a>.  Some implementations do support <tt>\1</tt> through <tt>\9</tt>, but these are not part of the standard for ERE.  ERE is an extension of the old UNIX grep, not of POSIX BRE.</p><h4><a name="TOC-Using-grep-inside-an-if-statement"></a>Using grep inside an if statement</h4>An if can test any command, not just conditions enclosed within brackets. This include grep statements. e.g. If you want to perform some operations depending on whether a string has the word 'female', you can do</div><div><br /></div><div></div><div class="sites-codeblock sites-codesnippet-block"><div><code>if echo $VAR | grep -q 'female'</code></div><div><code>then</code></div><div><span><code>    &lt;OPERATIONS&gt;</code></span><br /></div><div><span><code>else</code></span></div><div><span><code>    &lt;OPERATIONS&gt;</code></span><br /></div><div><span><code>fi</code></span></div><div></div></div><br /><div><hr size="2" width="100%" /><h2><a name="TOC-sed"></a>sed</h2><code>sed -r 's/&lt;ExtendedRegularExpression&gt;/&lt;replacement&gt;/g'</code><code> &lt;inputfile&gt;</code><br /><br />For changing the file inline use the option <code>-i</code><br /><br />By default sed will output all lines in the file. It will perform an action on files that match the search pattern but it will also output other non-matching lines intact. If you want sed to only output the lines that were changed by it use the <code>-n</code> option (suppress lines) along with the <code>p</code> (print) command<br /><br />eg. <code>sed -r <span style="color:rgb(255, 0, 0)">-n</span> 's/&lt;pattern&gt;/replacement/g<span style="color:rgb(255, 0, 0)">p</span>'</code><br /><br />You dont have to the <code>/</code> symbol to separate the sed fields &lt;pattern&gt;,&lt;replacement&gt; etc. You can use any character e.g. <code>:</code> but all the separators within a sed command should be the same</div><div><br /></div><div>You can chain multiple sed commands using <code>-e</code> e.g. <code>sed -r -e 's/&lt;patt1&gt;/&lt;rep1&gt;/g' -e </code><code>'s/&lt;patt2&gt;/&lt;rep2&gt;/g'</code><br /><h3><a name="TOC-Pattern"></a>Pattern</h3>Instead of <code>s/&lt;patt&gt;/&lt;repl&gt;/</code> you can also use any other character as the delimiter eg. <code>s:&lt;patt&gt;:&lt;repl&gt;:</code> provided &lt;patt&gt; and &lt;repl&gt; do not have the delimiter character. This is useful when for example &lt;patt&gt; and &lt;repl&gt; are file paths containing /<br /><br />If you dont use <code>-r</code> then u have to use Basic Regular expressions to define the pattern<br /><h3><a name="TOC-Replacement"></a>Replacement</h3>The <code>g</code> at the end leads to global substitution. If you dont use it only the first occurence of &lt;patt&gt; will be substituted. If you want to specify which occurrence to substitute, use the corresponding number eg. 1, 2 i.e. <code>s/&lt;patt&gt;/&lt;repl&gt;/2</code><br /><br />In replacement you can use <code>&amp;</code> to use the matched expression in ( ) as the replacement. If there are multiple matching expressions in &lt;patt&gt; then u can use <code>\1</code>, <code>\2</code> upto <code>\9</code> in &lt;repl&gt; to replace with the match<br /><br />If you want to substitute only a particular line in the &lt;inputfile&gt; use <code>sed '&lt;lineNumber&gt; s/&lt;patt&gt;/&lt;repl&gt;/'</code> where &lt;lineNumber&gt; starts at 1<br />For a range of line numbers use <code>sed '&lt;startLine&gt;,&lt;stopLine&gt; s/&lt;patt&gt;/&lt;repl&gt;/' </code>where <code>&lt;stopLine&gt;</code> can be <code>$</code> which means last line.<br /><br />For case-insensitive matching and replacement use <code>sed 's/&lt;patt&gt;/&lt;repl&gt;/i'</code></div><div>For more options and details check out <a href="http://www.grymoire.com/Unix/Sed.html" rel="nofollow" target="_blank">http://www.grymoire.com/Unix/Sed.html</a><br /><h3><a name="TOC-Deletion"></a>Deletion</h3>Remove first line from a file<br /><br /><code>sed '1d' &lt;fileName&gt;</code><br /><br />Remove last line from a file<br /><br /><code>sed '$d' &lt;fileName&gt;</code><br /><br />Remove first 10 lines in a file<br /><br /><code>sed '1,10d' &lt;fileName&gt;</code><br /><br />Remove lines that match some pattern<br /><br /><code>sed '/&lt;pattern&gt;/d' &lt;fileName&gt;</code><br /><hr size="2" width="100%" /><h2><a name="TOC-Check-if-a-function-exists"></a>Check if a function exists</h2><a href="http://www.cyberciti.biz/faq/bash-shell-scripting-find-out-if-function-definedornot/" target="_blank" rel="nofollow">http://www.cyberciti.biz/faq/bash-shell-scripting-find-out-if-function-definedornot/</a><br /><br /><code>type foo &amp;&gt;/dev/null &amp;&amp; foo</code> # Checks if function foo exists and if it does calls it<br /><br /><code>declare -F bar &amp;&amp; bar</code> # Checks if function bar exists and if it does calls it<br /><hr size="2" width="100%" /><h2><a name="TOC-Running-processes-immune-to-hang-up"></a>Running processes immune to hang up and disconnection</h2><h3><a name="TOC-screen"></a>screen</h3>You can start a new 'screen' using the following commands. <br /><br /><code>screen</code><br /><code>screen -S &lt;screenName&gt;</code><br /><br /><code>Cntrl a+d</code><span>    </span>#will allow you to disassociate from the screen<br /><code>screen -r &lt;screenName&gt;</code> <span>    </span>#will allow you to reassociate with the screen &lt;screenName&gt;<br /><code>screen -list</code><span>    </span>#will list all currently open screens<br /><h3><a name="TOC-nohup"></a>nohup</h3>You can use the nohup command to avoid hang ups.<br /><br /><code>nohup &lt;command&gt; &amp;</code><br /><h3><a name="TOC-disown"></a>disown</h3>If you already started running a process and forgot to use screen or nohup, use<br /><br /><code>&lt;command&gt;</code><br /><code>ctrl + z</code> (pause the current process and background it)<br /><code>bg</code> (resume the last backgrounded process in the background)<br /><code>disown</code> (disassociate the last process from the current terminal) <br /><code>exit</code> (to close the current terminal)<br /><br /> Now your disconnected, your process is still running and you can go home. If you don't want to go home and instead want to check that your process is still running, ssh back into your server and run ps aux and hunt it down in the process list.<br /><hr size="2" width="100%" /></div></div><h2><a name="TOC-Notification-when-a-command-is-done"></a>Notification when a command is done</h2><div>A simple way to notify yourself that a command has completed is by using 'touch'</div><div><br /></div><div>e.g. <code>wget [url] &amp; touch file.done</code></div><div><br /></div><div>When the wget command is done the file file.done will be created</div><div><hr /><h2><a name="TOC-File-name-manipulation"></a>File name manipulation</h2></div><div>If you want to remove leading directory components and optionally the file extension is a file path use</div><div><br /></div><div><code>basename &lt;filePath&gt; &lt;extension&gt;</code></div><div><br /></div><div>e.g. </div><div>basename /usr/bin/hello.h      --------&gt; hello.h</div><div>basename /usr/bin/hello.h  .h    --------&gt; hello</div><div><br /></div><div>If you want just the leading directory component use</div><div><br /></div><div><code>dirname &lt;filePath&gt;</code></div><hr /><h2><a name="TOC-Sorting-files"></a>Sorting files</h2><div><code>sort [options] filename</code></div><div><br /></div><div>OPTIONS</div><div><code>-k POS1,[POS2]</code> : sort using particular field or sets of fields</div><div><br /></div><div>POS =&gt; F[.C][OPTS]</div><div>F = field index (starts at 1)</div><div>C = starting character index (starts at 1)</div><div>OPTS = options to use to sort the field by (can be any of b,d,g,b,f,r,n etc. as explained below)</div><div><br /></div><div>If you want to sort using multiple fields in order, just specify multiple -k arguments with the highest priority field first.</div><div><br /></div><div><code>-t &lt;delimiter&gt;</code> : specify delimiter to identify fields</div><div><code>-n</code> : numeric sort</div><div><code>-g</code> : generic numeric sort (allows E notation eg. 1e6)</div><div><code>-d </code>: dictionary sort (only blanks and alphanumeric characters)</div><div><code>-r</code> : descending order</div><div><code>-b</code> : ignore leading blanks</div><div><code>-f</code> ignore case</div><div><br /></div><div>eg. <code>sort -t ':' -k 3nr,3nr -k 4,4 file.txt</code></div><div>will use : as field seperator and sort file.txt first on column 3 (descending numeric order) and then column 4 (ascending, dictionary order)</div><div><br /></div><div><hr /><h2><a name="TOC-rsync:-File-and-directory-syncing-a"></a>rsync: File and directory syncing and backups</h2></div><div><a href="http://www.mikerubel.org/computers/rsync_snapshots/" rel="nofollow">http://www.mikerubel.org/computers/rsync_snapshots/</a></div><div><br /></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+<p>
+           
+              
+                   
+                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/anshulkundaje/inotes/programming/shell-scripts" class="sites-system-link">Sign in</a>
+                
+              
+                   
+                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                
+              
+               
+              <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+               
+              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/inotes/programming/shell-scripts" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              
+                   
+                  <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                
+              
+               | 
+                
+              <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+</div>
+</div> 
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/9ef40f/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new gsites.Searchbox('sites-searchbox-search-button');
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createHoverPopupMenu('sites-header-nav-dropdown');
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        window['ri240jef82'] =
+          {'domain': 'defaultdomain',
+           'site': 'anshulkundaje',
+           'pageId': 0};
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

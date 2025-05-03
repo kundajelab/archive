@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window;var b="start";function d(f){this.t={};this.tick=function(g,h,c){c=c!=undefined?c:(new Date).getTime();this.t[g]=[c,h]};this.tick(b,null,f)}var e=new d;a.jstiming={Timer:d,load:e};try{var i=null;if(a.chrome&&a.chrome.csi)i=Math.floor(a.chrome.csi().pageT);if(i==null)if(a.gtbExternal)i=a.gtbExternal.pageT();if(i==null)if(a.external)i=a.external.pageT;if(i)a.jstiming.pt=i}catch(j){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/9ef40f/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length";function j(c){return document.getElementById(c)}h.byId=j;var k="";function l(c){return c.replace(/^\s+|\s+$/g,k)}h.trim=l;
+var m="MSIE",n="6.0",o="string",p='id="',q='" ',r='class="',s='title="',t="display:inline-block;",u="left",v="float:left;",w="right",x="float:right;",y="cursor:hand;",z="<span ",A=' style="width:',B="px; height:",C="px;",D=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",E="', sizingMethod='scale');\"></span><span style=\"padding: ",F=" ",G=";",H="float:",I='"></span>';
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:k;if(b.indexOf(m)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==n){var a=typeof c==o?j(c):c;c=a.id?p+a.id+q:k;b=a.className?r+a.className+q:k;d=a.title?s+a.title+q:s+a.alt+q;var f=t+a.style.cssText;if(a.align==u)f=v+f;if(a.align==w)f=x+f;if(a.parentElement.href)f=y+f;var g=a.currentStyle,L=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),M=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),N=
+z+c+b+d+A+L+B+M+C+f+D+a.src+E+g.paddingTop+F+g.paddingRight+F+g.paddingBottom+F+g.paddingLeft+G+(g.styleFloat?H+g.styleFloat+G:k)+I;h.setTimeout(function(){a.outerHTML=N},1)}}};var J=[],K=0;h.JOT_addListener=function(c,b,d){var a=new String(K++);c={eventName:c,handler:b,compId:d,key:a};J.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<J[i];b++)if(J[b].key==c){J.splice(b,1);break}};
+h.JOT_removeAllListenersForName=function(c){for(var b=0;b<J[i];b++)J[b].eventName==c&&J.splice(b,1)};var O="function";h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=J[i];for(d=0;d<b&&d<J[i];d++){var f=J[d];if(f&&f.eventName==c){a.listenerCompId=f.compId||k;(f=typeof f.handler==O?f.handler:h[f.handler])&&f(a)}}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=false;var P="__duration__";
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;if(d>=60){d/=60;a=2}d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(P,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(P,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"structuredDataGviz":false,"horizontalNavigationDropdownMenus":true,"subpageNav":false,"kixEditorPageType":false,"maestroIntegration":true,"maestroEmbed":false,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"useStandardEmbedsInSidebar":false,"allowQuotesInLinks":true,"pageLevelPermissions":false,"adminInfo":true,"autoFillSidebarNavTree":true,"dragDropHierarchy":true,"headerAlignmentOptions":true,"horizontalNavigationBar":true,"keyboardShortcuts":true,"commonSharing":true,"spreadsheetsEmbedLoadRedirect":true,"structuredDataSchemas":false,"webfonts":false,"footerCustomOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:745c32f75ae69f27","timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:28e13311049878b5","revision":21,"title":"Ubuntu","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"ubuntu","path":"/inotes/ubuntu","isSiteRtlLocale":false,"parentPath":"/inotes"};
+webspace.page.breadcrumbs = [{"title":"iNotes","dir":"ltr","path":"/site/anshulkundaje/inotes","deleted":false},{"title":"Ubuntu","dir":"ltr","path":"/site/anshulkundaje/inotes/ubuntu","deleted":false}];
+
+
+var editorResources = [
+  'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
+  'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
+  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+];
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="My homepage" />
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9ef40f/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<title>Ubuntu - Anshul Kundaje</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div id="sites-status" class="sites-status" style="display:none;">
+<div id="sites-notice" class="sites-notice"> </div>
+</div>
+</div>
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<h2>
+<a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<h4 class="sites-embed-title">Main</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Projects</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:72336187f42ad7ae" class="sites-navigation-link">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed">
+<h4 class="sites-embed-title">Research</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ipapers-1" jotId="wuid:gx:44304983f9d25d1b" class="sites-navigation-link">iPapers</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred" class="sites-navigation-link">iFeeds</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed">
+<h4 class="sites-embed-title">Personal</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/site/anshulkundaje/inotes">iNotes</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Ubuntu</span>
+</h3>
+
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Editing-menus-Permission-issues-"><strong>1 </strong>Editing menus (Permission issues)</a></li><li class="goog-toc"><a href="#TOC-Setting-up-remote-desktop-VNC"><strong>2 </strong>Setting up remote desktop/VNC</a></li><li class="goog-toc"><a href="#TOC-Adding-new-drives"><strong>3 </strong>Adding new drives</a></li><li class="goog-toc"><a href="#TOC-Changing-file-permissions"><strong>4 </strong>Changing file permissions</a></li><li class="goog-toc"><a href="#TOC-Fixing-ntfs-file-system-errors"><strong>5 </strong>Fixing ntfs file system errors</a></li><li class="goog-toc"><a href="#TOC-Dual-monitor-display-with-Nvidia"><strong>6 </strong>Dual monitor display with Nvidia</a></li><li class="goog-toc"><a href="#TOC-Virtual-CD-DVD-ROM"><strong>7 </strong>Virtual CD/DVD-ROM</a></li><li class="goog-toc"><a href="#TOC-Installing-MATLAB"><strong>8 </strong>Installing MATLAB</a></li><li class="goog-toc"><a href="#TOC-Mounting-a-shared-network-drive"><strong>9 </strong>Mounting a shared network drive</a></li><li class="goog-toc"><a href="#TOC-Mounting-a-remote-directory-using-f"><strong>10 </strong>Mounting a remote directory using ftp</a></li><li class="goog-toc"><a href="#TOC-Sharing-directories-on-the-ubuntu-s"><strong>11 </strong>Sharing directories on the ubuntu system on a network</a></li><li class="goog-toc"><a href="#TOC-File-systems-for-large-hard-disks-2"><strong>12 </strong>File systems for large hard disks (&gt; 2TB)</a></li><li class="goog-toc"><a href="#TOC-Run-command-on-Ubuntu"><strong>13 </strong>Run command on Ubuntu</a></li><li class="goog-toc"><a href="#TOC-User-Management"><strong>14 </strong>User Management</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Create-a-new-user-and-group"><strong>14.1 </strong>Create a new user and group</a></li><li class="goog-toc"><a href="#TOC-Create-a-new-user-and-group-with-no"><strong>14.2 </strong>Create a new user and group (with no home directory)</a></li><li class="goog-toc"><a href="#TOC-Add-existing-user-to-existing-group"><strong>14.3 </strong>Add existing user to existing group</a></li><li class="goog-toc"><a href="#TOC-Change-primary-group-of-existing-us"><strong>14.4 </strong>Change primary group of existing user</a></li></ol></li><li class="goog-toc"><a href="#TOC-Force-kill-a-hung-process"><strong>15 </strong>Force kill a hung process</a></li><li class="goog-toc"><a href="#TOC-Enabling-ssh-and-sftp"><strong>16 </strong>Enabling ssh and sftp</a></li></ol></div></div></div></div><br /><h2><a name="TOC-Editing-menus-Permission-issues-"></a>Editing menus (Permission issues)</h2><code>sudo chown -R $USER:$USER ~/.config</code><br /><h2><a name="TOC-Setting-up-remote-desktop-VNC"></a>Setting up remote desktop/VNC</h2>First install tightvncserver<br /><br /><code>sudo apt-get install tightvncserver</code><br /><br />Run the vncserver to initialize settings<br /><br /><code>tightvncserver</code><br /><br />The vncserver will ask you for a password and set up a directory .vnc in your home directory<br /><br /><code>cd .vnc</code><br /><br />If you see an xstartup file replace it with the one below OR create a file called xstartup. Typically when a user connects to the VNCserver with a custom keyboard, they keys get messed up. The highlighted line <code>export XKL_XMODMAP_DISABLE=1</code> prevents this from happening.<br />
+<br /><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;"><h4 class="sites-embed-title">xstartup</h4><div class="sites-embed-content sites-embed-type-text"><div class="sites-embed-content-textbox"><div dir="ltr"><code>#!/bin/sh</code><br /><br /><code># Change "GNOME" to "KDE" for a KDE desktop, or "" for a generic desktop</code><br /><code>MODE="GNOME"</code><br /><br /><code># Load X resources (if any)</code><br /><code>if [ -e "$HOME/.Xresources" ]</code><br /><code>then</code><br /><code>        xrdb "$HOME/.Xresources"</code><br /><code>fi</code><br /><br /><code># Try a GNOME session, or fall back to KDE</code><br /><code>if [ "GNOME" = "$MODE" ]</code><br /><code>then</code><br /><code>        if which gnome-session &gt;/dev/null</code><br /><code>        then</code><br /><code>        <span style="background-color:rgb(255, 255, 0)">export XKL_XMODMAP_DISABLE=1</span></code><br /><code>                gnome-session &amp;</code><br /><code>        else</code><br /><code>                MODE="KDE"</code><br /><code>        fi</code><br /><code>fi</code><br /><br /><code># Try a KDE session, or fall back to generic</code><br /><code>if [ "KDE" = "$MODE" ]</code><br /><code>then</code><br /><code>        if which startkde &gt;/dev/null</code><br /><code>        then</code><br /><code>                startkde &amp;</code><br /><code>        else</code><br /><code>                MODE=""</code><br /><code>        fi</code><br /><code>fi</code><br /><br /><code># Run a generic session</code><br /><code>if [ -z "$MODE" ]</code><br /><code>then</code><br /><code>        xsetroot -solid "#DAB082"</code><br /><code>        x-terminal-emulator -geometry "80x24+10+10" -ls -title "$VNCDESKTOP Desktop" &amp;</code><br /><code>        x-window-manager &amp;</code><br /><code>fi</code><br /><br /></div></div></div></div></div><br />To start the vncserver with a specific resolution and geometry use<br /><br /><code>tightvncserver -geometry 1280x1024</code><br /><br />To stop the vnc server use<br /><br /><code>vncserver -kill :&lt;id&gt;</code><br />&lt;id&gt;: id of the vnc session<br /><br />The vnc server uses port 5901 so if your server machine is behind a router make sure you forward port 5901<br /><br />To connect to the vncserver use a vnc client (can be on any OS)<br /><br />Use &lt;hostname&gt;:0 or &lt;hostname&gt;::5901<br /><br /><u><b>NOTE:</b></u> When you connect to vncserver with your client, by default you are given a new X session with your own desktop. This means that a person who is physically sitting in front of the server will not see your remote session, and vice-versa you cannot see or interact with the root (:0) or physical desktop. If you would like to remote into a machine with vnc and actually see and interact with the root desktop you can use <a href="http://wiki.archlinux.org/index.php/X11vnc" rel="nofollow">x11vnc</a>, which provides access to the root (:0) desktop by default. A person sitting in front of the server will see your actions, such as the mouse moving etc. x11vnc is very similar to setup, and you can use the same clients as vncserver.<br /><br />More VNC resources here<br /><a href="https://help.ubuntu.com/community/VNC/Servers" rel="nofollow">https://help.ubuntu.com/community/VNC/Servers</a><br /><a href="http://wiki.archlinux.org/index.php/Tightvnc" rel="nofollow">http://wiki.archlinux.org/index.php/Tightvnc</a><br /><h2><a name="TOC-Adding-new-drives"></a>Adding new drives</h2>To format and partition a new drive use gparted<br /><br /><code>sudo apt-get install gparted</code><br /><br />To mount a drive<br /><code>sudo mkdir /media/newdrive</code> # create a mount point<br /><code>sudo mount /dev/sd** /media/newdrive</code> # mount the drive<br /><br />To automatically mount a drive at boot time<br /><code>gksu gedit /etc/fstab </code># edit the fstab file<br /><code>/dev/sdb1</code><span><code>    </code></span><code>/media/newdrive</code><span><code>    </code></span><code>&lt;format&gt;</code><span><span><code>    </code></span></span><code>defaults</code><span><code>    </code></span><code>0</code><span><code>    </code></span><code>2</code> #Add this line to the file<br />where &lt;format&gt; can be ext3 or ntfs-3g depending on the type of formatting<br /><br />This will not give write permissions to the drive so add the following permissions<br /><br /><code>sudo chgrp plugdev /media/newdrive </code># allow the plugdev group (users who can mount drives etc.) to access the drive<br /> <code>sudo chmod g+w /media/newdrive</code> # give write permissions to the group<br /> <code>sudo chmod +t /media/newdrive</code> # the sticky bit only allows people to delete their own files<br /><br />More info here <a href="https://help.ubuntu.com/community/InstallingANewHardDrive" rel="nofollow">https://help.ubuntu.com/community/InstallingANewHardDrive</a><br /><h2><a name="TOC-Changing-file-permissions"></a>Changing file permissions</h2>All files have the following 10 permission properties represented as 10 bits<br />1. directory bit if set to 1 indicates that it is  directory<br />2-4 : read,write, execute permissions for the user<br />5-7: read,write, execute permissions for the group<br />8-10: read,write, execute permissions for others<br /><br />for setting permissions for each set i.e. user/group/others you can simply set each of the bits. This is equivalent to adding 4 for read, 2 for write and 1 for execute. So if u want to set the permissions for a file as<br />-rwx rwx rwx it is equivalent to 0(4+2+1)(4+2+1)(4+2+1) i.e. 0777<br /><br />To change the permissions of a file use<br /><code><br />chmod -R &lt;options&gt; &lt;permissions&gt; &lt;file/dirname&gt;</code><br /><br />-R is for recursively setting all subdirs/files<br /><br />&lt;permissions&gt; can be numeric as shown above e.g. 0755 or 755 or<br />u: user<br />g: group<br />o: others<br />r: read<br />w: write<br />x: execute<br />+: add permissions<br />-: remove permissions<br />=: set permissions<br />eg. u+rwx will add rwx to the user set of permissions<br /><br />More info here <a href="https://help.ubuntu.com/community/FilePermissions" rel="nofollow">https://help.ubuntu.com/community/FilePermissions</a><h2><a name="TOC-Fixing-ntfs-file-system-errors"></a>Fixing ntfs file system errors</h2><div>Occasionally, if a read/write operation on an NTFS drive gets interrupted (e.g. system hangs and you power off while some data is being read/written), you can get an error mounting the drive</div><div><br /></div><div><span style="font-family:Verdana, Arial, Tahoma;font-size:12px"><div class="sites-codeblock sites-codesnippet-block"><code>$mftmirr does not match $mft (record0) . Failed to Mount '/dev/sdb': Input/Output error NTFS is either inconsistant, or your have hardware faults, or you have a SoftRaid/FakeRaio hardware</code></div></span></div><div><br /></div><div>There are two ways to fix this.</div><div><br /></div><div>The simpler way is to use ntfsfix as follows</div><div><br /></div><div class="sites-codeblock sites-codesnippet-block"><code>sudo -i</code><div><code>ntfsfix /dev/hdc1</code></div><div><code>ntfs-3g /dev/hdc1 /mnt/ntfs -o force</code></div><div></div></div><div><br /></div>This can occasionally fail and is also known to corrupt data in the process required a full reformat. However, it has worked for me.<div><br /></div><div>The more cumbersome procedure (if possible) is to connect the drive to a windows machine and use chkdsk to fix the MFT</div><div><div><h2><a name="TOC-Dual-monitor-display-with-Nvidia"></a>Dual monitor display with Nvidia</h2>To open the Nvidia display settings with sudo permissions use<br /><br /><code>gksudo nvidia-settings</code><br /><br />Typically when you modify settings and try to save them to /etc/X11/xorg.conf, you will get some parsing error<br /><br />You should do the following<br /><br /><code>sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.old # backup the file</code><br /><code>sudo rm xorg.conf</code><br /><br />Then u can change settings and save them in a new xorg.conf file<br /><br /><h2><a name="TOC-Virtual-CD-DVD-ROM"></a>Virtual CD/DVD-ROM</h2># Create the mount point<br /><code>mkdir /media/fakecd</code><br /><code>
+sudo mount &lt;pathtoiso&gt;/cd.iso fakecd -o loop</code><br /><br />To unmount the ISO do<br /><code>sudo umount /media/fakecd</code><br /><br /><h2><a name="TOC-Installing-MATLAB"></a>Installing MATLAB</h2><a href="https://help.ubuntu.com/community/MATLAB" rel="nofollow">https://help.ubuntu.com/community/MATLAB</a><br /><br /><h2><a name="TOC-Mounting-a-shared-network-drive"></a>Mounting a shared network drive</h2><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;"><h4 class="sites-embed-title">Text http://ubuntuforums.org/showpost.php?p=1637029&amp;postcount=1</h4><div class="sites-embed-content sites-embed-type-text"><div class="sites-embed-content-textbox"><div dir="ltr">This process can be used to mount any SMB or Windows shared folder:<br /> <br /> 1. Install '<b>smbfs</b>' &amp; '<b>smbclient</b>' (Samba File System &amp; Samba client)<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo apt-get install smbfs smbclient</pre> </div>After installing the above, issue the command <b>smbclient -L 192.168.1.2 -U%</b> to generate a list of available shares (replace 192.168.1.2 with the IP or name of your SMB server):<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:258px;text-align:left">dbott@thedrake:~$ smbclient -L 192.168.1.2 -U%<br /><br />        Sharename       Type      Comment<br />        ---------       ----      -------<br />        PUBLIC          Disk<br />        Data            Disk<br />        Archive         Disk<br />        Music           Disk<br />        IPC$            IPC<br /><br />        Server               Comment<br />        ---------            -------<br /><br />        Workgroup            Master<br />        ---------            -------</pre> </div>2. Create new folder for the 'mount point'. In my case, I wanted the shared music folder to be mounted to the following location <b>/home/dbott/music</b><br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:50px;text-align:left">cd ~<br />mkdir music</pre> </div>3. Mounting the share from the command line (to verify that it works):<br /> <br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo smbmount //192.168.1.2/Music /home/dbott/music -o username=dbott,password=mysecretpassword,uid=1000,mask=000</pre> </div>4. Un-mounting the share from the command line:<br /> <br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo smbumount /home/dbott/music</pre> </div>5. Add the mount point to fstab (making it 'automatic'):<br /> <br /> <i><font color="Red">The unsafe way (fstab is world-readable, meaning that anyone can see your SMB username and password):</font></i><br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">//192.168.1.2/Music /home/dbott/music   smbfs  auto,username=dbott,password=mysecretpassword,uid=1000,umask=000,user   0 0</pre> </div><i><font color="Red">The better way (storing your username &amp; password in a file only readable by root):</font></i><br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">//192.168.1.2/Music /home/dbott/music   smbfs  auto,credentials=/root/.credentials,uid=1000,umask=000,user   0 0</pre> </div><b>/root/.credentials</b> is a text file that contains your smb username and password.  To create the file, type:<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo gedit /root/.credentials</pre> </div>and add the following text:<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:50px;text-align:left">username=your_smb_username<br />password=your_smb_password</pre> </div>Now, make the file only readable by root:<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo chmod 600 /root/.credentials</pre> </div>6. At this point, you can either <b>reboot</b> or <b>reload</b> your fstab:<br /> <div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo shutdown -r now</pre> </div><div style="margin:5px 20px 20px"> <div style="margin-bottom:2px">Code:</div> <pre dir="ltr" style="border:1px inset;margin:0px;padding:6px;overflow:auto;width:640px;height:34px;text-align:left">sudo mount -a</pre> </div>7. Now, when I browse to <b>/home/dbott/music</b>, I have access to all the shared MP3s on my NAS device.</div></div></div></div></div><h2><a name="TOC-Mounting-a-remote-directory-using-f"></a>Mounting a remote directory using ftp</h2><div><a href="http://www.ubuntugeek.com/how-to-mount-ftp-folder-to-local-directory-in-ubuntu.html" rel="nofollow">http://www.ubuntugeek.com/how-to-mount-ftp-folder-to-local-directory-in-ubuntu.html</a></div><h2><a name="TOC-Sharing-directories-on-the-ubuntu-s"></a>Sharing directories on the ubuntu system on a network</h2><code>sudo shares-admin</code><br /><h2><a name="TOC-File-systems-for-large-hard-disks-2"></a>File systems for large hard disks (&gt; 2TB)</h2><ol><li>Use gparted for formatting and partitioning the drive.</li><li>Create a new partition table. Select 'GPT' instead of msdos. msdos partition table has the limit of 2TB</li><li>Then format the drive. For LINUX u can use ext3. If you also want windows to read the disk then use NTFS.</li></ol><h2><a name="TOC-Run-command-on-Ubuntu"></a>Run command on Ubuntu</h2>Alt + F2 will open a run command window<br /><br /><h2><a name="TOC-User-Management"></a>User Management</h2><h3><a name="TOC-Create-a-new-user-and-group"></a>Create a new user and group</h3><span><span style="margin-left:0px"><code>sudo</code> <code>adduser --system --group &lt;username&gt;</code></span></span><br /><h3><a name="TOC-Create-a-new-user-and-group-with-no"></a>Create a new user and group (with no home directory)</h3><span><span style="margin-left:0px"><code>sudo</code> <code>adduser --system </code></span></span><span><span style="margin-left:0px"><code>--no-create-home </code></span></span><span><span style="margin-left:0px"><code>--group &lt;username&gt;</code></span></span><br /><h3><a name="TOC-Add-existing-user-to-existing-group"></a>Add existing user to existing group</h3><code>usermod -a -G &lt;groupname&gt; &lt;username&gt;</code><br /><h3><a name="TOC-Change-primary-group-of-existing-us"></a>Change primary group of existing user</h3><code>usermod -g &lt;groupname&gt; &lt;username&gt;<br /></code></div></div><h2><a name="TOC-Force-kill-a-hung-process"></a>Force kill a hung process</h2><div><code>kill -9 &lt;process_id&gt;</code></div><div><br /></div><div>If everything is completely frozen</div><div><br /></div><div><code>Cntrl+Alt+backspace</code></div><div><br /></div><div>Or</div><div><br /></div><div><code>Alt+F2 followed by xkill</code></div><h2><a name="TOC-Enabling-ssh-and-sftp"></a>Enabling ssh and sftp</h2><div>By default Ubuntu comes with ssh enabled through the LSH server but sftp is disabled. In order to enable sftp, you need to enable a flag in the LSH server config file</div><div><br /></div><div>This is typically in <code>/etc/default/lsh-server</code></div><div><code><br /></code></div>You should enable the SFTP flag as follows<div><br /></div><div><code>ENABLE_SFTP="yes"</code></div><div><code><br /></code></div>and then restart the lsh server<div><code><br /></code></div><div><font color="#006000" face="monospace">sudo /etc/init.d/lsh-server restart</font></div><div><font color="#006000" face="monospace"><br /></font></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+<p>
+           
+              
+                   
+                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/anshulkundaje/inotes/ubuntu" class="sites-system-link">Sign in</a>
+                
+              
+                   
+                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                
+              
+               
+              <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+               
+              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/inotes/ubuntu" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              
+                   
+                  <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                
+              
+               | 
+                
+              <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+</div>
+</div> 
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/9ef40f/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new gsites.Searchbox('sites-searchbox-search-button');
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createHoverPopupMenu('sites-header-nav-dropdown');
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        window['ri240jef82'] =
+          {'domain': 'defaultdomain',
+           'site': 'anshulkundaje',
+           'pageId': 0};
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

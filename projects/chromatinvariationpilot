@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { /*
+
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
+*/
+(function(){function e(g){this.t={};this.tick=function(h,k,f){this.t[h]=[void 0!=f?f:(new Date).getTime(),k];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}};this.getStartTickTime=function(){return this.t.start[0]};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var l=0<d?new e(d):new e;window.jstiming={Timer:e,load:l};if(a){var b=a.navigationStart;0<b&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;0<b&&d>=
+b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/f8a1a0/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/site/anshulkundaje/projects","deleted":false,"title":"Research","dir":"ltr"},{"path":"/site/anshulkundaje/projects/chromatinvariationpilot","deleted":false,"title":"(2013) Chromatin State Variation across humans","dir":"ltr"}];
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/f8a1a0/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1890677821-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Anshul Kundaje","experiments":{"enableSubpagesGadgetInTakeout":true,"overrideDisableDomainEditing":false,"DisableSiteEditingFeature__disable_site_editing":true,"disableDomainEditing":true},"jot2atari":{"eligibility":"INELIGIBLE"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":null,"plusBadge":false},"configProperties":{"disableSiteEditing":null},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue=https://sites.google.com/site/anshulkundaje/projects/chromatinvariationpilot&service=jotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/f8a1a0/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/f8a1a0/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/f8a1a0/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/f8a1a0/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/f8a1a0/system/app/css/trogedit.css","/site/anshulkundaje/_/rsrc/1649317747000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/f8a1a0/system/app/css/codeeditor.css","/site/anshulkundaje/_/rsrc/1649317747000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/anshulkundaje","name":"anshulkundaje","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/projects","parentWuid":"wuid:gx:3c6d0695217364f3","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"(2013) Chromatin State Variation across humans","locale":"en","wuid":"wuid:gx:642218f160ef17a1","revision":19,"path":"/projects/chromatinvariationpilot","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"chromatinvariationpilot","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false,"isGoogleAdmin":false},"gadgets":{"baseUri":"/site/anshulkundaje/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="(2013) Chromatin State Variation across humans - Anshul Kundaje" />
+<meta itemprop="name" content="(2013) Chromatin State Variation across humans - Anshul Kundaje" />
+<meta property="og:title" content="(2013) Chromatin State Variation across humans - Anshul Kundaje" />
+<meta name="description" content="My homepage" />
+<meta itemprop="description" content="My homepage" />
+<meta id="meta-tag-description" property="og:description" content="My homepage" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/f8a1a0/system/app/themes/wintermint/standard-css-wintermint-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1649317747000/system/app/css/overlay.css?cb=wintermint14a%25150goog-ws-left-noheadcontentthemedefaultcenter" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1649317747000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/site/anshulkundaje/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>(2013) Chromatin State Variation across humans - Anshul Kundaje</title>
+<meta itemprop="image" content="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/README-AnnotationEnrichment_ChromVar_15StateCoreModel.PNG" />
+<meta property="og:image" content="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/README-AnnotationEnrichment_ChromVar_15StateCoreModel.PNG" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox-centered" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Main</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/positions" jotId="wuid:gx:42f31b36692f965c" class="sites-navigation-link">Positions</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/contact" jotId="wuid:gx:4069f51dcc19a073" class="sites-navigation-link">Contact</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:40072093cd952e01" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Research</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/students" jotId="wuid:gx:f843c1f5782c01e" class="sites-navigation-link">Lab Members</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Research</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/teaching" jotId="wuid:gx:7e55b3f06dda3d0f" class="sites-navigation-link">Teaching</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">Tutorials</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">Datasets</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">Code</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/fellowships" jotId="wuid:gx:596e89a980349a15" class="sites-navigation-link">Fellowships</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Personal</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">Recipes</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A href="/site/anshulkundaje/projects" dir="ltr">Research</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">(2013) Chromatin State Variation across humans</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><h2><a name="TOC-1"></a><b><font face="arial, sans-serif"><div><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Extensive-variation-in-chromatin-states-across-humans."><strong>1 </strong>Extensive variation in chromatin states across humans.</a></li><li class="goog-toc"><a href="#TOC-Raw-data"><strong>2 </strong>Raw data</a></li><li class="goog-toc"><a href="#TOC-Processed-Data"><strong>3 </strong>Processed Data</a></li><li class="goog-toc"><a href="#TOC-Chromatin-State-Maps"><strong>4 </strong>Chromatin State Maps</a></li></ol></div></div></div></div></div><br /></font></b></h2><div><h2><a name="TOC-Extensive-variation-in-chromatin-states-across-humans."></a><font face="arial, sans-serif">Extensive variation in chromatin states across humans. </font></h2><div><font face="arial, sans-serif">Kasowski M*, Kyriazopoulou-Panagiotopoulou S*, Grubert F*, Zaugg JB*, Kundaje A*, Liu Y, Boyle AP, Zhang QC, Zakharia F, Spacek DV, Li J, Xie D, Olarerin-George A, Steinmetz LM, Hogenesch JB, Kellis M, Batzoglou S, Snyder M.<br /><a href="http://www.sciencemag.org/content/342/6159/750" target="_blank" rel="nofollow">Science. 2013 Nov 8;342(6159):750-2. doi: 10.1126/science.1242510. Epub 2013 Oct 17.</a></font><div></div></div><div><font face="arial, sans-serif"><br /></font></div><font face="arial, sans-serif">The majority of disease-associated variants lie outside protein-coding regions, suggesting a link between variation in regulatory regions and disease predisposition. We studied differences in chromatin states using five histone modifications, cohesin, and CTCF in lymphoblastoid lines from 19 individuals of diverse ancestry. We found extensive signal variation in regulatory regions, which often switch between active and repressed states across individuals. Enhancer activity is particularly diverse among individuals, whereas gene expression remains relatively stable. Chromatin variability shows genetic inheritance in trios, correlates with genetic variation and population divergence, and is associated with disruptions of transcription factor binding motifs. Overall, our results provide insights into chromatin variation among humans.<br /></font></div></div><h2><a name="TOC-Raw-data"></a><font face="arial, sans-serif">Raw data</font></h2><div><font face="arial, sans-serif">FASTQ files for ChIP-seq and RNA-seq data</font></div><div><ul><li><font face="arial, sans-serif"><span style="background-color:transparent;font-size:10pt">Short Read Archive (SRP030041) </span><a href="http://www.ncbi.nlm.nih.gov/sra/?term=SRP030041" target="_blank" rel="nofollow">http://www.ncbi.nlm.nih.gov/sra/?term=SRP030041</a></font></li><li><font face="arial, sans-serif"><span style="background-color:transparent;font-size:10pt">Gene Expression Omnibus (GSE50983) </span><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50893" style="background-color:transparent;font-size:small" target="_blank" rel="nofollow">http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50893</a></font></li></ul></div><h2><a name="TOC-Processed-Data"></a><font face="arial, sans-serif">Processed Data</font></h2><p><font face="arial, sans-serif">All processed data are available at <a href="http://gbsc-share.stanford.edu/chromovar/rawdata/" style="background-color:transparent;font-size:10pt;font-weight:normal" target="_blank" rel="nofollow">http://gbsc-share.stanford.edu/chromovar/rawdata/</a></font></p><ul><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/alleleCounts/hitLists/text_withCounts/" style="background-color:transparent;font-size:10pt" rel="nofollow">alleleCounts</a><span style="background-color:transparent;font-size:10pt">: Information about allele specific SNPs</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/anova/" style="background-color:transparent;font-size:10pt" rel="nofollow">anova</a><span style="background-color:transparent;font-size:10pt">: Results of the ANOVA analysis for detecting regions with variable signal.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/deseq2/" style="background-color:transparent;font-size:10pt" rel="nofollow">deseq2</a><span style="background-color:transparent;font-size:10pt">: Results of DESeq analysis for detecting regions with differential signal levels.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/genomes/" style="background-color:transparent;font-size:10pt" rel="nofollow">genomes</a><span style="background-color:transparent;font-size:10pt">: Fasta files with maternal and paternal genomes for all non-San individuals in the study. Genotype calls and BAM files with mapped sequencing reads for the San individuals are available through a data access agreement for transfer of genetic data by contacting the authors.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/mapped/" style="background-color:transparent;font-size:10pt" rel="nofollow">mapped</a><span style="background-color:transparent;font-size:10pt">: Mapped ChIP-seq and RNA-seq reads.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/metadata/" style="background-color:transparent;font-size:10pt" rel="nofollow">metadata</a><span style="background-color:transparent;font-size:10pt">: Information about the cell lines and experiments.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/motifs/" style="background-color:transparent;font-size:10pt" rel="nofollow">motifs</a><span style="background-color:transparent;font-size:10pt">: Data for correlating H3K27Ac signal with motif disruptions.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/peakFiles/" style="background-color:transparent;font-size:10pt" rel="nofollow">peakFiles</a><span style="background-color:transparent;font-size:10pt">: Peak calls.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/popSpecific/" style="background-color:transparent;font-size:10pt" rel="nofollow">popSpecific</a><span style="background-color:transparent;font-size:10pt">: Regions with signal showing patterns specific to ancestry groups.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/signal/" style="background-color:transparent;font-size:10pt" rel="nofollow">signal</a><span style="background-color:transparent;font-size:10pt">: Genome-wide signal from the ChIP-seq experiments, as well as average signal on the consensus sets of peaks.</span></font></li><li><font face="arial, sans-serif"><a href="http://gbsc-share.stanford.edu/chromovar/rawdata/transcriptomes/" style="background-color:transparent;font-size:10pt" rel="nofollow">transcriptomes</a><span style="background-color:transparent;font-size:10pt">: Personal transcriptomes of the non-San individuals and gene annotations.</span></font></li></ul><div><font face="arial, sans-serif">For the SAN individuals <span style="background-color:transparent;font-size:10pt">Genotype calls and BAM files with mapped sequencing reads for the San individuals are </span><span style="background-color:transparent;font-size:10pt">available through a data access agreement for transfer of genetic data by contacting <a href="mailto:mpsnyder@stanford.edu">Michael Snyder</a>.</span></font></div><div><span style="background-color:transparent;font-size:10pt"><font face="arial, sans-serif"><br /></font></span></div><div><span style="background-color:transparent;font-size:10pt"><font face="arial, sans-serif">The list of individuals and their identifiers</font></span></div><div><font face="arial, sans-serif"><br /></font></div><div><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:248pt" width="330">
+<colgroup><col style="width:47pt" width="63" />
+<col style="width:73pt" width="97" />
+<col style="width:63pt" width="84" />
+<col style="width:43pt" width="57" />
+<col style="width:22pt" width="29" />
+</colgroup><tbody><tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;width:47pt" width="63"><font face="arial, sans-serif">CELLTYPE</font></td>
+<td style="width:73pt" width="97"><font face="arial, sans-serif">RELATIONSHIP</font></td>
+<td style="width:63pt" width="84"><font face="arial, sans-serif">ANCESTRY</font></td>
+<td style="width:43pt" width="57"><font face="arial, sans-serif">GENDER</font></td>
+<td style="width:22pt" width="29"><font face="arial, sans-serif">ID</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">12878</font></td>
+<td><font face="arial, sans-serif">Daughter</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C01</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">12891</font></td>
+<td><font face="arial, sans-serif">Father</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C02</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">12892</font></td>
+<td><font face="arial, sans-serif">Mother</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C03</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">19238</font></td>
+<td><font face="arial, sans-serif">Mother</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C04</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">19239</font></td>
+<td><font face="arial, sans-serif">Father </font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C05</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">19240</font></td>
+<td><font face="arial, sans-serif">Daughter</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C06</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">10847</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C07</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">18505</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C08</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">18526</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">Han Chinese</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C09</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">18951</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">Japanese</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C10</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">19099</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C11</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">19193</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C12</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">18486</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">YRI</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C13</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">Snyder</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C14</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">12890</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">CEU</font></td>
+<td><font face="arial, sans-serif">Female</font></td>
+<td><font face="arial, sans-serif">C15</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">2255</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">San</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C16</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">2588</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">San</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C17</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">2610</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">San</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C18</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">2630</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">San</font></td>
+<td><font face="arial, sans-serif">Male</font></td>
+<td><font face="arial, sans-serif">C19</font></td>
+</tr></tbody></table></div><h2><a name="TOC-Chromatin-State-Maps"></a><font face="arial, sans-serif">Chromatin State Maps</font></h2><div><font face="arial, sans-serif"><a href="http://compbio.mit.edu/ChromHMM/" target="_blank" rel="nofollow">ChromHMM</a> was used to learn combinatorial chromatin states jointly across all individuals. The model and resulting chromatin state maps are available here </font></div><div><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/" style="background-color:transparent;font-size:10pt" target="_blank" rel="nofollow"><font face="arial, sans-serif">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/</font></a></div><div><font face="arial, sans-serif"><br /></font></div><div><font face="arial, sans-serif">Click on the Figure below to see a summary of the 15 state chromatin state model and the enrichments of various known annotations and features (e.g. TF ChIP-seq binding peaks from the GM12878 line from ENCODE) in the various states.</font></div><div><div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/README-AnnotationEnrichment_ChromVar_15StateCoreModel.PNG" imageanchor="1" rel="nofollow"><font face="arial, sans-serif"><img border="0" height="171" src="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/README-AnnotationEnrichment_ChromVar_15StateCoreModel.PNG" width="400" /></font></a></div><font face="arial, sans-serif"><br /></font></div><div><ul><li><font face="arial, sans-serif"><span style="background-color:transparent;font-size:10pt">The ChromHMM Model: </span><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/model_15_reorder.txt" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/model_15_reorder.txt</a></font></li><li><span style="background-color:transparent;font-size:10pt"><font face="arial, sans-serif">Emission Parameters: <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/emissions_15_reorder.png" target="_blank" rel="nofollow">PNG</a>, <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/emissions_15_reorder.svg" target="_blank" rel="nofollow">SVG</a>, <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/emissions_15_reorder.txt" target="_blank" rel="nofollow">TXT</a></font></span></li><li><span style="background-color:transparent;font-size:10pt"><font face="arial, sans-serif">Transition Parameters: <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/transitions_15_reorder.png" target="_blank" rel="nofollow">PNG</a>, <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/transitions_15_reorder.svg" target="_blank" rel="nofollow">SVG</a>, <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/transitions_15_reorder.txt" target="_blank" rel="nofollow">TXT</a></font></span></li><li><font face="arial, sans-serif">Feature Overlap Enrichments: *_overlap.png, *_overlap.svg and *_overlap.txt files in <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/" style="font-size:10pt;background-color:transparent" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/</a></font></li><li><font face="arial, sans-serif">Feature Neighborhood Enrichments: *_neighborhood.png, *_neighborhood.svg and *_neighborhood.txt files in <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/" style="font-size:10pt;background-color:transparent" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/</a></font></li><li><font face="arial, sans-serif">ChromHMM binarized data tracks used as input to learn ChromHMM model: <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/binTracks/14indivCore/data/" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/binTracks/14indivCore/data/</a></font></li></ul></div><div><div><div style="font-size:small"><span style="background-color:transparent"><font face="arial, sans-serif">The states are as follows</font></span></div></div><div style="font-size:small"><font face="arial, sans-serif"><br /></font></div><div style="font-size:small"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:455pt" width="606">
+<colgroup><col style="width:53pt" width="71" />
+<col style="width:60pt" width="80" />
+<col style="width:172pt" width="229" />
+<col style="width:105pt" width="140" />
+<col style="width:65pt" width="86" />
+</colgroup><tbody><tr height="21" style="height:15.75pt">
+<td height="21" style="height:15.75pt;width:53pt" width="71"><font face="arial, sans-serif">STATE NO.</font></td>
+<td style="border-left:none;width:60pt" width="80"><font face="arial, sans-serif">MNEMONIC</font></td>
+<td style="border-left:none;width:172pt" width="229"><font face="arial, sans-serif">DESCRIPTION</font></td>
+<td style="border-left:none;width:105pt" width="140"><font face="arial, sans-serif">COLOR NAME</font></td>
+<td style="border-left:none;width:65pt" width="86"><font face="arial, sans-serif">COLOR CODE</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt"><font face="arial, sans-serif">1</font></td>
+<td style="border-left:none"><font face="arial, sans-serif">TssA</font></td>
+<td style="border-left:none"><font face="arial, sans-serif">Active TSS</font></td>
+<td style="border-left:none"><font face="arial, sans-serif">Red</font></td>
+<td style="border-left:none"><font face="arial, sans-serif">255,0,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">2</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TssF</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Flanking Active TSS</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Orange Red</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,69,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">3</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Tx</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Strong transcription</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Green</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">0,128,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">4</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TxWk</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Weak transcription</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">DarkGreen</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">0,100,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">5</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">EnhA</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Acetylated Active
+  Enhancer</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Orange</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,165,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">6</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TxEnhA</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Acetylated Active
+  Enhancer (Genic)</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Orange</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,165,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">7</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Enh</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Active Enhancer</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Gold</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,215,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">8</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TxEnh</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Active Enhancer
+  (Genic)</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Gold</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,215,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">9</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">EnhW</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Weak Enhancer</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Yellow</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,255,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">10</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TxEnhW</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Weak Enhancer (Genic)</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Yellow</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,255,0</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">11</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">TssP</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Bivalent TSS</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">DarkSalmon</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">233,150,122</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">12</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">EnhP</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Bivalent Enhancer</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">DarkKhaki</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">189,183,107</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">13</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">ReprPC</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Repressed PolyComb</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Grey</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">105,105,105</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td height="20" style="height:15.0pt;border-top:none"><font face="arial, sans-serif">14</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Ctcf</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">CTCF only</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Black</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">0,0,0</font></td>
+</tr>
+<tr height="21" style="height:15.75pt">
+<td height="21" style="height:15.75pt;border-top:none"><font face="arial, sans-serif">15</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Low</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">Quiescent/Low</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">White</font></td>
+<td style="border-top:none;border-left:none"><font face="arial, sans-serif">255,255,255</font></td>
+</tr></tbody></table></div><div></div></div><div><font face="arial, sans-serif"><br /></font></div><div><span style="background-color:transparent;font-size:10pt"><font face="arial, sans-serif">The following result files would be useful to most</font></span></div><font face="arial, sans-serif"><br /><b><u>(1) MNEMONICS BED FILES </u></b></font><div><font face="arial, sans-serif">Files name C[ID].[CellLine]_15_Core_mnemonics.bed.gz<br />- Tab delimited 4 columns<br />- chromosome, start (0-based), stop (1-based), state_label_mnemonic for that region<br />You can download an archive containing all the mnemonics.bed files from <br /><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.mnemomics.bed.tgz" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.mnemomics.bed.tgz</a><br /><br /><b><u>(2) BROWSER FRIENDLY FILES</u></b><br />Files named <span style="background-color:transparent;font-size:10pt">C[ID].[CellLine]_15_Core_dense.bb</span></font></div><div><font face="arial, sans-serif">The dense BIGBED files will allow you to view each individual's chromatin state map as a single track with regions labeled with state mnemonics and representative colors. You can stream these to UCSC Genome Browser or IGV<br />*.bb files in <a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/" style="font-size:10pt;background-color:transparent" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/</a></font></div><div><font face="arial, sans-serif"><br />Files named <span style="font-size:10pt;background-color:transparent">C[ID].[CellLine]_15_Core_dense.bed.gz</span><br />Same as above except in text format<br />You can download an archive containing all the dense BED files from <br /><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.dense.bed.tgz" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.dense.bed.tgz</a><br /><br />Files named <span style="font-size:10pt;background-color:transparent">C[ID].[CellLine]_15_Core_expanded.bed.gz</span><br />The expanded files will allow you to view each individuals chromatin state map with each state as a separate track labeled with state mnemonics and representative colors<br />You can download an archive containing all the expanded files from<br /><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.expanded.bed.tgz" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.expanded.bed.tgz</a><br /><br /><b><u>(3) STATES FOR EACH 200bp BIN</u></b><br />Max. posterior state label for each 200 bp bin in each chromosome for all epigenomes. The difference from the Mnemonic BED files is that in the Mnemonic files contiguous bins with the same state label are merged and a label is assigned to the entire merged regions. Hence in the mnemonic files the regions are of variable sizes. These files below are at a fixed 200 bp resolution.<br /><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.statesByBin.tgz" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/all.statesByBin.tgz</a><br /><br /><b><u>(4) POSTERIOR PROBABILITY FOR EACH 200bp BIN</u></b><br />Posterior probabilities of each state in each 200 bp bin for all chromosomes in all epigenomes<br /><a href="http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/POSTERIOR/" target="_blank" rel="nofollow">http://www.broadinstitute.org/~anshul/projects/chromatinVariation/segmentations/chmmResults/14indivCore/final/POSTERIOR/</a></font></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr"><div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a>
+<div style="text-align:center;display:block"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:left"><a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"></a>
+<div style="display:block;text-align:left"><font face="times new roman, serif" size="6">
+<div style="display:block;text-align:left">
+<div style="text-align:center;display:block">
+<div style="display:block;text-align:left">
+<div style="text-align:center;display:block"></div>
+</div>
+</div>
+</div>
+</font></div>
+</div>
+</div>
+</div>
+<div style="text-align:center"><span style="font-size:medium">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="https://sites.google.com/site/anshulkundaje/config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="https://sites.google.com/site/anshulkundaje/_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
+</div>
+<br />
+</span></div></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=https://sites.google.com/site/anshulkundaje/projects/chromatinvariationpilot&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/site/anshulkundaje/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/site/anshulkundaje/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/f8a1a0/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXtASf_M2E6cjJ9Hgufts3RfH4dithXO5UQ9CVrQKktvi8BKdoDzrEAMgsXNMaZg45wActMDz3Mx1O-IXSGHgUYIfK6MW_tQ6sPgEK4FQeabo9pqwKXdWQqP3hA1TGgRtVWOTgPx/api/js?anon=true',
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('https://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

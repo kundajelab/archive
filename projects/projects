@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window;var b="start";function d(f){this.t={};this.tick=function(g,h,c){c=c!=undefined?c:(new Date).getTime();this.t[g]=[c,h]};this.tick(b,null,f)}var e=new d;a.jstiming={Timer:d,load:e};try{var i=null;if(a.chrome&&a.chrome.csi)i=Math.floor(a.chrome.csi().pageT);if(i==null)if(a.gtbExternal)i=a.gtbExternal.pageT();if(i==null)if(a.external)i=a.external.pageT;if(i)a.jstiming.pt=i}catch(j){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/9ef40f/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length";function j(c){return document.getElementById(c)}h.byId=j;var k="";function l(c){return c.replace(/^\s+|\s+$/g,k)}h.trim=l;
+var m="MSIE",n="6.0",o="string",p='id="',q='" ',r='class="',s='title="',t="display:inline-block;",u="left",v="float:left;",w="right",x="float:right;",y="cursor:hand;",z="<span ",A=' style="width:',B="px; height:",C="px;",D=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",E="', sizingMethod='scale');\"></span><span style=\"padding: ",F=" ",G=";",H="float:",I='"></span>';
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:k;if(b.indexOf(m)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==n){var a=typeof c==o?j(c):c;c=a.id?p+a.id+q:k;b=a.className?r+a.className+q:k;d=a.title?s+a.title+q:s+a.alt+q;var f=t+a.style.cssText;if(a.align==u)f=v+f;if(a.align==w)f=x+f;if(a.parentElement.href)f=y+f;var g=a.currentStyle,L=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),M=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),N=
+z+c+b+d+A+L+B+M+C+f+D+a.src+E+g.paddingTop+F+g.paddingRight+F+g.paddingBottom+F+g.paddingLeft+G+(g.styleFloat?H+g.styleFloat+G:k)+I;h.setTimeout(function(){a.outerHTML=N},1)}}};var J=[],K=0;h.JOT_addListener=function(c,b,d){var a=new String(K++);c={eventName:c,handler:b,compId:d,key:a};J.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<J[i];b++)if(J[b].key==c){J.splice(b,1);break}};
+h.JOT_removeAllListenersForName=function(c){for(var b=0;b<J[i];b++)J[b].eventName==c&&J.splice(b,1)};var O="function";h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=J[i];for(d=0;d<b&&d<J[i];d++){var f=J[d];if(f&&f.eventName==c){a.listenerCompId=f.compId||k;(f=typeof f.handler==O?f.handler:h[f.handler])&&f(a)}}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=false;var P="__duration__";
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;if(d>=60){d/=60;a=2}d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(P,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(P,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"structuredDataGviz":false,"horizontalNavigationDropdownMenus":true,"subpageNav":false,"kixEditorPageType":false,"maestroIntegration":true,"maestroEmbed":false,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"useStandardEmbedsInSidebar":false,"allowQuotesInLinks":true,"pageLevelPermissions":false,"adminInfo":true,"autoFillSidebarNavTree":true,"dragDropHierarchy":true,"headerAlignmentOptions":true,"horizontalNavigationBar":true,"keyboardShortcuts":true,"commonSharing":true,"spreadsheetsEmbedLoadRedirect":true,"structuredDataSchemas":false,"webfonts":false,"footerCustomOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3c6d0695217364f3","timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":21,"title":"Projects","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"projects","path":"/projects","isSiteRtlLocale":false,"parentPath":null};
+webspace.page.breadcrumbs = [{"title":"Projects","dir":"ltr","path":"/site/anshulkundaje/projects","deleted":false}];
+
+
+var editorResources = [
+  'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
+  'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
+  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+];
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="My homepage" />
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9ef40f/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<title>Projects - Anshul Kundaje</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div id="sites-status" class="sites-status" style="display:none;">
+<div id="sites-notice" class="sites-notice"> </div>
+</div>
+</div>
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<h2>
+<a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<h4 class="sites-embed-title">Main</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
+</div></li>
+<li class=""><div class="current-bg" jotId="wuid:gx:3c6d0695217364f3" dir="ltr" style="padding-left: 5px;">Projects
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:13be06e60f9caa29" class="sites-navigation-link">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_06257089060978926" class="sites-embed">
+<h4 class="sites-embed-title">Research</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ipapers-1" jotId="wuid:gx:44304983f9d25d1b" class="sites-navigation-link">iPapers</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred" class="sites-navigation-link">iFeeds</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_11533869912938033" class="sites-embed">
+<h4 class="sites-embed-title">Personal</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Projects</span>
+</h3>
+
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><p>My primary interests are in computational and systems biology and applied machine learning. I develop and apply statistics and machine learning methods to extract useful information from noisy, high-dimensional, high-throughput biological data.</p><p>Some of the projects that I am working on are listed below:</p><hr size="2" width="100%" /><h3><a name="TOC-The-ENCODE-project"></a>The ENCODE project</h3>The <a href="http://www.genome.gov/ENCODE/" rel="nofollow" target="_blank"><b>ENCODE (ENCyclopedia Of DNA Elements)</b></a>
+project was launched by the NHGRI to identify all functional elements
+in the human genome using next-generation sequencing techniques and
+other high throughput assays. Computational algorithms and learning
+methods are required to identify signal from noise and learn higher
+order relationships between various functional sites. As part of my
+postdoc at Stanford University, I am working with the ENCODE consortium
+to develop algorithms for the integrative analysis of ENCODE data.
+Specific topics I am working on:<br /><ul><li>Noise analysis in next-generation sequencing data and methods for consolidation of replicate measurements</li><li>Comparative analysis of Peak Calling Algorithms</li><li>Effects of genome mapability on sequencing results and mapping algorithms<br /></li><li>Prediction
+of in-vivo binding of transcription factors (TF) using (TF) ChIP-seq
+data based on sequence, epigenomic, structural and conservation
+information</li><li>Prediction of novel TSS using RNA-seq, CAGE data based on sequence, epigenomic, structural and conservation information</li><li>Discovery of transcription regulatory networks and signaling systems</li></ul><hr size="2" width="100%" /><h3><a name="TOC-De-novo-prediction-of-protein-ligan"></a>De-novo prediction of protein-ligand interactions</h3>In collaboration with <a href="http://www.stanford.edu/%7Emaureenh/" rel="nofollow" target="_blank">Maureen Hillenmeyer</a> and <a href="http://ai.stanford.edu/%7Ekoller/" rel="nofollow" target="_blank">Prof. Daphne Koller</a><hr size="2" width="100%" /><h3><a name="TOC-Learning-gene-regulatory-networks"></a>Learning gene regulatory networks</h3>The <i>regulation of gene expression</i> plays a central role in the development and function of a living cell. A complex network of interacting regulatory proteins bind specific sequence elements in the genome to control the amount and timing of gene expression. The abundance of genome-scale datasets from different organisms provides an opportunity to accelerate our understanding of the mechanisms of gene regulation. Developing computational tools to infer gene regulation programs from high-throughput genomic data is one of the central problems in computational biology.<br /><br />In my PhD thesis, I developed a new predictive modeling framework for studying gene regulation. We formulate the problem of learning regulatory programs as a binary classification task: to accurately predict the the condition-specific activation (up-regulation) and repression (down-regulation) of gene expression. The gene expression response is measured by microarray expression data. Genes are represented by various genomic regulatory sequence features. Experimental conditions are represented by the gene expression levels of various regulatory proteins. We use this combination of features to learn a prediction function for the regulatory response of genes under dierent experimental conditions. The core computational approach is based on <a href="http://www.cs.princeton.edu/%7Eschapire/boost.html" rel="nofollow" target="_blank">boosting</a>. Boosting algorithms allow us to learn high-accuracy, large-margin classifiers and avoid overfitting. In the <a href="http://www.ccls.columbia.edu/compbio/robust-geneclass" rel="nofollow" target="_blank"><b>GeneClass</b></a> algorithm, we use a compendium of known transcription factor binding sites and gene expression data to learn a global context-specific regulation program that accurately predicts dierential expression. GeneClass learns a prediction function in the form of an alternating decision tree, a margin-based generalization of a decision tree. We introduce a novel robust variant of boosting that improves stability and biological interpretability in the presence of correlated features. We also show how to incorporate genome-wide protein-DNA binding data from ChIP-chip experiments into the framework. In computational experiments based on yeast environmental stress response and DNA damage datasets, we show that GeneClass predicts up- and down-regulation on held-out experiments with high accuracy. We explore a range of experimental setups related to environmental stress response, and we retrieve important regulators, binding site motifs, and relationships between regulators and binding sites that are known to be associated with specific stress response pathways. We present a postprocessing framework for biological interpretation, including gene and gene set analysis to reveal condition-specific regulatory programs and to suggest signaling pathways.<br /><br />In our <b><a href="http://www.ccls.columbia.edu/compbio/module-clust" rel="nofollow" target="_blank">Module-clust</a></b> algorithm we present a generative probabilistic model for combining regulatory
+sequence and time series expression data to cluster genes into coherent
+<i>transcriptional modules</i> -- sets of genes where similarity in
+expression is explained by common regulatory mechanisms at the
+transcriptional level. Starting with a set of motifs representing known
+or putative regulatory elements (transcription factor binding sites)
+and the counts of occurrences of these motifs in each gene's promoter
+region, together with a time series expression profile for each gene,
+the learning algorithm uses expectation maximization to learn module
+assignments based on both types of data. In this way, we make use of
+genome-wide motif data that is now readily available for organisms such
+as <i>S. cerevisiae</i> as a result of prior computational studies or
+experimental results. We also present a technique based on the
+Jensen-Shannon entropy contributions of motifs in the learned model for
+associating the most significant motifs to each module. Thus, the
+algorithm gives a global approach for associating sets of regulatory
+elements to ``modules'' of genes with similar time series expression
+profiles. The model for expression data exploits our prior belief of
+smooth dependence on time by using statistical splines and is suitable
+for typical time course datasets with relatively few experiments.
+Moreover, the model is sufficiently interpretable that we can
+understand how both sequence data and expression data contribute to the
+cluster assignments, and how to interpolate between the two data
+sources. We present experimental results on the yeast cell cycle to
+validate our method and find that our combined expression and motif
+clustering algorithm discovers modules with both coherent expression
+and similar motif patterns, including binding motifs associated to
+known cell cycle transcription factors.<br /><h4><a name="TOC-Related-papers"></a>Related papers</h4><ul><li><span style="font-family:arial;font-size:13px"><span style="font-weight:bold"><span style="font-style:italic">Predicting genetic regulatory response using classification  </span></span><span style="font-family:Arial;font-size:12px">[pdf], </span><span style="font-family:Arial;font-size:12px">[<a href="http://www.ccls.columbia.edu/compbio/geneclass/" rel="nofollow" style="outline-style:none;color:rgb(85, 26, 139)" target="_blank">Website, Code</a>]</span></span><br /><span style="font-family:arial;font-size:13px">Manuel Middendorf, Anshul Kundaje, Chris Wiggins, Yoav Freund, Christina Leslie<br /><a href="http://bioinformatics.oxfordjournals.org/cgi/content/abstract/20/suppl_1/i232" rel="nofollow" target="_blank">Bioinformatics</a>, Vol. 20(), pp. 232-240, Aug 2004<br />Proceedings of ISMB</span> <a href="http://sites.google.com/site/anshulkundaje/goog_1223535278636">(</a><a href="http://www.iscb.org/ismbeccb2004/accepted_papers.html#35" rel="nofollow">Intelligent Systems for Molecular Biology)</a>  2004</li><li><span style="font-family:arial;font-size:13px"><span style="font-weight:bold"><span style="font-style:italic">Predicting genetic regulatory response using classification: Yeast stress response  </span></span><span style="font-family:Arial;font-size:12px">[pdf], </span><span style="font-family:Arial;font-size:12px">[<a href="http://www.ccls.columbia.edu/compbio/geneclass/" rel="nofollow" style="outline-style:none;color:rgb(85, 26, 139)" target="_blank">Website, Code</a>]</span><br />Manuel Middendorf, Anshul Kundaje, Chris Wiggins, Yoav Freund, Christina Leslie<br /><a href="http://www.springerlink.com/content/tf38jftm48jvg406/" rel="nofollow" target="_blank">Lecture Notes in Computer Science</a>, Vol. 3318(), pp. 1-13, Jan 2005</span></li><li><span style="font-family:arial;font-size:13px"><span style="font-weight:bold"><span style="font-style:italic">A classification-based framework for predicting and analyzing gene regulatory response  </span></span><span style="font-family:Arial;font-size:12px">[pdf], </span><span style="font-family:Arial;font-size:12px">[<a href="http://www.ccls.columbia.edu/compbio/robust-geneclass/" rel="nofollow" style="outline-style:none;color:rgb(85, 26, 139)" target="_blank">Website, Code</a>]</span><br />Anshul Kundaje, Manuel Middendorf, Mihir Shah, Chris Wiggins, Yoav Freund, Christina Leslie<br /><a href="http://www.biomedcentral.com/1471-2105/7/S1/S5" rel="nofollow" target="_blank">BMC Bioinformatics</a>, Vol. 7(5), Mar 2006</span></li><li><span style="font-family:arial;font-size:13px"><span style="font-weight:bold"><span style="font-style:italic">Combining Sequence and Time Series Expression Data To Learn Transcriptional Modules  </span></span><span style="font-family:Arial;font-size:12px">[pdf], </span><span style="font-family:Arial;font-size:12px">[<a href="http://www.ccls.columbia.edu/compbio/module-clust/" rel="nofollow" style="outline-style:none;color:rgb(85, 26, 139)" target="_blank">Website, Code</a>]</span><br />Anshul Kundaje, Manuel Middendorf, Feng Gao, Chris Wiggins, Christina Leslie<br /><a href="http://www2.computer.org/portal/web/csdl/doi/10.1109/TCBB.2005.34" rel="nofollow" target="_blank">IEEE/ACM Transactions on Computational Biology and Bioinformatics</a>, May 2005</span></li></ul><hr size="2" width="100%" /><h3><a name="TOC-Regulatory-motif-discovery"></a>Regulatory motif discovery</h3>In several organisms, the DNA binding sites of many <a href="http://en.wikipedia.org/wiki/Transcription_factor" rel="nofollow" target="_blank">transcription factors</a> are unknown. Hence, automatic discovery of regulatory sequence motifs is required.<br /><br />In the <a href="http://www.ccls.columbia.edu/compbio/medusa" rel="nofollow" target="_blank"><b>MEDUSA</b></a> algorithm, we integrate raw promoter sequence data and gene expression data to simultaneously discover cis regulatory motifs ab initio and learn predictive regulatory programs. MEDUSA automatically learns probabilistic representations of motifs and their corresponding target genes. We apply MEDUSA to various datasets of different sizes in yeast, worm and human B-cells. We learn yeast motifs whose ability to predict differential expression of target genes outperforms motifs from a compendium of known binding sites and from a previously published candidate set of learned motifs. We also show that MEDUSA retrieves many experimentally confirmed transcription factor binding sites. We introduce a novel margin-based score to extract significant context-specific regulators and motifs. We present a specific case study where our collaborators validate some of our regulatory hypotheses using biochemical experiments. We use MEDUSA to study the oxygen regulatory network in the yeast (S. cerevisiae), using a small data set of perturbation experiments that probe the response of yeast to hypoxia (low oxygen levels). We assemble a global map of the oxygen sensing and regulatory network. We also identify many DNA motifs that are consistent with previous experimentally identified transcription factor binding sites. Our collaborators directly test a set of regulators predicted by MEDUSA for the <i>OLE1</i> gene that is specifically induced under hypoxia, by experimental analysis of the activity of its promoter. In each case, deletion of the candidate regulator results in the predicted effect on promoter activity, confirming that several novel regulators identified by MEDUSA are indeed involved in oxygen regulation.<br /><h4><a name="TOC-Related-papers1"></a>Related papers</h4><ul><li><font size="2"><i><b>A Predictive Model of the Oxygen and Heme Regulatory Network in Yeast</b></i>  [pdf], [<a href="http://cbio.mskcc.org/leslielab/projects/medusa/index.php" rel="nofollow">Website, Code</a>]<br />Anshul Kundaje, Xiantong Xin, Changgui Lan, Steve Lianoglou, Mei Zhou, Li Zhang, Christina Leslie<br /><a href="javascript:void(0);">PLoS Compbio</a>, Aug 2008 (In Press)<br /></font></li><li><font size="2"><span style="font-family:arial"><span style="font-weight:bold"><span style="font-style:italic">Motif Discovery through predictive modeling of gene regulation  </span></span><span style="font-family:Arial">[pdf], </span><span style="font-family:Arial">[<a href="http://www.ccls.columbia.edu/compbio/medusa/" rel="nofollow" style="outline-style:none;color:rgb(85, 26, 139)" target="_blank">Website, Code</a>]<br /></span></span>Manuel Middendorf, Anshul Kundaje, Mihir Shah, Yoav Freund, Chris Wiggins, Christina Leslie<br /><span style="font-family:arial"><a href="http://www.broad.mit.edu/events/recomb2005/program.html" rel="nofollow" target="_blank">RECOMB (Research in Computational Biology)</a>, May 2005</span></font></li><li><font size="2"><span><span style="font-family:arial"><span style="font-weight:bold"><span style="font-style:italic">Learning regulatory programs that accurately predict differential expression with MEDUSA  </span></span><span style="font-family:Arial">[pdf]</span><br />Anshul Kundaje, Steve Lianoglou, Xuejing Li, David Quigley, Marta Arias, Chris H. Wiggins, Li Zhang, Christina Leslie<br /><a href="http://www3.interscience.wiley.com/journal/117986065/abstract" rel="nofollow" target="_blank">Annals of the New York Academy of Sciences</a>, July 2007</span></span></font></li></ul><hr size="2" width="100%" /></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+<p>
+           
+              
+                   
+                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/anshulkundaje/projects" class="sites-system-link">Sign in</a>
+                
+              
+                   
+                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                
+              
+               
+              <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+               
+              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/projects" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              
+                   
+                  <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                
+              
+               | 
+                
+              <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+</div>
+</div> 
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/9ef40f/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new gsites.Searchbox('sites-searchbox-search-button');
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createHoverPopupMenu('sites-header-nav-dropdown');
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Main", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("06257089060978926", "Research", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_06257089060978926');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("11533869912938033", "Personal", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_11533869912938033');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        window['ri240jef82'] =
+          {'domain': 'defaultdomain',
+           'site': 'anshulkundaje',
+           'pageId': 0};
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>
