@@ -34,7 +34,7 @@ webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:
 var editorResources = [
   'http://www.gstatic.com/sites/p/6d2a73/system/js/trog_edit__en.js',
   'http://www.gstatic.com/sites/p/6d2a73/system/app/css/trogedit.css',
-  '/site/anshulkundaje/_/rsrc/1278036979645/system/app/css/editor.css'
+  '../_/rsrc/1278036979645/system/app/css/editor.css'
 ];
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/6d2a73/system/app/images/cleardot.gif';

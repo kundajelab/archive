@@ -651,8 +651,8 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
       var pageJs = new sites.pages.Hierarchy();
       pageJs.initButtons(
-        '/site/anshulkundaje/system/app/pages/sitemap/hierarchy',
-        '/site/anshulkundaje/system/app/pages/sitemap/list'
+        '../system/app/pages/sitemap/hierarchy',
+        '../system/app/pages/sitemap/list'
       );
     </script>
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">

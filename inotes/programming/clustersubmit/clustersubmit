@@ -30,7 +30,7 @@ webspace.page.breadcrumbs = [{"title":"iNotes","dir":"ltr","path":"../inotes","d
 var editorResources = [
   'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
   'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
-  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+  '../_/rsrc/1296609110000/system/app/css/editor.css'
 ];
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';

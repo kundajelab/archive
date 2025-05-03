@@ -33,9 +33,9 @@ webspace.editorResources = {
     'https://ssl.gstatic.com/sites/p/3b30d4/system/app/css/codemirror_css.css',
     'https://ssl.gstatic.com/sites/p/3b30d4/system/js/trog_edit__en.js',
     'https://ssl.gstatic.com/sites/p/3b30d4/system/app/css/trogedit.css',
-    '/site/anshulkundaje/_/rsrc/1355504098000/system/app/css/editor.css',
+    '../_/rsrc/1355504098000/system/app/css/editor.css',
     'https://ssl.gstatic.com/sites/p/3b30d4/system/app/css/codeeditor.css',
-    '/site/anshulkundaje/_/rsrc/1355504098000/system/app/css/camelot/editor-jfk.css'
+    '../_/rsrc/1355504098000/system/app/css/camelot/editor-jfk.css'
   ],
   sitelayout: [
     'https://ssl.gstatic.com/sites/p/3b30d4/system/app/css/sitelayouteditor.css'
