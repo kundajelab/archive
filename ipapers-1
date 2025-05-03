@@ -19,19 +19,19 @@ h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>
 var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","baseUri":"/site/anshulkundaje","name":"anshulkundaje","domain":"defaultdomain","features":{"structuredDataGviz":false,"horizontalNavigationDropdownMenus":true,"subpageNav":false,"kixEditorPageType":false,"maestroIntegration":true,"maestroEmbed":false,"pdfEmbedSupport":false,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"useStandardEmbedsInSidebar":false,"allowQuotesInLinks":true,"pageLevelPermissions":false,"adminInfo":true,"autoFillSidebarNavTree":true,"dragDropHierarchy":true,"headerAlignmentOptions":true,"horizontalNavigationBar":true,"keyboardShortcuts":true,"commonSharing":true,"spreadsheetsEmbedLoadRedirect":true,"structuredDataSchemas":false,"webfonts":false,"footerCustomOptions":true},"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Anshul Kundaje"};
 
 
-webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/anshulkundaje/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"system/app/pages/gadgets","isGgsRenderingEnabled":true};
 
 
 webspace.user = {"uid":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"userName":"guest","dasherUser":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:44304983f9d25d1b","timeZone":"America/Los_Angeles","properties":{},"type":"list","canChangePath":true,"parentWuid":null,"revision":19,"title":"iPapers","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"ipapers-1","path":"/ipapers-1","isSiteRtlLocale":false,"parentPath":null};
-webspace.page.breadcrumbs = [{"title":"iPapers","dir":"ltr","path":"/site/anshulkundaje/ipapers-1","deleted":false}];
+webspace.page.breadcrumbs = [{"title":"iPapers","dir":"ltr","path":"ipapers-1","deleted":false}];
 
 
 var editorResources = [
   'http://www.gstatic.com/sites/p/9ef40f/system/js/trog_edit__en.js',
   'http://www.gstatic.com/sites/p/9ef40f/system/app/css/trogedit.css',
-  '/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/editor.css'
+  '_/rsrc/1296609110000/system/app/css/editor.css'
 ];
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9ef40f/system/app/images/cleardot.gif';
@@ -54,7 +54,7 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
               </script>
 <meta name="Description" content="My homepage" />
 <link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9ef40f/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
-<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="_/rsrc/1296609110000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
 <title>iPapers - Anshul Kundaje</title>
 <script type="text/javascript">
                 window.jstiming.load.tick('cl');
@@ -76,14 +76,14 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <td id="sites-header-title">
 <div class="sites-header-cell-buffer-wrapper">
 <h2>
-<a href="http://sites.google.com/site/anshulkundaje/" dir="ltr">Anshul Kundaje</a>
+<a href="http://sites.google.com" dir="ltr">Anshul Kundaje</a>
 </h2>
 </div>
 </td>
 <td class="sites-layout-searchbox">
 <div class="sites-header-cell-buffer-wrapper">
 <div>
-<form id="sites-searchbox-form" action="/site/anshulkundaje/system/app/pages/search">
+<form id="sites-searchbox-form" action="system/app/pages/search">
 <input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
 <input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
 <div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
@@ -107,15 +107,15 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <h4 class="sites-embed-title">Main</h4>
 <div class="sites-embed-content sites-sidebar-nav ">
 <ul jotId="navList">
-<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/Home" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comHome" jotId="wuid:gx:433ef46b7e972855" class="sites-navigation-link">Home</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/cv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comcv" jotId="wuid:gx:4d13fb8ec3c7f022" class="sites-navigation-link">C.V.</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/publication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.compublication" jotId="wuid:gx:5f0fe9af8154b88d" class="sites-navigation-link">Publications</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/projects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Projects</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comprojects" jotId="wuid:gx:3c6d0695217364f3" class="sites-navigation-link">Projects</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:16f43d4e2874138a" class="sites-navigation-link">Sitemap</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comsystem/app/pages/sitemap/hierarchy" jotId="wuid:gx:16f43d4e2874138a" class="sites-navigation-link">Sitemap</a>
 </div></li>
 </ul>
 
@@ -125,25 +125,25 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <h4 class="sites-embed-title">Research</h4>
 <div class="sites-embed-content sites-sidebar-nav ">
 <ul jotId="navList">
-<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/inotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.cominotes" jotId="wuid:gx:28e13311049878b5" class="sites-navigation-link">iNotes</a>
 </div></li>
 <li class=""><div class="current-bg" jotId="wuid:gx:44304983f9d25d1b" dir="ltr" style="padding-left: 5px;">iPapers
 </div></li>
 <li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://www.google.com/reader/shared/user/15010729399179228127/state/com.google/starred" class="sites-navigation-link">iFeeds</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/ibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comibooks-1" jotId="wuid:gx:763cf8e869d2ecc8" class="sites-navigation-link">iBooks</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/idatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comidatasets" jotId="wuid:gx:570567f690f155d0" class="sites-navigation-link">iDatasets</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/icode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comicode" jotId="wuid:gx:55d317d240e97d" class="sites-navigation-link">iCode</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/journals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comjournals" jotId="wuid:gx:7ad5f62fc60101c6" class="sites-navigation-link">Journals</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/conferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comconferences" jotId="wuid:gx:19ef6fa70fb85b6b" class="sites-navigation-link">Conferences</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.commatlab2r" jotId="wuid:gx:65869e5c249c9c77" class="sites-navigation-link">Matlab2R</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/matlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.commatlab4compbio" jotId="wuid:gx:53c4dc92b3436504" class="sites-navigation-link">Matlab4Compbio</a>
 </div></li>
 </ul>
 
@@ -153,11 +153,11 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <h4 class="sites-embed-title">Personal</h4>
 <div class="sites-embed-content sites-sidebar-nav ">
 <ul jotId="navList">
-<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/irecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comirecipes" jotId="wuid:gx:3cb6d31bc81059cd" class="sites-navigation-link">iRecipes</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/photos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comphotos" jotId="wuid:gx:2f05985a673c1daf" class="sites-navigation-link">Photos</a>
 </div></li>
-<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.com/site/anshulkundaje/videos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://sites.google.comvideos" jotId="wuid:gx:2c2b8fccfa96c6b0" class="sites-navigation-link">Videos</a>
 </div></li>
 </ul>
 
@@ -246,17 +246,17 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
            
               
                    
-                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/anshulkundaje/ipapers-1" class="sites-system-link">Sign in</a>
+                  <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.comipapers-1" class="sites-system-link">Sign in</a>
                 
               
                    
-                  <a href="/site/anshulkundaje/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                  <a href="system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
                 
               
                
               <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
                
-              <a href="/site/anshulkundaje/system/app/pages/reportAbuse?src=/ipapers-1" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+              <a href="system/app/pages/reportAbuse?src=/ipapers-1" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
               
                    
                   <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
@@ -315,7 +315,7 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
   setTimeout(function() {
     var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
-    gsites.Xhr.send('http://sites.google.com/site/anshulkundaje/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+    gsites.Xhr.send('http://sites.google.com_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
   }, 500);
 </script>
 <script xmlns="http://www.w3.org/1999/xhtml">

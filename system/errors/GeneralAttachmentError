@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 <title xmlns="http://www.google.com/ns/jotspot">Attachment error</title>
-<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1633591294000/system/app/css/camelot/dashboard.css" />
-<link rel="stylesheet" type="text/css" href="/site/anshulkundaje/_/rsrc/1633591294000/system/app/css/camelot/error.css" />
+<link rel="stylesheet" type="text/css" href="../_/rsrc/1633591294000/system/app/css/camelot/dashboard.css" />
+<link rel="stylesheet" type="text/css" href="../_/rsrc/1633591294000/system/app/css/camelot/error.css" />
 <style xmlns="http://www.google.com/ns/jotspot">
               #sites-dash-sandbar,
               .sites-dash-appbar {
