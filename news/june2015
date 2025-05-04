@@ -125,7 +125,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
   posted <span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Jun 20, 2015, 6:10 PM</span> by Anshul Kundaje
 
                   
-                       
+                       
                       <span id="sites-announcement-updated-time" class="updatedTime">
                         [
   
@@ -138,7 +138,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 </span>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><ul><li><font face="arial, sans-serif" size="2">Anshul taught at the <a href="http://meetings.cshl.edu/courses.aspx?course=C-DATA&amp;year=15" target="_blank" rel="nofollow">2015 Cold Spring Harbor Summer School on Statistical Methods For Functional Genomics</a>, CSHL, NY</font></li><li><font face="arial, sans-serif">Graduate student Oana Ursu was awarded the highly competitive HHMI International Student Fellowship. Congrats Oana!</font></li><li><font face="arial, sans-serif">Graduate student Irene Kaplow was awarded the CEHG Fellowship. Congrats Irene!</font></li></ul></div></td></tr></tbody></table>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><ul><li><font face="arial, sans-serif" size="2">Anshul taught at the <a href="http://meetings.cshl.edu/courses.aspx?course=C-DATA&amp;year=15" target="_blank" rel="nofollow">2015 Cold Spring Harbor Summer School on Statistical Methods For Functional Genomics</a>, CSHL, NY</font></li><li><font face="arial, sans-serif">Graduate student Oana Ursu was awarded the highly competitive HHMI International Student Fellowship. Congrats Oana!</font></li><li><font face="arial, sans-serif">Graduate student Irene Kaplow was awarded the CEHG Fellowship. Congrats Irene!</font></li></ul></div></td></tr></tbody></table>
 </div> 
 </div> 
 <div id="sites-canvas-bottom-panel">
@@ -172,7 +172,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 </div>
 </div>
 <div style="text-align:center"><span style="font-size:medium">
-<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="../_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="../_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
 </div>
 <br />
 </span></div></div></div></div>

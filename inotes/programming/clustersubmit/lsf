@@ -85,7 +85,7 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <form id="sites-searchbox-form" action="../system/app/pages/search">
 <input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
 <input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
-<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
 </form>
 </div>
 </div>
@@ -180,7 +180,7 @@ are optional.<br /><h3><a name="TOC-Job-names-indexes-and-job-arrays"></a>Job na
 parameters. Each array job is distinguished by its <u><b>array index (%I)</b></u> . Since 
 job names are not unique, multiple job arrays may have the same name 
 with a different or same set of indices.<br />
-<br />A job array is submitted using the syntax: <code>job_name_spec[index | start_index-end_index:step]</code> where index, start_index, end_index and step are integers. If the start_index is omitted, 1 is assumed.<br />e.g. bsub -J "myjob[1-300]"<br />e.g. bsub -J "myjob[300]" which is the same as above<br />e.g. bsub -J "myjob[1-300:2]"<br /> <br />You can also <u><b>limit the number of the jobs in a job array that are allowed to run simultaneously</b></u> using<br /><code>bsub -J "myjob[1-300]%x"</code> where x is an integer representing the number of jobs that are allowed to run simultaneously<br /><h4><a name="TOC-Relevant-environment-variables"></a>Relevant environment variables</h4><code>LSB_JOBNAME</code>: This is the name of the job which is what the user assigned using the -J option or the first 60 characters of the command<br /><code>LSB_JOBID</code> :  This is the ID of the job assigned by LSF as shown in bjobs<br /><code>LSB_JOBINDEX</code> : For a job array this gives the index of the job in the job array<div><br /></div><div><code>-g [job_group_spec] : </code>You can also organize jobs into groups i.e. each job can belong to a unique label. The job group names MUST start with a / and can take nested directory-like names e.g. /hello/randjobs.</div><div><br /><h3><a name="TOC-Logging-I-O-Options"></a>Logging I/O Options</h3><code>-o [stdout_logfile]</code> : store the standard output of the job to stdout_logfile. <u><b>Note that -o appends the output to out_file if it already exists, while -oo overwrites it. </b><br /></u><br /><code>-e [stderr_logfile]</code> : store the standard error of the job to [stderr_logfile]. <u><b>If -o is defined, but not -e, stderr will be added to out_file</b></u>. <u><b>Note that -e appends the error output to err_file if it already exists, while -eo overwrites it. </b></u><br /><br /><code>-i [stdin_file]</code> : The batch job gets its standard input from file stdin_file<br /><code><br /></code><u><b>NOTE:</b></u> For all of the above, if the special characters <u><b>%J</b></u> are specified in [file_name] then they are 
+<br />A job array is submitted using the syntax: <code>job_name_spec[index | start_index-end_index:step]</code> where index, start_index, end_index and step are integers. If the start_index is omitted, 1 is assumed.<br />e.g. bsub -J "myjob[1-300]"<br />e.g. bsub -J "myjob[300]" which is the same as above<br />e.g. bsub -J "myjob[1-300:2]"<br /> <br />You can also <u><b>limit the number of the jobs in a job array that are allowed to run simultaneously</b></u> using<br /><code>bsub -J "myjob[1-300]%x"</code> where x is an integer representing the number of jobs that are allowed to run simultaneously<br /><h4><a name="TOC-Relevant-environment-variables"></a>Relevant environment variables</h4><code>LSB_JOBNAME</code>: This is the name of the job which is what the user assigned using the -J option or the first 60 characters of the command<br /><code>LSB_JOBID</code> :  This is the ID of the job assigned by LSF as shown in bjobs<br /><code>LSB_JOBINDEX</code> : For a job array this gives the index of the job in the job array<div><br /></div><div><code>-g [job_group_spec] : </code>You can also organize jobs into groups i.e. each job can belong to a unique label. The job group names MUST start with a / and can take nested directory-like names e.g. /hello/randjobs.</div><div><br /><h3><a name="TOC-Logging-I-O-Options"></a>Logging I/O Options</h3><code>-o [stdout_logfile]</code> : store the standard output of the job to stdout_logfile. <u><b>Note that -o appends the output to out_file if it already exists, while -oo overwrites it. </b><br /></u><br /><code>-e [stderr_logfile]</code> : store the standard error of the job to [stderr_logfile]. <u><b>If -o is defined, but not -e, stderr will be added to out_file</b></u>. <u><b>Note that -e appends the error output to err_file if it already exists, while -eo overwrites it. </b></u><br /><br /><code>-i [stdin_file]</code> : The batch job gets its standard input from file stdin_file<br /><code><br /></code><u><b>NOTE:</b></u> For all of the above, if the special characters <u><b>%J</b></u> are specified in [file_name] then they are 
 replaced by the <u><b>jobId</b></u> of the job. If the special characters <u><b>%I</b></u> are 
 specified in the [file_name] then they are replaced by the <u><b>index of the job in 
 the array</b></u> if the job is a member of an array and 0 otherwise. See -J 
@@ -195,7 +195,7 @@ to use. The job can start if at least the minimum number of processors
 is available. If you do not specify a maximum, the number you specify 
 represents the exact number of processors to use.<br />
 e.g. -n 4 specifies to use exactly 4 processors<br />
-e.g. -n 4,6 specifies to use a minimum of 4 and maximum of 6 processors<br /><br /><code>-W [run_limit]</code> :  set the job wall-clock run time limit. This must be 
+e.g. -n 4,6 specifies to use a minimum of 4 and maximum of 6 processors<br /><br /><code>-W [run_limit]</code> :  set the job wall-clock run time limit. This must be 
 set to run longer than the default 2 hours limit. run_limit is given in 
 the form of <i><b>hour:</b></i>minute, where minute can be greater than 59. If a job
  runs longer than the specified run limit, the job is sent a SIGUSR2 
@@ -203,7 +203,7 @@ signal, and is killed if it does not terminate within ten minutes.<br />e.g. -W 
 <br /><code>-b [start_time]</code> : where start_time is of the form <i><b>month:day:</b></i>hour:minute where month is 1-12, day is 1-31, hour is 0-23, and minute is 0-59. The time refers to the next matching wall clock time at which the job should be started.<br />e.g. bsub -b 11:00 will start the job at 11 a.m<br />e.g. bsub -b 2:15:23:15 will start the job of Feb(2):15th(15) at time 23.15 i.e. 11.15 p.m.<br /><br /><code>-t [termination_time]</code> : where termination_time is of the form <i><b>month:day:</b></i>hour:minute
  where month is 1-12, day is 1-31, hour is 0-23, and minute is 0-59. The
  time refers to the next matching wall clock time at which the job should be terminated.<br />
-<code><br /></code><h3><a name="TOC-Job-dependencies"></a>Job dependencies</h3><code>-w [dependency_options]</code> :  tells LSF to not place your job unless the dependency expression evaluates to true. This may be used to start a job only if a precedent job has completed successfully. <br /><br />The dependency options can be of various types and each evaluates to TRUE or FALSE. They can thus be combined using logical operators<br /><code>AND '&amp;&amp;'</code><br /><code>OR '||'</code><br /><code>NOT '!'</code><br />Make sure the logical operators are within double or single quotes or the shell will interpret them instead of bsub.<br /><br />The simplest dependency option is<br /><code>-w [job_name | JobId]</code> which the system assumes to mean <u><b>"done(job_name | JobId)"</b></u> i.e. it waits until the job corresponding to job_name or job_id is done. While JobId may be used to specify jobs of any users, Job name can only be used to specify the user's own jobs. <br /><u><b>job_name*</b></u> indicates all the job names that begin with the same string job_name (e.g. job_name, job_name1, job_name_test, job_name.log).<br /><br />The types of dependency options are listed below:<br /><h4><a name="TOC-Job-status-conditions"></a>Job status conditions</h4><br />e.g. bsub -w "done(214561)" [command] # the [command] will be executed only if and when job 
+<code><br /></code><h3><a name="TOC-Job-dependencies"></a>Job dependencies</h3><code>-w [dependency_options]</code> :  tells LSF to not place your job unless the dependency expression evaluates to true. This may be used to start a job only if a precedent job has completed successfully. <br /><br />The dependency options can be of various types and each evaluates to TRUE or FALSE. They can thus be combined using logical operators<br /><code>AND '&amp;&amp;'</code><br /><code>OR '||'</code><br /><code>NOT '!'</code><br />Make sure the logical operators are within double or single quotes or the shell will interpret them instead of bsub.<br /><br />The simplest dependency option is<br /><code>-w [job_name | JobId]</code> which the system assumes to mean <u><b>"done(job_name | JobId)"</b></u> i.e. it waits until the job corresponding to job_name or job_id is done. While JobId may be used to specify jobs of any users, Job name can only be used to specify the user's own jobs. <br /><u><b>job_name*</b></u> indicates all the job names that begin with the same string job_name (e.g. job_name, job_name1, job_name_test, job_name.log).<br /><br />The types of dependency options are listed below:<br /><h4><a name="TOC-Job-status-conditions"></a>Job status conditions</h4><br />e.g. bsub -w "done(214561)" [command] # the [command] will be executed only if and when job 
 #214561 is <u><b>done</b></u> <br /><br /><h3><a name="TOC-General-options"></a>General options</h3><code>-Is</code> interactive shell mode<br />e.g. bsub -Is bash<br /><br /><code>-q [queue_name(s)]</code>
  : name of queue(s) to submit the job to.
  e.g -q SP , -q "SP MP"<br /><br /><code>-N</code> : will send an email when
@@ -272,24 +272,24 @@ then the real job is started on the host, otherwise the job goes back to
 <p>
            
               
-                   
+                   
                   <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=../inotes/programming/clustersubmit/lsf" class="sites-system-link">Sign in</a>
                 
               
-                   
+                   
                   <a href="../system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
                 
               
-               
+               
               <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
-               
+               
               <a href="../system/app/pages/reportAbuse?src=/inotes/programming/clustersubmit/lsf" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
               
-                   
+                   
                   <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
                 
               
-               | 
+               | 
                 
               <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
 </p>

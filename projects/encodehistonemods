@@ -123,7 +123,7 @@ broadPeaks that contain atleast one strong narrowPeak.</font></p>
 restricted to enriched regions identified using pooled data that were also
 independently identified in both pseudoreplicates. The coverage and
 conservation analysis only used histone modification datasets from the Broad
-Institute Production group.  We used the
+Institute Production group.  We used the
 gappedPeak representation for the histone marks with relatively compact
 enrichment patterns. These include H3K4me3, H3K4me2, H3K4me1, H3K9ac, H3K27ac
 and H2A.Z. </font></p>
@@ -171,7 +171,7 @@ peaks in the coverage analysis.</font></p><p><span style="background-color:trans
 </div>
 </div>
 <div style="text-align:center"><span style="font-size:medium">
-<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="../_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:center;margin:5px auto 0px"><a href="../config/customLogo.gif?attredirects=0" imageanchor="1"></a><img border="0" src="../_/rsrc/1472849829035/config/customLogo.gif" />            <a href="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" imageanchor="1" rel="nofollow"><img border="0" src="http://cs.stanford.edu/sites/default/files/stanford_cs_logo.png" /></a>       </div>
 </div>
 <br />
 </span></div></div></div></div>

@@ -85,7 +85,7 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <form id="sites-searchbox-form" action="../system/app/pages/search">
 <input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" name="q" size="20" />
 <input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
-<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+<div class="goog-inline-block goog-button goog-button-base   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
 </form>
 </div>
 </div>
@@ -220,24 +220,24 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <p>
            
               
-                   
+                   
                   <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=../inotes/data-transformations" class="sites-system-link">Sign in</a>
                 
               
-                   
+                   
                   <a href="../system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
                 
               
-               
+               
               <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
-               
+               
               <a href="../system/app/pages/reportAbuse?src=/inotes/data-transformations" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
               
-                   
+                   
                   <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
                 
               
-               | 
+               | 
                 
               <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
 </p>
