@@ -70,7 +70,7 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <meta property="og:description" content="My homepage" />
 <style type="text/css">
 </style>
-<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/3b30d4/system/app/themes/charcoal/standard-css-charcoal-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/0bb9d3/system/app/themes/wintermint/standard-css-wintermint-ltr-ltr.css" />
 <link rel="stylesheet" type="text/css" href="../_/rsrc/1355504098000/system/app/css/overlay.css?cb=charcoalundefineda100%25%2555150goog-ws-left" />
 <link rel="stylesheet" type="text/css" href="../_/rsrc/1355504098000/system/app/css/symbolfont.css" />
 <link rel="stylesheet" type="text/css" href="../_/rsrc/1355504098000/system/app/css/camelot/allthemes-view.css" />
